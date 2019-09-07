@@ -351,6 +351,14 @@
             }
         },
         {
+            "Key": "e7e72b82-152a-4978-970b-8e08398533a5",
+            "Value": {
+                "id": "460cd3f8-fb31-4690-8e3e-2a5a3ed95e22",
+                "resourcePath": "objects\\obj_snakehead\\obj_snakehead.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f0cc2ca2-b032-4f54-a14b-9c9bad02221b",
             "Value": {
                 "id": "95248a30-bd6e-424c-8549-64d9367df849",
