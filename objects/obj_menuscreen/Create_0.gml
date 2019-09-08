@@ -1,0 +1,1 @@
+global.selectedbutton = 0;
