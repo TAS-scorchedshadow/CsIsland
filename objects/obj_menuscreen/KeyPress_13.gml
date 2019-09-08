@@ -1,6 +1,18 @@
 if global.selectedbutton = 0 room_goto(rm_title)
+
 if global.selectedbutton = 1 
 {
-	audio_stop_sound(msc_prophet)
-	audio_play_sound(msc_prophet,0,true)
+	  if window_get_fullscreen()
+      {
+      window_set_fullscreen(false);
+      }
+   else
+      {
+      window_set_fullscreen(true);
+      }
+}
+if global.selectedbutton = 2
+{
+	audio_stop_all();
+	audio_play_sound(ds_grid_get(songlist,song,1),0,false);
 }
