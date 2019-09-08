@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "05dc1bc8-5b96-41ee-ad57-91d9539342ea",
+            "Value": {
+                "id": "4002cb11-78db-4ff1-994f-0f7b76816b95",
+                "resourcePath": "views\\05dc1bc8-5b96-41ee-ad57-91d9539342ea.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "091b7f34-8f2d-4024-b54e-12fdb7c52327",
             "Value": {
                 "id": "f3c418cd-1606-4cf5-a439-431e59b9e427",
@@ -68,6 +76,14 @@
                 "id": "51a6ecf2-5f8a-41f1-a1d3-d7662e434133",
                 "resourcePath": "objects\/obj_solid\/obj_solid.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "16a2e377-bbd6-4e7f-bd24-5e51fa0a4d9f",
+            "Value": {
+                "id": "40d58dd8-5bcd-42da-a4ee-298ccd186270",
+                "resourcePath": "views\\16a2e377-bbd6-4e7f-bd24-5e51fa0a4d9f.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -183,6 +199,14 @@
             }
         },
         {
+            "Key": "4a43b40c-5264-4e8c-be8a-69108b6f1c03",
+            "Value": {
+                "id": "e3e23e88-e9bc-4ac5-b743-e89744ae6e81",
+                "resourcePath": "sounds\\msc_IsabellaLullaby\\msc_IsabellaLullaby.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "4ec92fe3-9668-4915-b006-e5d69ca039a0",
             "Value": {
                 "id": "62b29f00-dcae-4739-9812-961591fc7d93",
@@ -260,6 +284,14 @@
                 "id": "8f32da60-f7ed-4c69-9e55-c1c14626bb3e",
                 "resourcePath": "views\/6d879c51-64ee-4f0b-82fa-78519f819de0.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7dbbc6d7-2ffc-4f78-bc1e-f27bd63c39de",
+            "Value": {
+                "id": "8e335d6b-e0f2-4a18-96d3-2f99daf3b4ad",
+                "resourcePath": "sounds\\msc_inferno\\msc_inferno.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -372,6 +404,14 @@
                 "id": "77a33a08-0a9b-410f-bfd9-aeec9a41d54e",
                 "resourcePath": "views\/d235ed0e-9f5c-48d8-a3e0-caccb424e942.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d501ea75-9db7-46ee-8183-63a415afd84a",
+            "Value": {
+                "id": "9c890ba6-35bd-442d-8a43-bdd24e16e37e",
+                "resourcePath": "sounds\\snd_frameofmind\\snd_frameofmind.yy",
+                "resourceType": "GMSound"
             }
         },
         {
