@@ -1,6 +1,3 @@
-/// @description Getting the right direction
-totaldirections = ds_list_size(avaliabledir)
 chosendirection ++
-if chosendirection >= totaldirections chosendirection = 0 //Account for counting from zero errors
-
-
+if chosendirection >= ds_list_size(avaliabledir) chosendirection = 0
+alarm[2] = 3*room_speed	
