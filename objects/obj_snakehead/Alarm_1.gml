@@ -1,5 +1,5 @@
 ///@description Getting Avaliable Directions
-chosendirection = 0
+ds_list_clear(avaliabledir)
 if position_empty(x,y-64) ds_list_add(avaliabledir,0)
 if position_empty(x+64,y) ds_list_add(avaliabledir,90)
 if position_empty(x,y+64) ds_list_add(avaliabledir,180)

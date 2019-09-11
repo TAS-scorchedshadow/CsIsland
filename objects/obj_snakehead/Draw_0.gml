@@ -2,7 +2,6 @@ draw_self();
 draw_set_font(fnt_title)
 draw_set_color(c_black)
 draw_set_halign(fa_center)
-totaldirections = ds_list_size(avaliabledir)
 //My angle numbers work off a clock not the unit circle lmao.
 
 if ds_list_find_index(avaliabledir,0) >= 0 
