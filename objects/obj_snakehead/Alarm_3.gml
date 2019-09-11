@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Determine the direction that the will travel when E is pressed 
 if ds_list_find_index(avaliabledir,0) >= 0 
 {
 	if chosendirection = 0

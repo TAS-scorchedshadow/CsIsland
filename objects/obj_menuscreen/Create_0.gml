@@ -27,7 +27,7 @@ ds_grid_add(songlist,3,2,120)
 
 ds_grid_add(songlist,4,0,"Inferno") 
 ds_grid_add(songlist,4,1,msc_inferno)
-ds_grid_add(songlist,4,2,118)
+ds_grid_add(songlist,4,2,236)
 
 ds_grid_add(songlist,5,0,"Frame of Mind") 
 ds_grid_add(songlist,5,1,msc_frameofmind)

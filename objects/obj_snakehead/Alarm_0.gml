@@ -1,12 +1,6 @@
 ///@description Moving the Snake
-
-/*
-if position_empty(x,y-64) ds_list_add(avaliabledir,0)
-if position_empty(x+64,y) ds_list_add(avaliabledir,90)
-if position_empty(x,y+64) ds_list_add(avaliabledir,180)
-if position_empty(x-64,y) ds_list_add(avaliabledir,270)
-*/
-if i < 64
+//Loops the length of the snake head 
+if i < move
 {
 	i++
 	obj_snakehead.x += xx
