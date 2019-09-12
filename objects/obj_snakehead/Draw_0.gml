@@ -17,7 +17,7 @@ if global.selecteditem =  1
 
 	if ds_list_find_index(avaliabledir,90) >= 0 
 	{
-		if chosendirection = 1
+		if highlighteddirection = 90
 		{
 			draw_sprite_ext(spr_arrow,1,x+move,y,1,1,270,c_white,1);
 		}
@@ -26,7 +26,7 @@ if global.selecteditem =  1
 
 	if ds_list_find_index(avaliabledir,180) >= 0 
 	{
-		if chosendirection = 2
+		if highlighteddirection = 180
 		{
 			draw_sprite_ext(spr_arrow,1,x,y+move,1,1,180,c_white,1);
 		}
@@ -35,7 +35,7 @@ if global.selecteditem =  1
 
 	if ds_list_find_index(avaliabledir,270) >= 0 
 	{
-		if chosendirection = 3
+		if highlighteddirection = 270
 		{
 			draw_sprite_ext(spr_arrow,1,x-move,y,1,1,90,c_white,1);
 		}
