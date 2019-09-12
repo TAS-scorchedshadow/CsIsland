@@ -14,4 +14,5 @@ else
 	yy = 0
 	alarm[0] = 0
 	alarm[1] = 1
+	moving = false
 }

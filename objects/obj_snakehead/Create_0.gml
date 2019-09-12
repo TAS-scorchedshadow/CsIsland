@@ -3,6 +3,7 @@ i = 0
 xx = 0
 yy = 0
 move = 60
+moving = false
 totaldirections = 0
 chosendirection = 5
 ini_open("song.ini") //To save memory the song info was saved to an ini file
