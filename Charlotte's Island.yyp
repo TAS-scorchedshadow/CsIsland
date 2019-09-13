@@ -55,26 +55,10 @@
             }
         },
         {
-            "Key": "090d9f97-6b71-48dc-8a39-8a9ded27d217",
-            "Value": {
-                "id": "644dfab4-fd80-40f7-aa94-354cc7a2b9cd",
-                "resourcePath": "sprites\\spr_bush_phase1\\spr_bush_phase1.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "091b7f34-8f2d-4024-b54e-12fdb7c52327",
             "Value": {
                 "id": "f3c418cd-1606-4cf5-a439-431e59b9e427",
                 "resourcePath": "objects\/obj_snakebody\/obj_snakebody.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "0cb0c4e2-6ffe-4924-9c90-145e1ca804fe",
-            "Value": {
-                "id": "51fb13be-8009-4149-9f4f-5db57ce10154",
-                "resourcePath": "objects\\obj_growingbush0\\obj_growingbush0.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -164,14 +148,6 @@
                 "id": "dfb18bdb-2dc8-4a16-bbab-6b8d2bbd2cea",
                 "resourcePath": "sounds\/msc_sincerely\/msc_sincerely.yy",
                 "resourceType": "GMSound"
-            }
-        },
-        {
-            "Key": "2ba682d3-1a63-499c-bf2a-e78c44df62f3",
-            "Value": {
-                "id": "407dc035-8909-43e4-b9d7-0281a0255ac2",
-                "resourcePath": "sprites\\spr_bush_phase2\\spr_bush_phase2.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -322,7 +298,7 @@
             "Key": "6bd9a09b-98c5-4e45-b519-f3f23a0f4172",
             "Value": {
                 "id": "7f69b057-b290-49fe-818c-f6c9822cedcc",
-                "resourcePath": "objects\/obj_bush\/obj_bush.yy",
+                "resourcePath": "objects\\obj_bushcontroller\\obj_bushcontroller.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -335,11 +311,11 @@
             }
         },
         {
-            "Key": "737a5fc4-b791-4612-95e9-bae8d29fbfe3",
+            "Key": "7b4b7d69-89af-4de4-afb7-842b871555a2",
             "Value": {
-                "id": "bf510128-d012-46a2-a76b-4b96c540501c",
-                "resourcePath": "objects\\obj_growingbush1\\obj_growingbush1.yy",
-                "resourceType": "GMObject"
+                "id": "ad990f65-542b-4f99-84bc-2419c2dccd75",
+                "resourcePath": "sprites\\spr_bushcontroller\\spr_bushcontroller.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -387,6 +363,14 @@
             "Value": {
                 "id": "b1a61a76-1c01-4f29-9490-7a74eaf4e096",
                 "resourcePath": "objects\/obj_camera\/obj_camera.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a810faed-aded-46a7-96f5-4bda364e1368",
+            "Value": {
+                "id": "019435d7-cd9a-413a-88a9-a12354d0d261",
+                "resourcePath": "objects\\obj_bush\\obj_bush.yy",
                 "resourceType": "GMObject"
             }
         },

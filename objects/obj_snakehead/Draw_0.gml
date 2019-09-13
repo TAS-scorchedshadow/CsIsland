@@ -2,7 +2,7 @@ draw_self();
 draw_set_font(fnt_title)
 draw_set_color(c_black)
 draw_set_halign(fa_center)
-if global.selecteditem =  1
+if (global.selecteditem =  1 && i = 0)
 {
 	//My angle numbers work off a clock not the unit circle lmao.
 

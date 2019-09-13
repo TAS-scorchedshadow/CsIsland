@@ -1,18 +1,28 @@
 {
-    "id": "737a5fc4-b791-4612-95e9-bae8d29fbfe3",
+    "id": "6bd9a09b-98c5-4e45-b519-f3f23a0f4172",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_growingbush1",
+    "name": "obj_bushcontroller",
     "eventList": [
         {
-            "id": "e603b674-97f5-43b2-92f2-21700c29ced8",
+            "id": "a698fcd3-cc47-4b71-bac5-32a4db50fe04",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 69,
+            "eventtype": 9,
+            "m_owner": "6bd9a09b-98c5-4e45-b519-f3f23a0f4172"
+        },
+        {
+            "id": "d03bc265-fed6-48b7-909a-f1d27cf7d976",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "737a5fc4-b791-4612-95e9-bae8d29fbfe3"
+            "eventtype": 0,
+            "m_owner": "6bd9a09b-98c5-4e45-b519-f3f23a0f4172"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "2ba682d3-1a63-499c-bf2a-e78c44df62f3",
+    "spriteId": "7b4b7d69-89af-4de4-afb7-842b871555a2",
     "visible": true
 }
