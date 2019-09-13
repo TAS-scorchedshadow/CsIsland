@@ -4,6 +4,7 @@ draw_set_color(c_black)
 draw_set_halign(fa_center)
 
 //Draw Music Wheel
+draw_rectangle(menux-160,menuy-10,menux+160,menuy+510,false);
 draw_sprite(spr_music_covers,song,menux,menuy)
 draw_text(menux,menuy - 50 , ds_grid_get(songlist,song,0));
 if !(song = 0)

@@ -10,7 +10,7 @@ songlist = ds_grid_create(7,3);
 
 ds_grid_add(songlist,0,0,"The Prophet") //0
 ds_grid_add(songlist,0,1,msc_prophet) //0
-ds_grid_add(songlist,0,2,90) //94?
+ds_grid_add(songlist,0,2,94)
 
 ds_grid_add(songlist,1,0,"Sincerly") //1
 ds_grid_add(songlist,1,1,msc_sincerely) //1
@@ -35,6 +35,6 @@ ds_grid_add(songlist,5,2,117);
 
 ds_grid_add(songlist,6,0,"Isabella's Lullabuy") 
 ds_grid_add(songlist,6,1,msc_IsabellaLullaby)
-ds_grid_add(songlist,0,2,118)
+ds_grid_add(songlist,6,2,118)
 
 
