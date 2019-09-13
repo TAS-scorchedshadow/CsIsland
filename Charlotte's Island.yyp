@@ -58,7 +58,7 @@
             "Key": "090d9f97-6b71-48dc-8a39-8a9ded27d217",
             "Value": {
                 "id": "644dfab4-fd80-40f7-aa94-354cc7a2b9cd",
-                "resourcePath": "sprites\/spr_growing_bush\/spr_growing_bush.yy",
+                "resourcePath": "sprites\\spr_bush_phase1\\spr_bush_phase1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -67,6 +67,14 @@
             "Value": {
                 "id": "f3c418cd-1606-4cf5-a439-431e59b9e427",
                 "resourcePath": "objects\/obj_snakebody\/obj_snakebody.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "0cb0c4e2-6ffe-4924-9c90-145e1ca804fe",
+            "Value": {
+                "id": "51fb13be-8009-4149-9f4f-5db57ce10154",
+                "resourcePath": "objects\\obj_growingbush0\\obj_growingbush0.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -111,6 +119,14 @@
             }
         },
         {
+            "Key": "2051f7f7-0aad-43d3-b958-135211a03de8",
+            "Value": {
+                "id": "acdde2d0-8a2b-4a46-ac6d-1cb2fe0b07c1",
+                "resourcePath": "views\\2051f7f7-0aad-43d3-b958-135211a03de8.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "209066f3-6e26-4122-b44b-36cf0aae0f05",
             "Value": {
                 "id": "ed9d4117-15ca-4a40-875d-996762b7c79d",
@@ -148,6 +164,14 @@
                 "id": "dfb18bdb-2dc8-4a16-bbab-6b8d2bbd2cea",
                 "resourcePath": "sounds\/msc_sincerely\/msc_sincerely.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "2ba682d3-1a63-499c-bf2a-e78c44df62f3",
+            "Value": {
+                "id": "407dc035-8909-43e4-b9d7-0281a0255ac2",
+                "resourcePath": "sprites\\spr_bush_phase2\\spr_bush_phase2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -311,6 +335,14 @@
             }
         },
         {
+            "Key": "737a5fc4-b791-4612-95e9-bae8d29fbfe3",
+            "Value": {
+                "id": "bf510128-d012-46a2-a76b-4b96c540501c",
+                "resourcePath": "objects\\obj_growingbush1\\obj_growingbush1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7dbbc6d7-2ffc-4f78-bc1e-f27bd63c39de",
             "Value": {
                 "id": "8e335d6b-e0f2-4a18-96d3-2f99daf3b4ad",
@@ -372,6 +404,14 @@
                 "id": "9c97eb0b-970b-469a-93e1-0bf0de9efde7",
                 "resourcePath": "sprites\/spr_abilties\/spr_abilties.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "adfc7578-1257-4c79-a396-641d09371896",
+            "Value": {
+                "id": "d8e811ef-b978-4aaa-94c6-16cacc4d8059",
+                "resourcePath": "views\\adfc7578-1257-4c79-a396-641d09371896.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
