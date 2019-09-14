@@ -1,4 +1,4 @@
-if global.selectedbutton = 0 room_goto(rm_title)
+if global.selectedbutton = 0 room_goto_previous();
 
 if global.selectedbutton = 1 
 {

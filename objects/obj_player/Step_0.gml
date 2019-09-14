@@ -39,5 +39,4 @@ if (place_meeting(x,y+VMove,obj_solid))
 
 }
 VMove = clamp(VMove,-max_speed,max_speed);
-x += HMove;
-y += VMove;
+
