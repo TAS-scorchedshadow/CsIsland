@@ -14,7 +14,7 @@ if VMove == 0 and HMove == 0
 }
 else 
 {
-	image_speed = 3
+	image_speed = 2
 	if facing_direction == directions.right{
 		sprite_index = spr_player_walkR
 	}
