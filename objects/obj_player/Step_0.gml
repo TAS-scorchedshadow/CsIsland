@@ -40,3 +40,12 @@ if (place_meeting(x,y+VMove,obj_solid))
 }
 VMove = clamp(VMove,-max_speed,max_speed);
 
+if (right-left) == 1
+{
+	facing_direction = directions.right
+}
+if (right-left) == -1
+{
+	facing_direction = directions.left
+}
+
