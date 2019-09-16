@@ -7,7 +7,7 @@ right
 facing_direction = directions.right
 HMove = 0 //Distance a block will move in a single step
 VMove = 0;
-ASpeed = 0.4 //Accelration constant (ASpeed must be greater than DSpeed)
+ASpeed = 0.2 //Accelration constant (ASpeed must be greater than DSpeed)
 DSpeed = 0.2 //Deceleration constant (Lowest is slippery)
 max_speed = 4; //Max Speed
 
