@@ -1,4 +1,4 @@
-/// @description
+/// @description Movement
 
 //Left/Right Movement
 var left = keyboard_check(ord("A"));
@@ -40,6 +40,9 @@ if (place_meeting(x,y+VMove,obj_solid))
 }
 VMove = clamp(VMove,-max_speed,max_speed);
 
+x += HMove;
+y += VMove;
+
 if (right-left) == 1
 {
 	facing_direction = directions.right
@@ -49,3 +52,27 @@ if (right-left) == -1
 	facing_direction = directions.left
 }
 
+
+
+if VMove == 0 and HMove == 0
+{
+	image_speed = 1
+	if facing_direction == directions.right{
+		sprite_index = spr_player_standR
+	}
+	else
+	{
+		sprite_index = spr_player_standL
+	}
+}
+else 
+{
+	image_speed = 2
+	if facing_direction == directions.right{
+		sprite_index = spr_player_walkR
+	}
+	else
+	{
+		sprite_index = spr_player_walkL
+	}
+}

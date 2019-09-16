@@ -7,8 +7,8 @@ right
 facing_direction = directions.right
 HMove = 0 //Distance a block will move in a single step
 VMove = 0;
-ASpeed = 0.2 //Accelration constant 
-DSpeed = 0.5 //Deceleration constant (Lowest is slippery)
+ASpeed = 0.4 //Accelration constant (ASpeed must be greater than DSpeed)
+DSpeed = 0.2 //Deceleration constant (Lowest is slippery)
 max_speed = 4; //Max Speed
 
 //Reloading Character Position in room
