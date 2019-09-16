@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "25cc04b5-0f6c-4852-ae9b-c28a71a23bfc",
+            "Value": {
+                "id": "7a17c0b4-ff9f-4261-90c9-8055c8f5dc06",
+                "resourcePath": "tilesets\\tile_beach\\tile_beach.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "282d8483-0210-4610-b71a-e3f933ccff7b",
             "Value": {
                 "id": "dfb18bdb-2dc8-4a16-bbab-6b8d2bbd2cea",
@@ -324,6 +332,14 @@
                 "id": "b1a61a76-1c01-4f29-9490-7a74eaf4e096",
                 "resourcePath": "objects\/obj_camera\/obj_camera.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a3cc509b-3565-4605-b2d8-f51f957648ca",
+            "Value": {
+                "id": "3c7437d9-192d-43a6-819d-2971f7ed301e",
+                "resourcePath": "sprites\\sprite17\\sprite17.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
