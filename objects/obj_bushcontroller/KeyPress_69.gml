@@ -1,18 +1,25 @@
 /// @description Cut Bush
 
 if global.selecteditem = 2 
-{
-	switch (phase)
+{	
+	switch (global.facing_direction)
 	{
-		case 2:
-			xdif = abs(x - obj_player.x);
-			ydif = abs(y - obj_player.y)
-			if (xdif < 64 or ydif < 64)
-			{
-				phase = 0
-				with (instance_nearest(obj_player.x,obj_player.y,obj_bush))
-					{instance_destroy()}
-			}
+		case directions.right:
+			with (obj_bush)
+				{
+					if place_meeting(x-10,y,obj_player)//If the player is left of the busg/Bush if right of the player
+					{
+						instance_destroy(self);
+					}
+				}
+		case directions.left:
+			with (obj_bush)
+				{
+					if place_meeting(x+10,y,obj_player)//If the player is right of the busg/Bush if left of the player
+					{
+						instance_destroy(self);
+					}
+				}
 	}
 }
 	

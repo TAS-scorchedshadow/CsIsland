@@ -16,10 +16,11 @@ HMove = clamp(HMove,-max_speed,max_speed);
 
 if (place_meeting(x+HMove,y,obj_solid))
 {
-	while !(place_meeting(x+sign(HMove),y,obj_solid))
-	{
-		x += sign(HMove)
-	}
+	repeat (abs(HMove) + 1) {
+      if (place_meeting(x + sign(HMove),y, obj_solid))
+         break;
+      x += sign(HMove);
+   }
 	HMove = 0
 }
 
@@ -30,10 +31,11 @@ if VMove != 0 and (down-up) = 0
 
 if (place_meeting(x,y+VMove,obj_solid))
 {
-	while !(place_meeting(x,y+sign(VMove),obj_solid))
-	{
-		y += sign(VMove)
-	}
+	repeat (abs(VMove) + 1) {
+      if (place_meeting(x, y + sign(VMove), obj_solid))
+         break;
+      y += sign(VMove);
+   }
 	VMove = 0
 
 
@@ -45,11 +47,11 @@ y += VMove;
 
 if (right-left) == 1
 {
-	facing_direction = directions.right
+	global.facing_direction = directions.right
 }
 if (right-left) == -1
 {
-	facing_direction = directions.left
+	global.facing_direction = directions.left
 }
 
 
@@ -57,7 +59,7 @@ if (right-left) == -1
 if VMove == 0 and HMove == 0
 {
 	image_speed = 1
-	if facing_direction == directions.right{
+	if global.facing_direction == directions.right{
 		sprite_index = spr_player_standR
 	}
 	else
@@ -68,7 +70,7 @@ if VMove == 0 and HMove == 0
 else 
 {
 	image_speed = 2
-	if facing_direction == directions.right{
+	if global.facing_direction == directions.right{
 		sprite_index = spr_player_walkR
 	}
 	else
