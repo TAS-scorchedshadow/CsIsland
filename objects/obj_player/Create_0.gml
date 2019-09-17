@@ -1,10 +1,10 @@
-enum directions {
+enum directions  {
 left,
 right
 
    
 }
-facing_direction = directions.right
+global.facing_direction = directions.right
 HMove = 0 //Distance a block will move in a single step
 VMove = 0;
 ASpeed = 0.2 //Accelration constant (ASpeed must be greater than DSpeed)
