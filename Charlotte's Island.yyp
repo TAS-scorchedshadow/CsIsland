@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "5717351f-3378-4cd7-8867-164538102757",
+            "Value": {
+                "id": "8b591801-eba8-4a33-a096-47af663853b2",
+                "resourcePath": "datafiles_yy\\5thgradecursive-2.ttf.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "5895e7e5-02a5-4b43-bd32-039685a15ee6",
             "Value": {
                 "id": "58c8c44a-886d-4a6e-b5f1-a5f6d26ad8df",
@@ -439,6 +447,14 @@
             }
         },
         {
+            "Key": "bc239f3b-9265-4bcd-8a23-a9027bc8686c",
+            "Value": {
+                "id": "166ae4b7-ed32-4d94-bb1b-417cd6b94e33",
+                "resourcePath": "datafiles_yy\\5thgradecursive-2-italic.ttf.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "bf931f8e-e9a2-4055-b784-e83571b358fb",
             "Value": {
                 "id": "974ed157-4aa1-4af8-a3f6-e335fba6b7b7",
@@ -603,6 +619,14 @@
             "Value": {
                 "id": "a07ee26e-caa3-4825-9f36-16246b8261be",
                 "resourcePath": "objects\/obj_titlescreen\/obj_titlescreen.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f91c4b27-986a-48b3-b685-8215b5661a4f",
+            "Value": {
+                "id": "49588d97-899a-4c25-b9a7-bfab70690d99",
+                "resourcePath": "objects\\obj_exitbutton\\obj_exitbutton.yy",
                 "resourceType": "GMObject"
             }
         },
