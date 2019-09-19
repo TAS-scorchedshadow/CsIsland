@@ -1,6 +1,5 @@
 /// @description Drawing Shadows
 with (obj_solid){
-	draw_self();
 	if !variable_instance_exists(id, "shadow") shadow = false
 	if shadow = true
 		{
