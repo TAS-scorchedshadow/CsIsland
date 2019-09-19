@@ -1,3 +1,4 @@
+shadow = true;
 enum directions  {
 left,
 right
@@ -16,3 +17,4 @@ ini_open("player.ini");
 x = ini_read_real("position","playerx",300);
 y = ini_read_real("position","playery",500);
 ini_close();
+

@@ -5,7 +5,9 @@
     "name": "98b5f0e7-2346-4b5d-a397-b533b0e8163a",
     "children": [
         "888b8ba3-ea0f-43a8-9f5f-82c43c26a0ca",
-        "80962694-fb6b-47f6-af53-094fb602d222"
+        "80962694-fb6b-47f6-af53-094fb602d222",
+        "433e24e0-075e-49b2-af43-0fef2a19e065",
+        "3245d394-60d2-48f6-bc1b-c3be89c9a4a7"
     ],
     "filterType": "GMObject",
     "folderName": "GUI & Camera",
