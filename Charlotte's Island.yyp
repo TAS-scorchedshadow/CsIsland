@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "3245d394-60d2-48f6-bc1b-c3be89c9a4a7",
+            "Value": {
+                "id": "c44a85cd-fe1e-442d-a7f3-5f24ea3cafc9",
+                "resourcePath": "objects\\daynight\\daynight.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3290ffa3-c41f-4c6c-8aa8-0e9853307e24",
             "Value": {
                 "id": "a4a69903-73ca-4af3-892d-1e9f66c2bd38",

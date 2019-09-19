@@ -1,6 +1,6 @@
 if global.selecteditem = 1 && moving = false
 {
-instance_create_layer(x,y,"Snake",obj_snakebody)
+instance_create_layer(x,y,"Instances",obj_snakebody)
 moving = true
 i = 0;
 alarm[3] = 1
