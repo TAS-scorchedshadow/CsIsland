@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "433e24e0-075e-49b2-af43-0fef2a19e065",
+            "Value": {
+                "id": "dfcaa3ca-3b83-4a15-a9a7-b5c73c38946f",
+                "resourcePath": "objects\\depth_system\\depth_system.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "489ecb37-6cc6-46ca-9047-9160116db49a",
             "Value": {
                 "id": "9a2ef22e-2d9f-460a-843b-003bc7833278",
