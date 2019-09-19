@@ -14,35 +14,30 @@ if HMove != 0 and (right-left) = 0
 	}
 HMove = clamp(HMove,-max_speed,max_speed);
 
-if (place_meeting(x+HMove,y,obj_solid))
+if (place_meeting(x + HMove,y,obj_solid))
 {
-	repeat (abs(HMove) + 1) {
-      if (place_meeting(x + sign(HMove),y, obj_solid))
-         break;
-      x += sign(HMove);
-   }
-	HMove = 0
+	do {
+		x -= sign(HMove)
+	}
+	until (place_meeting(x + HMove,y,obj_solid)) == false
 }
+x += HMove;
 
 if VMove != 0 and (down-up) = 0
 	{
 		VMove -= (DSpeed * sign(VMove)); //Deceleration
 	}
 
-if (place_meeting(x,y+VMove,obj_solid))
+if (place_meeting(x,y + VMove,obj_solid))
 {
-	repeat (abs(VMove) + 1) {
-      if (place_meeting(x, y + sign(VMove), obj_solid))
-         break;
-      y += sign(VMove);
-   }
-	VMove = 0
+	do {
+		y -= sign(VMove)
+	}
+	until (place_meeting(x,y + VMove,obj_solid)) == false
 
 
 }
 VMove = clamp(VMove,-max_speed,max_speed);
-
-x += HMove;
 y += VMove;
 
 if (right-left) == 1
