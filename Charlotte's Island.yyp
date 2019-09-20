@@ -431,6 +431,14 @@
             }
         },
         {
+            "Key": "9187587c-6aa9-4112-8559-5ecd26f701dc",
+            "Value": {
+                "id": "210dfd1d-2f10-4431-b234-06ae4253170e",
+                "resourcePath": "sprites\\spr_pier\\spr_pier.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "98b5f0e7-2346-4b5d-a397-b533b0e8163a",
             "Value": {
                 "id": "bbc50f4a-cfb1-49d5-ad25-a52f91174350",
