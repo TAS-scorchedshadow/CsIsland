@@ -33,7 +33,6 @@ ds_grid_resize(dgrid,2,inst_num);
 //Add Instance Info to Grid
 var yy = 0;
 with(obj_solid){
-	ds_grid_add(dgrid,0,0,id);
 	dgrid[# 0,yy]  = id;
 	dgrid[# 1,yy] = y;
 	yy++;
@@ -50,7 +49,7 @@ repeat(inst_num){
 	inst = dgrid[# 0,yy];
 	//get instance to draw
 	with (inst){
-		draw_self();
+		event_perform(ev_draw,0)
 	}
 	yy++
 }
