@@ -191,14 +191,6 @@
             }
         },
         {
-            "Key": "34b017e0-e752-4a09-a6f7-b553f74599f2",
-            "Value": {
-                "id": "0d90bd91-5086-474d-bf3c-469bc1ae95bf",
-                "resourcePath": "objects\\object17\\object17.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "37c45f18-45c4-4c0d-a68b-d8832972d5b0",
             "Value": {
                 "id": "8fec343b-400d-4574-9cb0-a63944efebf8",
@@ -228,6 +220,14 @@
                 "id": "592ac14a-c177-48e9-a6d1-610fa0f6c244",
                 "resourcePath": "sprites\/spr_ground\/spr_ground.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "412c46f5-7a08-45e4-a9ef-c88ee21df073",
+            "Value": {
+                "id": "716179fb-42ea-4987-9bd4-069331c66d1b",
+                "resourcePath": "rooms\\rm_beach\\rm_beach.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -428,14 +428,6 @@
                 "id": "b1a61a76-1c01-4f29-9490-7a74eaf4e096",
                 "resourcePath": "objects\/obj_camera\/obj_camera.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "9187587c-6aa9-4112-8559-5ecd26f701dc",
-            "Value": {
-                "id": "210dfd1d-2f10-4431-b234-06ae4253170e",
-                "resourcePath": "sprites\\spr_pier\\spr_pier.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
