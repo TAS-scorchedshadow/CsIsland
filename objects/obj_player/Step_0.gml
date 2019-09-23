@@ -36,6 +36,14 @@ if HMove != 0 and (right-left) = 0
 x += HMove;
 y += VMove;
 
+if (down-up) == -1
+{
+	global.facing_direction = directions.up
+}
+if (down-up) == 1
+{
+	global.facing_direction = directions.down
+}
 if (right-left) == 1
 {
 	global.facing_direction = directions.right
@@ -44,6 +52,7 @@ if (right-left) == -1
 {
 	global.facing_direction = directions.left
 }
+
 
 
 
