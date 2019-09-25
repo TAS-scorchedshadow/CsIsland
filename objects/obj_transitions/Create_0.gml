@@ -9,8 +9,10 @@ enum TRANS_MODE
 	NEXT,
 	GOTO,
 	RESTART,
-	INTRO
+	INTRO,
+	NULL,
 }
 mode = TRANS_MODE.INTRO;
 percent = 1; //Percentage of the screen is black
 target = room; //Target Room
+i = 0
