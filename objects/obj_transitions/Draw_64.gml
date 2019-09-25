@@ -10,14 +10,19 @@ if (mode != TRANS_MODE.OFF)
 
 if (mode == TRANS_MODE.NULL)
 {
-draw_set_font(fnt_title)
-draw_set_color(c_white)
-draw_set_halign(fa_center)
-draw_set_valign(fa_center)
-draw_set_alpha(i)
-draw_text(w/2,h/2,"Charlotte's Island")
-i += 0.05
-i = clamp(i,0,1);
+	draw_set_font(fnt_title)
+	draw_set_color(c_white)
+	draw_set_halign(fa_center)
+	
+	draw_set_valign(fa_center)
+	draw_set_alpha(opacity)
+	draw_sprite(spr_logo,0,w - 150 ,h - 150)
+	
+	draw_text(w/2,h/2,"Charlotte's Island")
+	draw_text(w/2,h/2 + 100,lvl_name)
+	
+	opacity += 0.05
+	opacity = clamp(opacity,0,1);
 }
 
 draw_set_color(c_white);

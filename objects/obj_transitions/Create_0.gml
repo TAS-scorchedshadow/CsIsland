@@ -15,4 +15,5 @@ enum TRANS_MODE
 mode = TRANS_MODE.INTRO;
 percent = 1; //Percentage of the screen is black
 target = room; //Target Room
-i = 0
+opacity = 0
+lvl_name = ""

@@ -503,6 +503,14 @@
             }
         },
         {
+            "Key": "979b01aa-5404-4646-b459-4c54a0ebc7b2",
+            "Value": {
+                "id": "5774ad01-15c6-4abb-be80-a593b7757774",
+                "resourcePath": "sprites\\spr_logo\\spr_logo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "98b5f0e7-2346-4b5d-a397-b533b0e8163a",
             "Value": {
                 "id": "bbc50f4a-cfb1-49d5-ad25-a52f91174350",
