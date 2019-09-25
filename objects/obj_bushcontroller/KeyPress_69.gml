@@ -1,6 +1,7 @@
 /// @description Cut Bush
-if global.selecteditem = 2 
 var bush_cut = false
+if global.selecteditem = 2 
+
 {	
 	switch (global.facing_direction)
 	{
