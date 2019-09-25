@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "23896d83-17ac-446a-a6d3-1374405695c8",
+            "Value": {
+                "id": "8d605fa8-6dd4-4ab2-ae6a-123b547d340b",
+                "resourcePath": "objects\\obj_transitions\\obj_transitions.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "24137086-d2a0-4618-8a5b-74677fd48da9",
             "Value": {
                 "id": "a5092a39-9569-44a9-8c6b-355b362ec0e6",
@@ -116,6 +124,14 @@
                 "id": "7a17c0b4-ff9f-4261-90c9-8055c8f5dc06",
                 "resourcePath": "tilesets\\tile_sand\\tile_sand.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "26589553-7a43-42c6-9fe7-474acddf9d0d",
+            "Value": {
+                "id": "9808ef71-3bed-434f-985a-d662df770b40",
+                "resourcePath": "scripts\\Slide_Transition\\Slide_Transition.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -300,6 +316,14 @@
                 "id": "e2ff5c75-0252-42b8-8364-623e0999dad4",
                 "resourcePath": "objects\/obj_fullscreen\/obj_fullscreen.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "52478468-ce34-417c-914c-2af338bfe582",
+            "Value": {
+                "id": "a3f89cc6-0987-4c93-b8dd-8c58690ed6b2",
+                "resourcePath": "sprites\\spr_trigger\\spr_trigger.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -675,6 +699,14 @@
             "Value": {
                 "id": "2f48d8c8-ac21-490f-bf6d-a82c860270e7",
                 "resourcePath": "objects\/obj_mbutton\/obj_mbutton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e6304bf6-624e-4c13-9512-8950463d2079",
+            "Value": {
+                "id": "e96a69f2-cba4-4dbf-9582-6b0175c9cc3e",
+                "resourcePath": "objects\\obj_levelend\\obj_levelend.yy",
                 "resourceType": "GMObject"
             }
         },
