@@ -1,1 +1,0 @@
-bushid = instance_number(obj_bush) 
