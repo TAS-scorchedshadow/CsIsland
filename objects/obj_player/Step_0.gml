@@ -68,22 +68,34 @@ if (right-left) == -1
 if VMove == 0 and HMove == 0
 {
 	image_speed = 1
-	if global.facing_direction == directions.right{
-		sprite_index = spr_player_standR
-	}
-	else
+	switch(global.facing_direction)
 	{
-		sprite_index = spr_player_standL
+		case directions.right:
+			sprite_index = spr_player_standR;
+			break;
+		case directions.left:
+			sprite_index = spr_player_standL;
+			break;
+		case directions.down:
+			sprite_index = spr_player_standD;
+			break;
 	}
 }
 else
 {
 	image_speed = 2
-	if global.facing_direction == directions.right{
-		sprite_index = spr_player_walkR
-	}
-	else
+	switch(global.facing_direction)
 	{
-		sprite_index = spr_player_walkL
+	case directions.right:
+		sprite_index = spr_player_walkR;
+		break;
+	case directions.left:
+		sprite_index = spr_player_walkL;
+		break;
+	case directions.down:
+		image_speed = 2
+		sprite_index = spr_player_walkD;
+		break;
 	}
+
 }

@@ -647,6 +647,14 @@
             }
         },
         {
+            "Key": "cb6f2096-110a-4f6a-9a0d-e02700b7dd7d",
+            "Value": {
+                "id": "575f50f3-7b6c-487f-b39d-5780166cedbe",
+                "resourcePath": "sprites\\spr_player_walkD\\spr_player_walkD.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cbf4aeff-e49f-409d-b5a1-9043924b0b4d",
             "Value": {
                 "id": "9684b270-5bb0-4e19-a3df-73256d08d5d1",
@@ -660,6 +668,14 @@
                 "id": "8a767290-9d19-4358-8d09-190ffe0fd435",
                 "resourcePath": "options\/windows\/options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cd0f1e58-e828-49d8-a97e-4f0fc9f4ce5f",
+            "Value": {
+                "id": "47b07723-2499-410c-9252-47aff229069b",
+                "resourcePath": "views\\cd0f1e58-e828-49d8-a97e-4f0fc9f4ce5f.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -756,6 +772,14 @@
                 "id": "460cd3f8-fb31-4690-8e3e-2a5a3ed95e22",
                 "resourcePath": "objects\/obj_snakehead\/obj_snakehead.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e80973da-4bd4-4d8b-aa07-0fa60999bdfa",
+            "Value": {
+                "id": "82f21ada-5355-4f74-8997-a3d08b22ca0b",
+                "resourcePath": "sprites\\spr_player_standD\\spr_player_standD.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
