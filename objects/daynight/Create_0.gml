@@ -8,6 +8,6 @@ PM = true;
 darkness = 0; //Opacity (0-1)
 light_colour = c_black
 
-guiWidth = display_get_gui_width() + 60;
+guiWidth = display_get_gui_width();
 guiHeight = display_get_gui_height();
 

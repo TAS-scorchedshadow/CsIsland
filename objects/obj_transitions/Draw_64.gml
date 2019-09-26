@@ -3,8 +3,8 @@ if (mode != TRANS_MODE.OFF)
 {
 	var col = make_colour_hsv(22, 50, 30);
 	draw_set_colour(col);
-	draw_rectangle(0,0,w,percent*h_half,false);
-	draw_rectangle(0,h,w,h-(percent*h_half),false);
+	draw_sprite_part(spr_boards,0,0,0,w,percent*h_half,0,0);
+	draw_sprite_part(spr_boards,0,0,(h - percent*h_half),w,h,0,(h - percent*h_half));
 	
 }
 
@@ -24,6 +24,3 @@ if (mode == TRANS_MODE.NULL)
 	opacity += 0.05
 	opacity = clamp(opacity,0,1);
 }
-
-draw_set_color(c_white);
-draw_text(50,50,string(w));

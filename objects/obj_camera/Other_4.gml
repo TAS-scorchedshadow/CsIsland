@@ -22,9 +22,12 @@ camera_set_proj_mat(camera,pm);
 
 view_camera[0] = camera;
 
-follow = obj_player
+follow = obj_player;
 xTo = x;
 yTo = y;
 
 xoffset = 200;
 yoffset = 0;
+
+display_set_gui_size(1920,1080)
+
