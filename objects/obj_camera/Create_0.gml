@@ -28,3 +28,6 @@ yTo = y;
 
 xoffset = 200;
 yoffset = 0;
+
+display_set_gui_size(1920,1080)
+
