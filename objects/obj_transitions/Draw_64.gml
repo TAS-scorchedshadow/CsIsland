@@ -14,7 +14,6 @@ if (mode == TRANS_MODE.NULL)
 	draw_set_color(c_white)
 	draw_set_halign(fa_center)
 	
-	draw_set_valign(fa_center)
 	draw_set_alpha(opacity)
 	draw_sprite(spr_logo,0,w - 150 ,h - 150)
 	
