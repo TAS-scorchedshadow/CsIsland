@@ -79,6 +79,9 @@ if VMove == 0 and HMove == 0
 		case directions.down:
 			sprite_index = spr_player_standD;
 			break;
+		case directions.up:
+			sprite_index = spr_player_standU;
+			break;
 	}
 }
 else
@@ -93,8 +96,10 @@ else
 		sprite_index = spr_player_walkL;
 		break;
 	case directions.down:
-		image_speed = 2
 		sprite_index = spr_player_walkD;
+		break;
+	case directions.up:
+		sprite_index = spr_player_walkU;
 		break;
 	}
 
