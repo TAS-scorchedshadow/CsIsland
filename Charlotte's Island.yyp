@@ -695,6 +695,14 @@
             }
         },
         {
+            "Key": "b3918e09-4973-4d26-abd9-9c585c46f035",
+            "Value": {
+                "id": "65cf9ab2-318f-4702-8411-daaf11bb98ee",
+                "resourcePath": "sprites\\spr_wood_planks\\spr_wood_planks.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bbb8102f-217d-4f67-a5b7-44dc7b5b1857",
             "Value": {
                 "id": "03283fdc-54cd-48f8-9ebc-33b629bbb8ee",
