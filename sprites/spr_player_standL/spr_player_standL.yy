@@ -62,7 +62,7 @@
     ],
     "gridX": 0,
     "gridY": 0,
-    "height": 74,
+    "height": 76,
     "layers": [
         {
             "id": "97c1bdcc-be64-467a-9e2e-75e937ead9ee",
@@ -88,5 +88,5 @@
     "type": 0,
     "width": 36,
     "xorig": 18,
-    "yorig": 73
+    "yorig": 75
 }
