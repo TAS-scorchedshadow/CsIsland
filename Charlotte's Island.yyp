@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "15420abf-3511-4f69-a632-f9cae1725d1d",
+            "Value": {
+                "id": "6dea0783-52b2-44b6-a9a0-c3a0e2fa2dda",
+                "resourcePath": "rooms\\rm_flamingle\\rm_flamingle.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "180c1319-eb53-41dc-8f06-e1c71c39772f",
             "Value": {
                 "id": "d37c4a02-e15b-48a7-bdc0-bbd7d178a10a",
@@ -100,6 +108,14 @@
                 "id": "b8a6894b-7372-46f1-970e-60835f4740a1",
                 "resourcePath": "views\/1ba918b5-3853-4241-8034-decb9e473899.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1bb757d8-3ab5-45ea-96fd-09b18a65d083",
+            "Value": {
+                "id": "ea20f584-d914-4af5-b953-f92bc1377f8f",
+                "resourcePath": "sprites\\spr_flamingo\\spr_flamingo.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -479,14 +495,6 @@
             }
         },
         {
-            "Key": "5f13e3f3-1712-4e6b-9958-947e32afe1b1",
-            "Value": {
-                "id": "3c8fb4fc-e000-4942-a4ad-133617e3cbac",
-                "resourcePath": "rooms\/rm_beach\/rm_beach.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "5fb53b8d-d5e7-457f-bd31-54995ee79514",
             "Value": {
                 "id": "56138843-94b7-44a4-9223-466efead37f6",
@@ -532,6 +540,14 @@
                 "id": "938fe6e8-14cd-4c84-8a50-56883ef31090",
                 "resourcePath": "objects\/obj_tree\/obj_tree.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "69449a6e-3532-4432-b074-b0a9dcef7be8",
+            "Value": {
+                "id": "6b04f665-8a99-440b-9d4d-57c649cd39d5",
+                "resourcePath": "views\\5dc45d31-a00d-455f-8cf5-88a199bb4734-room.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -791,6 +807,14 @@
             }
         },
         {
+            "Key": "ade6ace4-0c0f-4b2a-b5c9-8700df83f4f9",
+            "Value": {
+                "id": "aa115c63-bcf9-447c-bc1e-7e8c10163eb0",
+                "resourcePath": "views\\7354eb43-1d36-474d-93fa-31b90f023c26-room.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "b037e4dd-296d-40bf-9056-59a46e6a4cbf",
             "Value": {
                 "id": "7990d6d3-f91a-4c73-b4ab-9ef81eab9f9d",
@@ -871,6 +895,14 @@
             }
         },
         {
+            "Key": "c3219380-8947-436a-a17c-c94f94eecdd6",
+            "Value": {
+                "id": "3fbd5d06-2a09-45c7-9c9e-9363cdcb22cb",
+                "resourcePath": "objects\\obj_flamingo\\obj_flamingo.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cb6f2096-110a-4f6a-9a0d-e02700b7dd7d",
             "Value": {
                 "id": "575f50f3-7b6c-487f-b39d-5780166cedbe",
@@ -908,6 +940,14 @@
                 "id": "2d07dadc-84b6-4dab-9727-98612ffd3da8",
                 "resourcePath": "sounds\/msc_My_Shoes_Keep_Walking_Back_To_You\/msc_My_Shoes_Keep_Walking_Back_To_You.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "d0b119bf-f33b-4211-8bd5-79279beefd41",
+            "Value": {
+                "id": "ff3f5443-1378-46ad-8a52-6129ecc2a577",
+                "resourcePath": "rooms\\rm_beach\\rm_beach.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
