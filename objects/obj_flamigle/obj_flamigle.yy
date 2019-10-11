@@ -1,14 +1,23 @@
 {
-    "id": "c3219380-8947-436a-a17c-c94f94eecdd6",
+    "id": "80dc172a-2920-407f-8eb5-875a3ddc2998",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_flamingo",
+    "name": "obj_flamigle",
     "eventList": [
-        
+        {
+            "id": "1b6ec826-0b9c-4bb2-9c11-594ba8f2ba47",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 69,
+            "eventtype": 9,
+            "m_owner": "80dc172a-2920-407f-8eb5-875a3ddc2998"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "80dc172a-2920-407f-8eb5-875a3ddc2998",
+    "parentObjectId": "120870fe-b2ce-4e1b-95c0-20f18e5f6ba1",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -24,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "1bb757d8-3ab5-45ea-96fd-09b18a65d083",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

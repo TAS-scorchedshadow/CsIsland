@@ -1,8 +1,8 @@
 {
-    "id": "c3219380-8947-436a-a17c-c94f94eecdd6",
+    "id": "60afb1d3-b450-4b22-8b09-9c4695b8632c",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_flamingo",
+    "name": "obj_bflamingo",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "1bb757d8-3ab5-45ea-96fd-09b18a65d083",
+    "spriteId": "98717f88-2a82-4ade-955a-785370f9d1f5",
     "visible": true
 }
