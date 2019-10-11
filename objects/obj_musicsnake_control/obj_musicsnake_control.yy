@@ -5,16 +5,6 @@
     "name": "obj_musicsnake_control",
     "eventList": [
         {
-            "id": "8fa3e0c3-eb9c-4528-bd60-cdd66c9b6f15",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 64,
-            "eventtype": 8,
-            "m_owner": "efb79cfa-4128-459d-9026-8ebda42b9da4"
-        },
-        {
             "id": "c150c756-189c-4577-917e-57e2cc922c44",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -51,6 +41,26 @@
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 1,
+            "eventtype": 2,
+            "m_owner": "efb79cfa-4128-459d-9026-8ebda42b9da4"
+        },
+        {
+            "id": "543526a4-4e16-4556-b855-54330093c7e3",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "efb79cfa-4128-459d-9026-8ebda42b9da4"
+        },
+        {
+            "id": "744735b7-c24b-4721-b626-8feba71a2965",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 2,
             "eventtype": 2,
             "m_owner": "efb79cfa-4128-459d-9026-8ebda42b9da4"
         }
