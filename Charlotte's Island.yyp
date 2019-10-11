@@ -655,14 +655,6 @@
             }
         },
         {
-            "Key": "7addf101-dbee-4492-bc3a-7f0e43cdad92",
-            "Value": {
-                "id": "15949f76-336a-494f-bec3-5fdab2c60f97",
-                "resourcePath": "objects\/obj_to_snake_test\/obj_to_snake_test.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "7b4b7d69-89af-4de4-afb7-842b871555a2",
             "Value": {
                 "id": "ad990f65-542b-4f99-84bc-2419c2dccd75",
