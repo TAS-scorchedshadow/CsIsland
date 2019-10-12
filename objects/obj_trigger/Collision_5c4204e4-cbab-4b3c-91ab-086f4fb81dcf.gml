@@ -1,2 +1,3 @@
 /// @description Move to next room
-objective = true;
+obj_gui.objective = text;
+
