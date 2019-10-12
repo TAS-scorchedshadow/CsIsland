@@ -20,10 +20,10 @@ if mode == "start"
 {
 	if alarm_start == true
 	{
+
 		if note_no >= ds_list_size(beat_map)
 		{
 			alarm_start = false
-			global.music_score = ""
 			ds_list_destroy(beat_map)
 		}
 		else
@@ -31,6 +31,18 @@ if mode == "start"
 			alarm[0] = tempo * ds_list_find_value(beat_map,note_no) * room_speed
 			note_no += 1
 			alarm_start = false
+		}
+	}
+	if song_playing == true
+	{
+		if !audio_is_playing(msc_lost_woods)
+		{
+			with (obj_music_note_check)
+			{
+				instance_destroy()
+			}
+			song_playing = false
+			mode = ""
 		}
 	}
 }

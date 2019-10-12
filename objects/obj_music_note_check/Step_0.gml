@@ -17,3 +17,5 @@ with (instance_nearest(x,y,obj_music_note))
 				global.music_score = "Bad"
 			}
 		}
+x = obj_camera.x - 350
+y = obj_camera.y + 190
