@@ -1,1 +1,1 @@
-text = "Find the Exit"
+text = "Find the Exit";
