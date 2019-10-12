@@ -1,2 +1,2 @@
-target = rm_forest;
-lvl_desc = "The Forest"
+target = rm_flamingle;
+lvl_desc = "The Rocks"
