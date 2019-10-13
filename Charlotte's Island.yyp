@@ -666,7 +666,7 @@
             "Key": "74429e5c-af51-41ff-9a49-0357769b996c",
             "Value": {
                 "id": "d66b35fa-a2ee-4371-90d9-55af56680546",
-                "resourcePath": "objects\\object38\\object38.yy",
+                "resourcePath": "objects\\obj_boat\\obj_boat.yy",
                 "resourceType": "GMObject"
             }
         },

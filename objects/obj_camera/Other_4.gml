@@ -4,15 +4,12 @@ Let's define a unit as a "block" being 30 x 30 pixels wide. This ensures that th
 In early testing it looks like the player should be around 2 blocks wide.
 */
 
+follow = noone;
+if instance_exists(obj_boat) follow = obj_boat;
 zoom = 1;
 if (room != rm_title and room != rm_menu) {
 camera_width = 960;
 camera_height = 540;
-
-ini_open("player.ini");
-x = ini_read_real("position","playerx",300);
-y = ini_read_real("position","playery",500);
-ini_close();
 
 camera = camera_create();
 
@@ -24,7 +21,7 @@ camera_set_proj_mat(camera,pm);
 
 view_camera[0] = camera;
 
-follow = obj_player;
+if instance_exists(obj_player) follow = obj_player;
 xTo = x;
 yTo = y;
 

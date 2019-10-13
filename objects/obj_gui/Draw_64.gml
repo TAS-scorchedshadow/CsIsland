@@ -1,5 +1,5 @@
 
-if (room != rm_menu && room !=rm_title) {
+if (room != rm_menu && room !=rm_title) && instance_exists(obj_player) {
 	
 	//Item GUI
 	var c_width = 100
