@@ -1,4 +1,13 @@
-draw_sprite_ext(spr_news,0,display_get_gui_width()/2,display_get_gui_height()/2,scale,scale,rotation,c_white,opacity);
+var xw = display_get_gui_width();
+var yw = display_get_gui_height();
+
+draw_set_font(fnt_title);
+draw_set_halign(fa_center);
+draw_set_color(c_white);
+draw_text(xw/2,200,title_text);
+
+//Draw Newspaper 
+draw_sprite_ext(spr_news,0,xw/2,yw/2,scale,scale,rotation,c_white,opacity);
 
 if growing = true 
 {
