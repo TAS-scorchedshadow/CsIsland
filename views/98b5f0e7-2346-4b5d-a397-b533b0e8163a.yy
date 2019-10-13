@@ -9,7 +9,8 @@
         "23896d83-17ac-446a-a6d3-1374405695c8",
         "433e24e0-075e-49b2-af43-0fef2a19e065",
         "3245d394-60d2-48f6-bc1b-c3be89c9a4a7",
-        "120870fe-b2ce-4e1b-95c0-20f18e5f6ba1"
+        "120870fe-b2ce-4e1b-95c0-20f18e5f6ba1",
+        "214f3f67-86f8-4ef5-97e2-36ffd78de3d3"
     ],
     "filterType": "GMObject",
     "folderName": "GUI & Camera",
