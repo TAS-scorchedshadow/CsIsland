@@ -6,8 +6,11 @@ if global.bush_cut == true
 	{
 		if image_index == 1
 		{
+			if !place_meeting(x,y,obj_player)
+			{
 			image_index ++
 			instance_create_layer(x,y,"Instances",obj_bush_wall)
+			}
 		}
 		if image_index == 0
 		{
