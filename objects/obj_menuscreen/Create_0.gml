@@ -3,7 +3,7 @@ global.selectedbutton = 0;
 //Intialise Menu
 menux = 1400
 menuy = 400
-ini_open("song.ini")
+ini_open("settings.ini")
 song = ini_read_real("Audio", "Current Song", 1)
 ini_close();
 songlist = ds_grid_create(7,3);

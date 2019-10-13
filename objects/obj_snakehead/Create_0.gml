@@ -7,7 +7,7 @@ moving = false
 totaldirections = 0
 chosendirection = 5
 highlighteddirection = 0
-ini_open("song.ini") //To save memory the song info was saved to an ini file
+ini_open("settings.ini") //To save memory the song info was saved to an ini file
 tempo = ini_read_real("Audio", "Current Song BPM", 60) 
 ini_close();
 alarm[1] = 1
