@@ -11,6 +11,7 @@ if scale >= 1
 }
 if shrinking == true 
 {
+	obj_player.hascontrol = true;
 	opacity -= 0.01;
 	if opacity <= 0
 	{

@@ -1,8 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
+
 if (room != rm_title and room != rm_menu) {
 if (follow != noone)
 {
+	xoffset = zoom * 200;
 	xTo = follow.x + xoffset;
 	yTo = follow.y + yoffset;
 	
@@ -18,5 +20,9 @@ if (follow != noone)
 
 
 var vm = matrix_build_lookat(x,y,-10,x,y,0,0,1,0)
+camera_width = zoom* 960;
+camera_height = zoom* 540;
+var pm = matrix_build_projection_ortho(camera_width,camera_height,1,100000)
+camera_set_proj_mat(camera,pm);
 camera_set_view_mat(camera,vm);
 }
