@@ -1,1 +1,1 @@
-title_text = "Charlotte's Island"
+ds_grid_set(ds_text,1,2,fade.in); 
