@@ -887,6 +887,14 @@
             }
         },
         {
+            "Key": "a8b92150-468b-410d-9151-e6947c708aa0",
+            "Value": {
+                "id": "34904c5e-094b-497b-bea8-b23522884821",
+                "resourcePath": "datafiles_yy\\gradecursive-2.ttf.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "8c8c97bc-6798-4510-9782-bd9211a2cd8f",
@@ -1164,6 +1172,14 @@
                 "id": "e96a69f2-cba4-4dbf-9582-6b0175c9cc3e",
                 "resourcePath": "objects\/obj_levelend\/obj_levelend.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e6747e04-7067-4b6c-ae0e-8c53006e1596",
+            "Value": {
+                "id": "538ff3d8-9bc9-4880-8c4b-9c5bf255ea8e",
+                "resourcePath": "datafiles_yy\\gradecursive-2-italic.ttf.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
