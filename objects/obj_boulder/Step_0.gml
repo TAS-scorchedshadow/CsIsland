@@ -1,23 +1,96 @@
 /// @description Check player direction
-if first_check == false
-{
-	if image_index == 2
-	{
-		instance_create_layer(x,y,"Instances",obj_bush_wall)
-	}
-	first_check = true
-}	
 if boulder_moving = false
 {
 	if keyboard_check_pressed(ord("E"))
 	{
-		if global.facing_direction == directions.right and place_meeting(x-32,y,obj_player) and place_free(x+32,y)
+		if global.facing_direction == directions.right and place_meeting(x-32,y,obj_player) and (place_free(x+32,y) or place_meeting(x+32,y,obj_bush))
 		{
-			boulder_moving = true
-			xx = 1
-			yy = 0;
-			alarm[0] = 1
+			if place_meeting(x+32,y,obj_bush){
+				var object_bush = instance_nearest(x+32,y,obj_bush)
+				if object_bush.image_index != 2
+				{
+					boulder_moving = true
+					xx = 1
+					yy = 0;
+					alarm[0] = 1
+				}
+			}
+			else
+			{
+				boulder_moving = true
+				xx = 1
+				yy = 0;
+				alarm[0] = 1
+			}
+			
+		}
+		if global.facing_direction == directions.left and place_meeting(x+32,y,obj_player) and (place_free(x-32,y) or place_meeting(x-32,y,obj_bush))
+		{
+			if place_meeting(x-32,y,obj_bush){
+				var object_bush = instance_nearest(x-32,y,obj_bush)
+				if object_bush.image_index != 2
+				{
+					boulder_moving = true
+					xx = -1
+					yy = 0;
+					alarm[0] = 1
+				}
+			}
+			else
+			{
+				boulder_moving = true
+				xx = -1
+				yy = 0;
+				alarm[0] = 1
+			}
+			
+		}
+		if global.facing_direction == directions.down and place_meeting(x,y-32,obj_player) and (place_free(x,y+32) or place_meeting(x,y+32,obj_bush))
+		{
+			if place_meeting(x,y+32,obj_bush){
+				var object_bush = instance_nearest(x,y+32,obj_bush)
+				if object_bush.image_index != 2
+				{
+					boulder_moving = true
+					xx = 0
+					yy = 1;
+					alarm[0] = 1
+				}
+			}
+			else
+			{
+				boulder_moving = true
+				xx = 0
+				yy = 1;
+				alarm[0] = 1
+			}
+			
+		}
+		if global.facing_direction == directions.up and place_meeting(x,y+32,obj_player) and (place_free(x,y-32) or place_meeting(x,y-32,obj_bush))
+		{
+			if place_meeting(x,y-32,obj_bush){
+				var object_bush = instance_nearest(x,y-32,obj_bush)
+				if object_bush.image_index != 2
+				{
+					boulder_moving = true
+					xx = 0
+					yy = -1;
+					alarm[0] = 1
+				}
+			}
+			else
+			{
+				boulder_moving = true
+				xx = 0
+				yy = -1;
+				alarm[0] = 1
+			}
+			
 		}
 
 	}
 }
+
+object_wall = instance_nearest(x,y,obj_bush_wall)
+object_wall.x = x
+object_wall.y = y
