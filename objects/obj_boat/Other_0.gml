@@ -1,0 +1,1 @@
+if instance_exists(obj_beach) {obj_beach.growing = true;}
