@@ -15,13 +15,14 @@ repeat (ds_grid_height(ds_text)){
 	ds_grid_set(ds_text,i,1,opacity)
 	i++
 }
-
-if obj_boat.x + 2500 >= room_width 
-{
-	var i = 0
-	repeat (ds_grid_height(ds_text)){
-	ds_grid_set(ds_text,i,2,fade.stop);
-	i++
+if instance_exists(obj_boat){
+	if obj_boat.x + 2500 >= room_width 
+	{
+		var i = 0
+		repeat (ds_grid_height(ds_text)){
+		ds_grid_set(ds_text,i,2,fade.stop);
+		i++
+		}
 	}
-}
 
+}

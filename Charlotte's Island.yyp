@@ -239,6 +239,14 @@
             }
         },
         {
+            "Key": "28936852-e20c-4f0b-b35f-110267d96c31",
+            "Value": {
+                "id": "ac2796a9-3694-4cda-948f-87de8268c9e9",
+                "resourcePath": "sounds\\sfx_error\\sfx_error.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "2a0cc740-f244-4042-8dd8-bf731b1d6d18",
             "Value": {
                 "id": "f1971f0f-c71b-48fe-bdf2-ef19198959c9",

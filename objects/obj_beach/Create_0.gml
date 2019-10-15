@@ -1,3 +1,5 @@
+audio_play_sound(msc_Fly_Like_A_Bird,0,0);
+
 growing = false;
 scale = 0;
 rotation = 0;
@@ -35,5 +37,6 @@ ds_grid_add(ds_text,2,2,fade.hidden);
 
 alarm[0] = room_speed * 4
 alarm[1] = room_speed * 1;
+alarm[2] = room_speed * 4;
 
 
