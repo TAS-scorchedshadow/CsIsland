@@ -1,1 +1,1 @@
-growing = true;
+ds_grid_set(ds_text,1,2,fade.in); 

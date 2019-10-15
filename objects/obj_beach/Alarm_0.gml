@@ -1,1 +1,1 @@
-ds_grid_set(ds_text,1,2,fade.in); 
+ds_grid_set(ds_text,2,2,fade.in); 
