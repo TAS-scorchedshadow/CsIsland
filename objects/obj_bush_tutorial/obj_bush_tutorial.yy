@@ -5,16 +5,6 @@
     "name": "obj_bush_tutorial",
     "eventList": [
         {
-            "id": "c0b526fc-d8ae-488b-ac1d-1364cc17fac7",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 64,
-            "eventtype": 8,
-            "m_owner": "e3a32a42-f387-4b39-aaaa-404200c1ba5a"
-        },
-        {
             "id": "ad27f301-453f-4476-bf98-882de54eb01c",
             "modelName": "GMEvent",
             "mvc": "1.0",
