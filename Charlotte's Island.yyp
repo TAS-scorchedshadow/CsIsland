@@ -98,7 +98,7 @@
             "Key": "157fe82c-f0ea-486b-acbe-9c6a789dd750",
             "Value": {
                 "id": "5e7ddd2b-5c4d-4035-b9ad-05ed5e5e479e",
-                "resourcePath": "objects\\obj_swanthing\\obj_swanthing.yy",
+                "resourcePath": "objects\/obj_swanthing\/obj_swanthing.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -242,7 +242,7 @@
             "Key": "28936852-e20c-4f0b-b35f-110267d96c31",
             "Value": {
                 "id": "ac2796a9-3694-4cda-948f-87de8268c9e9",
-                "resourcePath": "sounds\\sfx_error\\sfx_error.yy",
+                "resourcePath": "sounds\/sfx_error\/sfx_error.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -674,7 +674,7 @@
             "Key": "72aa97a1-2ba2-48bb-912d-4b8e167c670a",
             "Value": {
                 "id": "325cfd3f-639a-4a84-ac06-c861f514db06",
-                "resourcePath": "sprites\\sprite46\\sprite46.yy",
+                "resourcePath": "sprites\/sprite46\/sprite46.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -914,7 +914,7 @@
             "Key": "a8b92150-468b-410d-9151-e6947c708aa0",
             "Value": {
                 "id": "34904c5e-094b-497b-bea8-b23522884821",
-                "resourcePath": "datafiles_yy\\gradecursive-2.ttf.yy",
+                "resourcePath": "datafiles_yy\/gradecursive-2.ttf.yy",
                 "resourceType": "GMIncludedFile"
             }
         },
@@ -1159,6 +1159,14 @@
             }
         },
         {
+            "Key": "e3a32a42-f387-4b39-aaaa-404200c1ba5a",
+            "Value": {
+                "id": "eea9488a-5050-40b7-934f-2f538b85d520",
+                "resourcePath": "objects\/obj_bush_tutorial\/obj_bush_tutorial.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e3dd02a1-247b-4e68-b2f0-936b8b93f82f",
             "Value": {
                 "id": "fd943fba-aafd-4d5c-af9e-f49b95d0b06c",
@@ -1202,7 +1210,7 @@
             "Key": "e6747e04-7067-4b6c-ae0e-8c53006e1596",
             "Value": {
                 "id": "538ff3d8-9bc9-4880-8c4b-9c5bf255ea8e",
-                "resourcePath": "datafiles_yy\\gradecursive-2-italic.ttf.yy",
+                "resourcePath": "datafiles_yy\/gradecursive-2-italic.ttf.yy",
                 "resourceType": "GMIncludedFile"
             }
         },
