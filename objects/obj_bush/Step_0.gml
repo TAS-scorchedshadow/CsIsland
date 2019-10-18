@@ -8,7 +8,7 @@ if first_check == false
 	}
 	first_check = true
 }
-if global.selecteditem == 2{
+if global.selecteditem == 2 and global.no_cut > 0 {
 	
 	if keyboard_check_pressed(ord("E")) and image_index == 2
 	{
@@ -20,6 +20,7 @@ if global.selecteditem == 2{
 			{
 				instance_destroy()
 			}
+			global.no_cut--
 		}
 		if global.facing_direction == directions.left and place_meeting(x+32,y,obj_player)
 		{
@@ -29,6 +30,7 @@ if global.selecteditem == 2{
 			{
 				instance_destroy()
 			}
+			global.no_cut--
 		}
 		if global.facing_direction == directions.up and place_meeting(x,y+32,obj_player)
 		{
@@ -38,6 +40,7 @@ if global.selecteditem == 2{
 			{
 				instance_destroy()
 			}
+			global.no_cut--
 		}
 		if global.facing_direction == directions.down and place_meeting(x,y-32,obj_player)
 		{
@@ -47,6 +50,7 @@ if global.selecteditem == 2{
 			{
 				instance_destroy()
 			}
+			global.no_cut--
 		}
 	}
 }

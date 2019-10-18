@@ -2,7 +2,7 @@
 // You can write your code in this editor
 if draw = true
 {
-	draw_set_font(font_tut)
+	draw_set_font(dnt)
 	draw_set_valign(fa_center)
 	draw_set_halign(fa_center)
 	draw_set_colour(c_white)
