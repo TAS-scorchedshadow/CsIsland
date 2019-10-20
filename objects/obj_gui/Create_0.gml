@@ -4,5 +4,5 @@ objective = ""
 
 ini_open("settings.ini");
 entrance_number = 1;
-new_x = 1800
-new_y = 100
+from_menu = false;
+ini_close();

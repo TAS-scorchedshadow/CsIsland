@@ -5,7 +5,6 @@ In early testing it looks like the player should be around 2 blocks wide.
 */
 
 follow = noone;
-if instance_exists(obj_boat) follow = obj_boat;
 zoom = 1;
 if (room != rm_title and room != rm_menu) {
 camera_width = 960;
@@ -21,7 +20,6 @@ camera_set_proj_mat(camera,pm);
 
 view_camera[0] = camera;
 
-if instance_exists(obj_player) follow = obj_player;
 xTo = x;
 yTo = y;
 

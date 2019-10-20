@@ -1,1 +1,2 @@
-Slide_Transition(TRANS_MODE.RESTART);
+x =300;
+y = 300;

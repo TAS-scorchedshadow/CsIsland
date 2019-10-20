@@ -19,6 +19,8 @@ if single = false
 		obj_camera.follow = obj_player;
 		single = true;
 		image_index = 1;
+		ini_open("settings.ini")
 		ini_write_real("Start","Cutscene",1);
+		ini_close();
 	}
 }

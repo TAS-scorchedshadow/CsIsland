@@ -1,9 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if (room != rm_title and room != rm_menu) {
-if (follow != noone)
-{
+if (room != rm_title and room != rm_menu and follow != noone) {
 	xoffset = zoom * 200;
 	xTo = follow.x + xoffset;
 	yTo = follow.y + yoffset;
@@ -16,7 +14,6 @@ if (follow != noone)
 	
 	if(left_edge > 0 and right_edge < room_width) x += (xTo -x)/35;
 	if(up_edge > 0 and down_edge < room_height) y+= (yTo - y)/35;
-}
 
 
 var vm = matrix_build_lookat(x,y,-10,x,y,0,0,1,0)
