@@ -6,7 +6,6 @@ fnt_cursive = font_add("gradecursive-2-italic.ttf", 80, false, false, 32, 128);
 ini_open("settings.ini")
 cutscene = ini_read_real("Start","Cutscene",0);
 
-
 if cutscene == 0
 {
 	room_goto(rm_start);

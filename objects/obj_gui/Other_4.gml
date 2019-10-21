@@ -1,15 +1,9 @@
+///@description Creating Player Object
 ini_open("settings.ini");
-if (room != rm_menu && room !=rm_title) {
-	
-		var cutscene = ini_read_real("Start","Cutscene",1);
-
-		if (cutscene == 0 && room != rm_start)
-		{
-			instance_create_layer(128,736,"Instances",obj_boat);
-			obj_camera.follow = obj_boat;
-		}
-		else
-		{
+if (room != rm_menu && room !=rm_title && room != rm_start) {
+	var cutscene = ini_read_real("Start","Cutscene",1);
+	if cutscene != 0
+	{
 			if from_menu == false
 				{
 					var rmname = room_get_name(room);
@@ -33,8 +27,8 @@ if (room != rm_menu && room !=rm_title) {
 			obj_camera.follow = obj_player;
 			obj_camera.x = obj_player.x;
 			obj_camera.y = obj_player.y;
-	
-		}
+	}
+		
 }
 
 ini_close();

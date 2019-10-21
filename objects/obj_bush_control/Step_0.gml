@@ -34,7 +34,3 @@ if global.bush_cut == true
 	global.bush_cut = false
 	}
 }
-if global.no_cut <= 0
-{
-	obj_gui.objective = "Your blade needs sharpening"
-}

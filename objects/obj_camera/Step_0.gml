@@ -1,6 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
-
+/// @description Move Cmaera and Manange Zoom
 if (room != rm_title and room != rm_menu and follow != noone) {
 	xoffset = zoom * 200;
 	xTo = follow.x + xoffset;

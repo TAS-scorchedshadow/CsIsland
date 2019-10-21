@@ -1,3 +1,3 @@
-if growing == false{
+if growing == false && scale >=1{
 shrinking = true;
 }

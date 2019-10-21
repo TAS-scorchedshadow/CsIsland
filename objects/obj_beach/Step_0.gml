@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Manage Opacity
 var i = 0
 repeat (ds_grid_height(ds_text)){
 	var opacity = ds_grid_get(ds_text,i,1);

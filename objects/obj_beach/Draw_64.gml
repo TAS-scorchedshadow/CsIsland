@@ -1,3 +1,4 @@
+///@description Draw Newspaper
 var xw = display_get_gui_width();
 var yw = display_get_gui_height();
 
@@ -28,6 +29,7 @@ if growing = true
 if scale >= 1 
 {
 	growing = false;
+	alarm[3] = 10*room_speed;
 }
 if shrinking == true 
 {
