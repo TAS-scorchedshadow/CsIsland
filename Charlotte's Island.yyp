@@ -370,7 +370,7 @@
             "Key": "398f4356-6e82-4967-aba3-b63f247fee21",
             "Value": {
                 "id": "94123a99-ec94-4b97-91cc-453dedc3e0c2",
-                "resourcePath": "objects\\obj_reset_cuts\\obj_reset_cuts.yy",
+                "resourcePath": "objects\/obj_reset_cuts\/obj_reset_cuts.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -434,8 +434,16 @@
             "Key": "465195b6-ba29-45eb-9749-645019411a18",
             "Value": {
                 "id": "91d21757-5953-4c79-a902-15abfa5be38d",
-                "resourcePath": "fonts\\dnt\\dnt.yy",
+                "resourcePath": "fonts\/dnt\/dnt.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "47b4f1f9-c767-4646-aace-7c7315dbb17c",
+            "Value": {
+                "id": "9d8a83b2-6e7b-4704-9092-bcf8047d04d4",
+                "resourcePath": "objects\/obj_strong_bush\/obj_strong_bush.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -895,6 +903,14 @@
             }
         },
         {
+            "Key": "9bb3c01f-bd1c-46ab-af54-37f6b4b0ec6b",
+            "Value": {
+                "id": "31523c7b-5498-4756-b779-5fd010a8534b",
+                "resourcePath": "objects\/obj_grindstone\/obj_grindstone.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9de26497-c22b-423d-856b-731e1d699a7e",
             "Value": {
                 "id": "fc817fc6-9c54-47c6-ae71-b349c6966585",
@@ -1106,7 +1122,7 @@
             "Key": "d3a28e57-c889-42c5-ae6e-2979817aa85d",
             "Value": {
                 "id": "0804b856-89f9-429b-aa5c-7ee553d34e45",
-                "resourcePath": "sprites\\spr_grindstone\\spr_grindstone.yy",
+                "resourcePath": "sprites\/spr_grindstone\/spr_grindstone.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1251,6 +1267,14 @@
             "Value": {
                 "id": "82f21ada-5355-4f74-8997-a3d08b22ca0b",
                 "resourcePath": "sprites\/spr_player_standD\/spr_player_standD.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ea3f2c56-1854-44cc-97c3-ccbac5b51993",
+            "Value": {
+                "id": "d45ad5e6-0075-496c-b0ac-63c0484b7d75",
+                "resourcePath": "sprites\/spr_broke_knife\/spr_broke_knife.yy",
                 "resourceType": "GMSprite"
             }
         },

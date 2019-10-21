@@ -8,8 +8,12 @@ if (room != rm_menu && room !=rm_title) && instance_exists(obj_player) {
 	draw_set_color(c_black)
 	draw_set_halign(fa_center)
 	draw_sprite(spr_gui,0,c_width ,c_height)
-	draw_sprite(spr_abilties,global.selecteditem,c_width ,c_height)
-	
+	if (global.selecteditem = 2 and global.no_cut <= 9){
+		draw_sprite(spr_broke_knife,0,c_width ,c_height)
+	}
+	else{
+		draw_sprite(spr_abilties,global.selecteditem,c_width ,c_height)
+	}
 	//Objective
 	if obj_player.hascontrol == true 
 	{
