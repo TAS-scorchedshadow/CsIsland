@@ -10,8 +10,9 @@ if (room != rm_title and room != rm_menu and follow != noone) {
 	var down_edge = yTo + camera_height/2 
 	var left_edge = xTo - camera_width/2 
 	
-	if(left_edge > 0 and right_edge < room_width) x += (xTo -x)/35;
-	if(up_edge > 0 and down_edge < room_height) y+= (yTo - y)/35;
+	//Tolerance of Camera
+	if(left_edge  + 100> 0 and right_edge < room_width + 100) x += (xTo -x)/35;
+	if(up_edge + 100 > 0 and down_edge < room_height + 100) y+= (yTo - y)/35;
 
 
 var vm = matrix_build_lookat(x,y,-10,x,y,0,0,1,0)

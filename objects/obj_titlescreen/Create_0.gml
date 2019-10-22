@@ -29,7 +29,7 @@ ini_write_real("rm_flamingle","x1",300);
 ini_write_real("rm_flamingle","y1",300);
 
 //rm_forest
-ini_write_real("rm_forest","x1",560);
+ini_write_real("rm_forest","x1",260);
 ini_write_real("rm_forest","y1",600);
 
 ini_close();

@@ -27,5 +27,9 @@ xoffset = 200;
 yoffset = 0;
 }
 
+
+if (room!= rm_start && !instance_exists(obj_boat)) follow = obj_player
+
+
 display_set_gui_size(1920,1080)
 
