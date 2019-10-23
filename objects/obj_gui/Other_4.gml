@@ -30,7 +30,7 @@ if (room != rm_menu && room !=rm_title && room != rm_start) {
 	}
 	else 
 	{
-	instance_create_layer(400,900,"Instances",obj_boat);
+	instance_create_layer(400,660,"Instances",obj_boat);
 	obj_camera.follow = obj_boat;
 	ini_write_real("Start","Cutscene",1);
 	}
