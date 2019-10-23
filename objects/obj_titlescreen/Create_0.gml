@@ -1,4 +1,5 @@
 display_set_gui_size(1920,1080)
+ window_set_fullscreen(true);
 global.selectedbutton = 0;
 fnt_cursive = font_add("gradecursive-2-italic.ttf", 80, false, false, 32, 128);
 
