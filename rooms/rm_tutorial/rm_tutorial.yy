@@ -1,6 +1,6 @@
 
 {
-    "name": "rm_forest",
+    "name": "rm_tutorial",
     "id": "d0b119bf-f33b-4211-8bd5-79279beefd41",
     "creationCodeFile": "",
     "inheritCode": false,

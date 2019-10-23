@@ -36,6 +36,6 @@ if shrinking == true
 	opacity -= 0.01;
 	if opacity <= 0.3
 	{
-	room_goto(rm_test)
+	room_goto(rm_landing)
 	}
 }

@@ -570,7 +570,7 @@
             "Key": "5dc45d31-a00d-455f-8cf5-88a199bb4734",
             "Value": {
                 "id": "52d9216a-c612-492c-8314-3e00d8fa9618",
-                "resourcePath": "rooms\/rm_test\/rm_test.yy",
+                "resourcePath": "rooms\\rm_landing\\rm_landing.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1106,7 +1106,7 @@
             "Key": "d0b119bf-f33b-4211-8bd5-79279beefd41",
             "Value": {
                 "id": "ff3f5443-1378-46ad-8a52-6129ecc2a577",
-                "resourcePath": "rooms\/rm_forest\/rm_forest.yy",
+                "resourcePath": "rooms\\rm_tutorial\\rm_tutorial.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1372,6 +1372,14 @@
                 "id": "9384cb9a-f239-44a8-b9ff-7da76e168eb8",
                 "resourcePath": "sounds\/msc_lost_woods\/msc_lost_woods.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "fd1bc383-ccab-488e-b666-5b10f62af400",
+            "Value": {
+                "id": "429e4690-d133-4d0b-8f4e-c533506bbd9a",
+                "resourcePath": "objects\\par_button\\par_button.yy",
+                "resourceType": "GMObject"
             }
         },
         {
