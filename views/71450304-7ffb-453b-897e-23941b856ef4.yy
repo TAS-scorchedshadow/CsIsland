@@ -7,7 +7,8 @@
         "2af88cd8-a8a9-4231-bee7-75cc29fa70a6",
         "3187bd59-e0b5-4d1c-9416-2ded7a942749",
         "a3cc509b-3565-4605-b2d8-f51f957648ca",
-        "6d7f7104-2910-42cf-aaea-1a2d374509c6"
+        "6d7f7104-2910-42cf-aaea-1a2d374509c6",
+        "ce5f4667-94db-4797-87a6-049b3331f4a3"
     ],
     "filterType": "GMSprite",
     "folderName": "Tileset Sprites",

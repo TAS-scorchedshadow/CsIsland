@@ -719,6 +719,14 @@
             }
         },
         {
+            "Key": "706daf2e-036d-430f-a5c6-84efde3446db",
+            "Value": {
+                "id": "25abc463-8f9f-4e85-a9da-9a9051bb3357",
+                "resourcePath": "objects\\obj_charlotte\\obj_charlotte.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "71450304-7ffb-453b-897e-23941b856ef4",
             "Value": {
                 "id": "7ce8eb69-7d50-41be-a7b6-20a6d16a704b",
@@ -1140,6 +1148,14 @@
                 "id": "2d07dadc-84b6-4dab-9727-98612ffd3da8",
                 "resourcePath": "sounds\/msc_My_Shoes_Keep_Walking_Back_To_You\/msc_My_Shoes_Keep_Walking_Back_To_You.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "ce5f4667-94db-4797-87a6-049b3331f4a3",
+            "Value": {
+                "id": "4c2d4567-37c1-4275-b016-541d04d2be08",
+                "resourcePath": "sprites\\sprite51\\sprite51.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
