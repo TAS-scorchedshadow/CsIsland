@@ -1,4 +1,5 @@
-audio_play_sound(msc_Fly_Like_A_Bird,0,0);
+ window_set_fullscreen(true);
+ audio_play_sound(msc_Fly_Like_A_Bird,0,0);
 
 growing = false;
 scale = 0;
