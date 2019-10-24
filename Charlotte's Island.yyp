@@ -399,6 +399,14 @@
             }
         },
         {
+            "Key": "410cc650-bf4a-43b6-8c80-18420a1f96f6",
+            "Value": {
+                "id": "3bfcf07d-ada3-4d24-a336-1f912994e46c",
+                "resourcePath": "sprites\\spr_flamingo_beak\\spr_flamingo_beak.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "433e24e0-075e-49b2-af43-0fef2a19e065",
             "Value": {
                 "id": "dfcaa3ca-3b83-4a15-a9a7-b5c73c38946f",
@@ -827,6 +835,14 @@
             "Value": {
                 "id": "b1a61a76-1c01-4f29-9490-7a74eaf4e096",
                 "resourcePath": "objects\/obj_camera\/obj_camera.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "889134f6-4eb4-4bd4-aab2-99d6d478e335",
+            "Value": {
+                "id": "f6647094-aa07-45c4-a3c3-85ab3856807b",
+                "resourcePath": "objects\\obj_pick_flamingo\\obj_pick_flamingo.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1284,6 +1300,14 @@
                 "id": "3b708ea9-757d-4465-86be-a09440e195ac",
                 "resourcePath": "sprites\/spr_player_walkR\/spr_player_walkR.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ef1243c0-9f5f-4132-bdd3-f2d4fa255cce",
+            "Value": {
+                "id": "4da06e1e-ac24-45b3-b435-c2e9a647191b",
+                "resourcePath": "objects\\obj_puzzle_control\\obj_puzzle_control.yy",
+                "resourceType": "GMObject"
             }
         },
         {

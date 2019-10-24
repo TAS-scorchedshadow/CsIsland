@@ -1,16 +1,53 @@
-if global.facing_direction == directions.right and place_meeting(x-32,y,obj_player)
+if distance_to_object(obj_player) < 64
 {
-	global.no_cut = reset_no
+	if mode = ""{
+		draw = true
+		mode = "fade-in"
+	}
+	if keyboard_check_pressed(ord("E"))
+	{
+		global.no_cut = reset_no
+	}
 }
-if global.facing_direction == directions.left and place_meeting(x+32,y,obj_player)
+else if mode = "fade-in"
 {
-	global.no_cut = reset_no
+	mode = "fade-out"
 }
-if global.facing_direction == directions.up and place_meeting(x,y+32,obj_player)
+if mode = "fade-in"
 {
-	global.no_cut = reset_no
+	if alpha < 1
+	{
+		alpha += 0.01
+	}
 }
-if global.facing_direction == directions.down and place_meeting(x,y-32,obj_player)
+if mode = "fade-out"
 {
-	global.no_cut = reset_no
+	if alpha > 0
+	{
+		alpha -= 0.1
+	}
+	else
+	{
+		draw = false
+		mode = ""
+	}
+}
+if mode = "fade-in"
+{
+	if alpha < 1
+	{
+		alpha += 0.05
+	}
+}
+if mode = "fade-out"
+{
+	if alpha > 0
+	{
+		alpha -= 0.1
+	}
+	else
+	{
+		draw = false
+		mode = ""
+	}
 }
