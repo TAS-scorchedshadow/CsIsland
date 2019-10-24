@@ -5,16 +5,6 @@
     "name": "obj_music",
     "eventList": [
         {
-            "id": "e63fd9c3-91d1-4f22-af0a-9686aebd2d39",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "4ec92fe3-9668-4915-b006-e5d69ca039a0"
-        },
-        {
             "id": "04797114-9b13-40cd-80d6-d043d26c57bf",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -27,7 +17,7 @@
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "fd1bc383-ccab-488e-b666-5b10f62af400",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

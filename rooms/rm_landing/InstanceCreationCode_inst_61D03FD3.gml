@@ -1,2 +1,2 @@
-target = rm_forest;
+target = rm_tutorial;
 lvl_desc = "The Rocks"

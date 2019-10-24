@@ -1,28 +1,18 @@
 {
-    "id": "219f26aa-21c5-4db5-84f9-d7132d57f158",
+    "id": "fd1bc383-ccab-488e-b666-5b10f62af400",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_bush_control",
+    "name": "par_button",
     "eventList": [
         {
-            "id": "c172b74e-4be0-4852-860f-b47ffcbe64af",
+            "id": "17e6d026-fb56-411b-89ac-f1113df26393",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "219f26aa-21c5-4db5-84f9-d7132d57f158"
-        },
-        {
-            "id": "033c61e3-b53a-4691-85a9-8a83aeed9e7e",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "219f26aa-21c5-4db5-84f9-d7132d57f158"
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "fd1bc383-ccab-488e-b666-5b10f62af400"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

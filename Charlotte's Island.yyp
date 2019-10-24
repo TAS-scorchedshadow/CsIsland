@@ -370,7 +370,7 @@
             "Key": "398f4356-6e82-4967-aba3-b63f247fee21",
             "Value": {
                 "id": "94123a99-ec94-4b97-91cc-453dedc3e0c2",
-                "resourcePath": "objects\\obj_reset_cuts\\obj_reset_cuts.yy",
+                "resourcePath": "objects\/obj_reset_cuts\/obj_reset_cuts.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -434,8 +434,16 @@
             "Key": "465195b6-ba29-45eb-9749-645019411a18",
             "Value": {
                 "id": "91d21757-5953-4c79-a902-15abfa5be38d",
-                "resourcePath": "fonts\\dnt\\dnt.yy",
+                "resourcePath": "fonts\/dnt\/dnt.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "47b4f1f9-c767-4646-aace-7c7315dbb17c",
+            "Value": {
+                "id": "9d8a83b2-6e7b-4704-9092-bcf8047d04d4",
+                "resourcePath": "objects\/obj_strong_bush\/obj_strong_bush.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -562,7 +570,7 @@
             "Key": "5dc45d31-a00d-455f-8cf5-88a199bb4734",
             "Value": {
                 "id": "52d9216a-c612-492c-8314-3e00d8fa9618",
-                "resourcePath": "rooms\/rm_test\/rm_test.yy",
+                "resourcePath": "rooms\\rm_landing\\rm_landing.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -895,6 +903,14 @@
             }
         },
         {
+            "Key": "9bb3c01f-bd1c-46ab-af54-37f6b4b0ec6b",
+            "Value": {
+                "id": "31523c7b-5498-4756-b779-5fd010a8534b",
+                "resourcePath": "objects\/obj_grindstone\/obj_grindstone.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9de26497-c22b-423d-856b-731e1d699a7e",
             "Value": {
                 "id": "fc817fc6-9c54-47c6-ae71-b349c6966585",
@@ -1090,7 +1106,7 @@
             "Key": "d0b119bf-f33b-4211-8bd5-79279beefd41",
             "Value": {
                 "id": "ff3f5443-1378-46ad-8a52-6129ecc2a577",
-                "resourcePath": "rooms\/rm_forest\/rm_forest.yy",
+                "resourcePath": "rooms\\rm_tutorial\\rm_tutorial.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1106,7 +1122,7 @@
             "Key": "d3a28e57-c889-42c5-ae6e-2979817aa85d",
             "Value": {
                 "id": "0804b856-89f9-429b-aa5c-7ee553d34e45",
-                "resourcePath": "sprites\\spr_grindstone\\spr_grindstone.yy",
+                "resourcePath": "sprites\/spr_grindstone\/spr_grindstone.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1255,6 +1271,14 @@
             }
         },
         {
+            "Key": "ea3f2c56-1854-44cc-97c3-ccbac5b51993",
+            "Value": {
+                "id": "d45ad5e6-0075-496c-b0ac-63c0484b7d75",
+                "resourcePath": "sprites\/spr_broke_knife\/spr_broke_knife.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "eb06c536-c78b-4906-9143-f5f0158dd9b1",
             "Value": {
                 "id": "3b708ea9-757d-4465-86be-a09440e195ac",
@@ -1348,6 +1372,14 @@
                 "id": "9384cb9a-f239-44a8-b9ff-7da76e168eb8",
                 "resourcePath": "sounds\/msc_lost_woods\/msc_lost_woods.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "fd1bc383-ccab-488e-b666-5b10f62af400",
+            "Value": {
+                "id": "429e4690-d133-4d0b-8f4e-c533506bbd9a",
+                "resourcePath": "objects\\par_button\\par_button.yy",
+                "resourceType": "GMObject"
             }
         },
         {

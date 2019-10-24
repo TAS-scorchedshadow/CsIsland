@@ -8,7 +8,9 @@
         "5fb53b8d-d5e7-457f-bd31-54995ee79514",
         "970d4f66-eebc-483c-bf48-f4328bdf4b2c",
         "e3a32a42-f387-4b39-aaaa-404200c1ba5a",
-        "398f4356-6e82-4967-aba3-b63f247fee21"
+        "398f4356-6e82-4967-aba3-b63f247fee21",
+        "9bb3c01f-bd1c-46ab-af54-37f6b4b0ec6b",
+        "47b4f1f9-c767-4646-aace-7c7315dbb17c"
     ],
     "filterType": "GMObject",
     "folderName": " Bush and Boulder",
