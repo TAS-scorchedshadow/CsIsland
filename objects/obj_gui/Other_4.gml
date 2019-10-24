@@ -2,10 +2,11 @@
 ini_open("settings.ini");
 if (room != rm_menu && room !=rm_title && room != rm_start) {
 	var cutscene = ini_read_real("Start","Cutscene",1);
-	if cutscene != 0
+	if cutscene == 1 //Have we played the cutscne?
 	{
 			if from_menu == false
 				{
+					//Reads Entrance Varaiables
 					var rmname = room_get_name(room);
 
 					var xto = "x"+string(entrance_number) //x1,x2 etc.
@@ -17,6 +18,7 @@ if (room != rm_menu && room !=rm_title && room != rm_start) {
 				}
 				else
 				{
+					//Reads Last postition in room
 					var create_x = ini_read_real("player","xvalue",300);
 					var create_y = ini_read_real("player","yvalue",300)
 					show_debug_message(create_x);
@@ -27,6 +29,13 @@ if (room != rm_menu && room !=rm_title && room != rm_start) {
 			obj_camera.follow = obj_player;
 			obj_camera.x = obj_player.x;
 			obj_camera.y = obj_player.y;
+	}
+	else
+	{
+		//Creating in test room NOT start
+		instance_create_layer(128,736,"Instances",obj_boat);
+		obj_camera.follow = obj_boat;
+		ini_write_real("Start","Cutscene",1)
 	}
 		
 }
