@@ -823,6 +823,14 @@
             }
         },
         {
+            "Key": "7edae8fb-f72e-43c2-9625-902160608603",
+            "Value": {
+                "id": "2a8441c3-8496-40fa-8ad4-4f87ab636a9b",
+                "resourcePath": "fonts\\dnt_large\\dnt_large.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "80962694-fb6b-47f6-af53-094fb602d222",
             "Value": {
                 "id": "b78bfaf8-a87b-4e7c-8d59-c3986b1ad9a9",
@@ -1103,14 +1111,6 @@
             }
         },
         {
-            "Key": "c19de736-9d86-4804-b306-b2e85ea0efda",
-            "Value": {
-                "id": "91220142-d4d1-42b3-9651-72b6d690b9d6",
-                "resourcePath": "sprites\/spr_gui\/spr_gui.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "c3219380-8947-436a-a17c-c94f94eecdd6",
             "Value": {
                 "id": "3fbd5d06-2a09-45c7-9c9e-9363cdcb22cb",
@@ -1339,14 +1339,6 @@
             "Value": {
                 "id": "82f21ada-5355-4f74-8997-a3d08b22ca0b",
                 "resourcePath": "sprites\/spr_player_standD\/spr_player_standD.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "ea3f2c56-1854-44cc-97c3-ccbac5b51993",
-            "Value": {
-                "id": "d45ad5e6-0075-496c-b0ac-63c0484b7d75",
-                "resourcePath": "sprites\/spr_broke_knife\/spr_broke_knife.yy",
                 "resourceType": "GMSprite"
             }
         },

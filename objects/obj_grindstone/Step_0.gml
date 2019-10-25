@@ -1,11 +1,13 @@
 if distance_to_object(obj_player) < 64
 {
-	if mode = ""{
+	if mode = ""
+	{
 		draw = true
 		mode = "fade-in"
 	}
 	if keyboard_check_pressed(ord("E"))
 	{
+		d_text = true;
 		global.no_cut = reset_no
 	}
 }

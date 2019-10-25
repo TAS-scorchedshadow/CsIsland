@@ -1,0 +1,1 @@
+entrance_number = 1;
