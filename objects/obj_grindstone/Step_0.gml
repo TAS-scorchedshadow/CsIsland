@@ -15,25 +15,7 @@ else if mode = "fade-in"
 {
 	mode = "fade-out"
 }
-if mode = "fade-in"
-{
-	if alpha < 1
-	{
-		alpha += 0.01
-	}
-}
-if mode = "fade-out"
-{
-	if alpha > 0
-	{
-		alpha -= 0.1
-	}
-	else
-	{
-		draw = false
-		mode = ""
-	}
-}
+
 if mode = "fade-in"
 {
 	if alpha < 1

@@ -11,7 +11,7 @@ if d_text == true
 {
 	draw_text_ext_color(x-50,y - 64 -height_above,+string(reset_no)+" cuts left",5,300,c_white,c_white,c_white,c_white,alpha)
 	height_above += 0.1
-	if height_above >= 30 
+	if height_above >= 30 or mode == ""
 	{
 		d_text = false;
 		height_above = 0;
