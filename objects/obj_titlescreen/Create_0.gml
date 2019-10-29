@@ -24,13 +24,19 @@ ini_write_real("rm_landing","y1",1000);
 ini_write_real("rm_landing","x2",1800);
 ini_write_real("rm_landing","y2",600);
 
-//rm_forest
+//rm_tutorial
 ini_write_real("rm_tutorial","x1",260);
 ini_write_real("rm_tutorial","y1",600);
+
+//rm_forest_1
+ini_write_real("rm_forest_1","x1",260);
+ini_write_real("rm_forest_1","y1",600);
 
 //rm_flamingle
 ini_write_real("rm_flamingle","x1",300);
 ini_write_real("rm_flamingle","y1",300);
+
+
 
 
 ini_close();

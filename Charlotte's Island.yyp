@@ -1303,6 +1303,14 @@
             }
         },
         {
+            "Key": "e50913d9-eaaf-4863-97e5-d5945eaa9db6",
+            "Value": {
+                "id": "dc10b150-3696-44f3-a343-2efe15991651",
+                "resourcePath": "rooms\/rm_forest_1\/rm_forest_1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "e512bcd3-3dd1-4eca-b2f1-f788eb5f4385",
             "Value": {
                 "id": "12d18148-545d-4f1b-86b1-0dca59c47018",
