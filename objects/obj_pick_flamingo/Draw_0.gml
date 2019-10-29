@@ -21,16 +21,16 @@ if mode = "lift"
 	}
 	else
 	{
-		x = 477
+		x = global.checkpoint_x
 		mode = "place"
-		obj_player.x = 477
-		obj_player.y = 540
+		obj_player.x = global.checkpoint_x
+		obj_player.y = global.checkpoint_y
 	}
 }
 
 if mode = "place"
 {
-	if y < 540
+	if y < global.checkpoint_y
 	{
 		draw_sprite(freeze_sprite,0,x,y+32)
 		draw_self()
@@ -42,6 +42,7 @@ if mode = "place"
 		obj_player.hascontrol = true
 		obj_player.shadow = true
 		mode = "return"
+		global.bush_reset = true
 	}
 }
 if mode = "return"

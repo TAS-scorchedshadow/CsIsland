@@ -7,6 +7,7 @@ if distance_to_object(obj_player) < 64
 	}
 	if keyboard_check_pressed(ord("E"))
 	{
+		global.bush_reset = true
 		d_text = true;
 		global.no_cut = reset_no
 	}
