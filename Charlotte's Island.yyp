@@ -698,7 +698,7 @@
             "Key": "6bfde173-a25f-4f3e-8a9e-85f04a95b4cb",
             "Value": {
                 "id": "a0d99a4f-1ca3-4ed3-bed8-7145cfb6e998",
-                "resourcePath": "objects\/obj_bush_generator\/obj_bush_generator.yy",
+                "resourcePath": "objects\/obj_bush_reset\/obj_bush_reset.yy",
                 "resourceType": "GMObject"
             }
         },
