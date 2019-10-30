@@ -1,0 +1,1 @@
+box_message = "Bushes don't grow if there is something on them"
