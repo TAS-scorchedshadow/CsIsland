@@ -106,7 +106,7 @@
             "Key": "15420abf-3511-4f69-a632-f9cae1725d1d",
             "Value": {
                 "id": "6dea0783-52b2-44b6-a9a0-c3a0e2fa2dda",
-                "resourcePath": "rooms\/rm_flamingle\/rm_flamingle.yy",
+                "resourcePath": "rooms\/rm_flamingle_1\/rm_flamingle_1.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -164,6 +164,14 @@
                 "id": "ea20f584-d914-4af5-b953-f92bc1377f8f",
                 "resourcePath": "sprites\/spr_flamingo\/spr_flamingo.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1e58a8cf-e1e8-49b4-8357-31a898bdb2cc",
+            "Value": {
+                "id": "0a81f82b-e141-47c5-9c92-35d8f7513d25",
+                "resourcePath": "rooms\/room9\/room9.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -602,7 +610,7 @@
             "Key": "5627de9b-e491-4961-baf5-5dbb3d61c55b",
             "Value": {
                 "id": "3a2e4a99-66e9-4a00-a0de-4dd2bbf9f397",
-                "resourcePath": "rooms\/rm_snake_test\/rm_snake_test.yy",
+                "resourcePath": "rooms\/rm_forest_3\/rm_forest_3.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1268,6 +1276,14 @@
                 "id": "ff3f5443-1378-46ad-8a52-6129ecc2a577",
                 "resourcePath": "rooms\/rm_tutorial\/rm_tutorial.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "d1719fcf-5cc7-4a27-8d25-f2236aa1a541",
+            "Value": {
+                "id": "9d7718be-6a82-449f-8f30-5788645bfc92",
+                "resourcePath": "sprites\/spr_hint\/spr_hint.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
