@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "10ba6ac0-c4a9-42cc-a4a2-cb7e3b6732af",
+            "Value": {
+                "id": "3651113b-8d88-4ca9-bff9-7fd7af84e6d2",
+                "resourcePath": "sprites\/spr_unbreakable_bush\/spr_unbreakable_bush.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "120870fe-b2ce-4e1b-95c0-20f18e5f6ba1",
             "Value": {
                 "id": "51a6ecf2-5f8a-41f1-a1d3-d7662e434133",
@@ -107,6 +115,14 @@
             "Value": {
                 "id": "5e7ddd2b-5c4d-4035-b9ad-05ed5e5e479e",
                 "resourcePath": "objects\/obj_swanthing\/obj_swanthing.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "164c1207-1b91-4ebe-b294-b6dcc58b3902",
+            "Value": {
+                "id": "025ca505-e098-4eb8-ba37-36e64c8cd234",
+                "resourcePath": "objects\/obj_unbreakable_bush\/obj_unbreakable_bush.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1271,6 +1287,14 @@
             }
         },
         {
+            "Key": "dc84a926-96cc-4679-8430-6d911b9467a3",
+            "Value": {
+                "id": "bbb00b54-7f1d-4ede-9972-458cdce93e68",
+                "resourcePath": "scripts\/script2\/script2.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e1515a89-0c63-403e-b35f-db773a0d4601",
             "Value": {
                 "id": "d5164d32-b79b-4ec8-bd31-2f3612f2e747",
@@ -1497,7 +1521,8 @@
     ],
     "script_order": [
         "26589553-7a43-42c6-9fe7-474acddf9d0d",
-        "f6e9f43b-28b0-43f6-bdb7-14174a65f1a5"
+        "f6e9f43b-28b0-43f6-bdb7-14174a65f1a5",
+        "dc84a926-96cc-4679-8430-6d911b9467a3"
     ],
     "tutorial": ""
 }

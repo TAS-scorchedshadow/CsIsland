@@ -25,7 +25,7 @@ with (obj_solid){
 //===Drawing Sprites at proper depth===//
 var dgrid = ds_depthgrid;
 var inst_num = instance_number(obj_solid);
-ds_grid_resize(dgrid,2,inst_num);
+ds_grid_resize(dgrid,2,inst_num);     
 
 //Add Instance Info to Grid
 var yy = 0;
