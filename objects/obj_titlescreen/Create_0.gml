@@ -33,12 +33,14 @@ ini_open("settings.ini")
 	ini_write_real("rm_tutorial","y2",698);
 
 //rm_forest_1
-ini_write_real("rm_forest_1","x1",300);
-ini_write_real("rm_forest_1","y1",640);
-
-//rm_flamingle
-ini_write_real("rm_flamingle","x1",300);
-ini_write_real("rm_flamingle","y1",300);
+	ini_write_real("rm_forest_1","x1",300);
+	ini_write_real("rm_forest_1","y1",640);
+//rm_forest_3
+	ini_write_real("rm_forest_3","x1",2304);//First Entered Bottom Right
+	ini_write_real("rm_forest_3","y1", 1056);
+//rm_flamingle_1
+	ini_write_real("rm_flamingle_1","x1",300);
+	ini_write_real("rm_flamingle_1","y1",300);
 
 
 

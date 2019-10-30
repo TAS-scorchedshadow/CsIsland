@@ -1,2 +1,2 @@
 /// @description Goto boss room
-room_goto(rm_boss);
+room_goto(rm_forest_3);
