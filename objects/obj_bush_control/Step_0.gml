@@ -55,5 +55,14 @@ if global.bush_reset = true{    //Reset the layout of the bushes
 			with (instance_nearest(x,y,obj_bush_wall)) instance_destroy()
 		}
 	}
+	if (instance_exists(obj_boulder))
+	{
+		for (i = 0; i < (no_boulder); i += 1)
+		{
+			var boulder_id = ds_grid_get(boulder_map,i,0);
+			boulder_id.x = ds_grid_get(boulder_map,i,1);
+			boulder_id.y = ds_grid_get(boulder_map,i,2);
+		}
+	}
 	global.bush_reset = false
 }
