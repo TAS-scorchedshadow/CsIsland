@@ -29,8 +29,8 @@ ini_write_real("rm_tutorial","x1",260);
 ini_write_real("rm_tutorial","y1",600);
 
 //rm_forest_1
-ini_write_real("rm_forest_1","x1",260);
-ini_write_real("rm_forest_1","y1",600);
+ini_write_real("rm_forest_1","x1",300);
+ini_write_real("rm_forest_1","y1",640);
 
 //rm_flamingle
 ini_write_real("rm_flamingle","x1",300);

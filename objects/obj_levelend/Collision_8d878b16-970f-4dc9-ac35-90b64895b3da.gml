@@ -1,5 +1,5 @@
 /// @description Move to next room
-
+obj_player.entrance_number = entrance_number
 with (obj_player)
 {
 	if(hascontrol)
