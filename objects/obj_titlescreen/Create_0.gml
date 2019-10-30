@@ -18,15 +18,19 @@ ini_close();
 ini_open("settings.ini")
 
 //rm_landing
-ini_write_real("rm_landing","x1",3600);
-ini_write_real("rm_landing","y1",1000);
+	//1
+	ini_write_real("rm_landing","x1",2789);
+	ini_write_real("rm_landing","y1",600);
 
-ini_write_real("rm_landing","x2",1800);
-ini_write_real("rm_landing","y2",600);
 
 //rm_tutorial
-ini_write_real("rm_tutorial","x1",260);
-ini_write_real("rm_tutorial","y1",600);
+	//1
+	ini_write_real("rm_tutorial","x1",261);
+	ini_write_real("rm_tutorial","y1",383);
+
+	//2
+	ini_write_real("rm_tutorial","x2",2844);
+	ini_write_real("rm_tutorial","y2",698);
 
 //rm_forest_1
 ini_write_real("rm_forest_1","x1",300);

@@ -1,1 +1,0 @@
-text = "Leave the forest"

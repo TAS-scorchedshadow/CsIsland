@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "18a918c0-7350-4326-9938-0c9afbdf217b",
+            "Value": {
+                "id": "5b2b7236-45f2-437d-a07f-9c1b0349fb46",
+                "resourcePath": "views\\18a918c0-7350-4326-9938-0c9afbdf217b.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "19fedf49-fd61-4986-ad3e-1e1822caa53c",
             "Value": {
                 "id": "d60a2f34-ff42-45b8-876d-f37fdf08c4a3",
@@ -396,14 +404,6 @@
                 "id": "71040722-5d4a-4cf4-9906-ae725a830e14",
                 "resourcePath": "views\/3865fa9a-f87f-4aa3-aebe-e020c885ec2f.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "388f5fef-0b71-49a6-bcf8-6a9a77a8464e",
-            "Value": {
-                "id": "4da87802-2043-4921-acf1-ab669f7e8445",
-                "resourcePath": "sprites\/sprite49\/sprite49.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -927,6 +927,14 @@
             }
         },
         {
+            "Key": "89f8b252-56b4-4121-88b5-8038a48ca9c0",
+            "Value": {
+                "id": "834f2244-d799-46c8-a681-e035512bc8fe",
+                "resourcePath": "sprites\\spr_puzzle_flamingo\\spr_puzzle_flamingo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8a54fa0a-4bcb-41b8-8fde-7b84814f3e98",
             "Value": {
                 "id": "6a9ef554-b112-476a-a78a-ef029959faee",
@@ -946,7 +954,7 @@
             "Key": "8eafbdaa-1449-49ad-937c-b8562230aa9f",
             "Value": {
                 "id": "e0b1f2bf-625e-4f5f-bebf-f25c33750df9",
-                "resourcePath": "sprites\/sprite42\/sprite42.yy",
+                "resourcePath": "sprites\\spr_boat\\spr_boat.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1228,14 +1236,6 @@
                 "id": "0804b856-89f9-429b-aa5c-7ee553d34e45",
                 "resourcePath": "sprites\/spr_grindstone\/spr_grindstone.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "d471d8ad-b440-43d8-a47a-b2c6fb88ab2f",
-            "Value": {
-                "id": "d113fc8b-b945-4099-a96a-cdecf8af9513",
-                "resourcePath": "objects\/obj_trigger\/obj_trigger.yy",
-                "resourceType": "GMObject"
             }
         },
         {

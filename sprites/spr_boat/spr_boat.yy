@@ -2,7 +2,7 @@
     "id": "8eafbdaa-1449-49ad-937c-b8562230aa9f",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sprite42",
+    "name": "spr_boat",
     "For3D": false,
     "HTile": false,
     "VTile": false,
