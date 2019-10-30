@@ -1,6 +1,5 @@
-if global.selecteditem = 1 && moving = false
+if global.selecteditem = 0 && moving = false
 {
-instance_create_layer(x,y,"Instances",obj_snakebody)
 moving = true
 i = 0;
 alarm[3] = 1

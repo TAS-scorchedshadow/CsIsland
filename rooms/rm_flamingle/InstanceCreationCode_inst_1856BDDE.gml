@@ -1,1 +1,0 @@
-text = "Find the Flamingo that's not being looked at"

@@ -5,7 +5,7 @@ if boulder_moving = false
 	{
 		if global.facing_direction == directions.right and place_meeting(x-32,y,obj_player) and (place_free(x+64,y) or place_meeting(x+64,y,obj_bush))
 		{
-			if place_meeting(x+64,y,obj_bush){
+			if position_meeting(x+64,y,obj_bush){
 				var object_bush = instance_position(x+64,y,obj_bush)
 				if object_bush.image_index != 2
 				{
@@ -91,6 +91,6 @@ if boulder_moving = false
 	}
 }
 
-object_wall = instance_nearest(x,y,obj_bush_wall)
+var object_wall = instance_nearest(x,y,obj_bush_wall)
 object_wall.x = x
 object_wall.y = y

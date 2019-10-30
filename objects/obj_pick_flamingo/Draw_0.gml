@@ -43,6 +43,10 @@ if mode = "place"
 		obj_player.shadow = true
 		mode = "return"
 		global.bush_reset = true
+		if global.selecteditem == 1
+		{
+			global.selecteditem = 2
+		}
 	}
 }
 if mode = "return"

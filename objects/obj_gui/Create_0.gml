@@ -6,4 +6,5 @@ global.objective = ""
 ini_open("settings.ini");
 entrance_number = 1;
 from_menu = false;
+blackbars = false;
 ini_close();
