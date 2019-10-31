@@ -90,7 +90,3 @@ if boulder_moving = false
 
 	}
 }
-
-var object_wall = instance_nearest(x,y,obj_bush_wall)
-object_wall.x = x
-object_wall.y = y

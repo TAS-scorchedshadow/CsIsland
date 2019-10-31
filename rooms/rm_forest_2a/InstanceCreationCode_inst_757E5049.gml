@@ -1,1 +1,1 @@
-global.no_cut = 4
+global.no_cut = 2
