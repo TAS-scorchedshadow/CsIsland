@@ -1,1 +1,2 @@
-target = rm_flamingo_1;
+target = rm_flamingle_1;
+lvl_desc = "Flamingle Hideout 43"
