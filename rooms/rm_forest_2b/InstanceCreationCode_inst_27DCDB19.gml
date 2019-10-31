@@ -1,0 +1,1 @@
+global.no_cut = 2
