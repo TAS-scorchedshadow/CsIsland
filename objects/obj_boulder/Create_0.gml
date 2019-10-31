@@ -4,4 +4,3 @@ xx = 0
 yy = 0
 i = 0
 move = 64
-depth = -200
