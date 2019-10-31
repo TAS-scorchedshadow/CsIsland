@@ -2,9 +2,8 @@ avaliabledir = ds_list_create() //Create dslist that will hold the directions th
 i = 0
 xx = 0
 yy = 0
-move = 60
+move = 64
 moving = false
-totaldirections = 0
 chosendirection = 5
 highlighteddirection = 0
 ini_open("settings.ini") //To save memory the song info was saved to an ini file

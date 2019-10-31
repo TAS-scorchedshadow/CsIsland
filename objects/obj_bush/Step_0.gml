@@ -1,6 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
-if first_check == false
+/// @description Cut the bushes
+if first_check == false  //check if the bush is fully grown, if so, create an obj_bush_wall
 {
 	if image_index == 2
 	{
@@ -10,7 +9,7 @@ if first_check == false
 }
 if global.selecteditem == 2 and global.no_cut > 0 {
 	
-	if keyboard_check_pressed(ord("E")) and image_index == 2
+	if keyboard_check_pressed(ord("E")) and image_index == 2 
 	{
 		if global.facing_direction == directions.right and place_meeting(x-64,y,obj_player)
 		{

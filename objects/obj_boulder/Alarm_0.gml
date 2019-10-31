@@ -1,4 +1,4 @@
-/// @description
+/// @description Move the boulder
 if i < move
 {
 	i++
