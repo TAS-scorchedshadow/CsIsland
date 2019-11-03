@@ -1495,14 +1495,6 @@
             }
         },
         {
-            "Key": "ef1243c0-9f5f-4132-bdd3-f2d4fa255cce",
-            "Value": {
-                "id": "4da06e1e-ac24-45b3-b435-c2e9a647191b",
-                "resourcePath": "objects\/obj_puzzle_control\/obj_puzzle_control.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "efb79cfa-4128-459d-9026-8ebda42b9da4",
             "Value": {
                 "id": "88e1483a-1995-426f-97c7-f89598b28ea5",

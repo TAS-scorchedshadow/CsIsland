@@ -1,6 +1,6 @@
 ///@description Moving the Snake
 //Loops the length of the snake head 
-if i < move
+if i < 64
 {
 	i++
 	obj_snakehead.x += xx
@@ -13,6 +13,5 @@ else
 	xx= 0
 	yy = 0
 	alarm[0] = 0
-	alarm[1] = 1
 	moving = false
 }
