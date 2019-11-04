@@ -47,14 +47,6 @@
             }
         },
         {
-            "Key": "091b7f34-8f2d-4024-b54e-12fdb7c52327",
-            "Value": {
-                "id": "f3c418cd-1606-4cf5-a439-431e59b9e427",
-                "resourcePath": "objects\/obj_snakebody\/obj_snakebody.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "0ce9015b-eaa8-49f8-899d-a18087415b3a",
             "Value": {
                 "id": "bd02daaa-42a7-4b27-9143-ec340538af15",

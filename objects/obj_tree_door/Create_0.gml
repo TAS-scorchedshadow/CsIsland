@@ -1,3 +1,1 @@
-/// @description
-assigned_button = obj_button.id
-depth = -200
+instance_create_layer(x,y,"Instances",obj_bush_wall)

@@ -1,6 +1,5 @@
 /// @description 
 ///@description Getting Avaliable Directions
-ds_list_clear(avaliabledir)
 if global.selecteditem = 0 and moving = false{
 	if keyboard_check_pressed(ord("W"))
 	{
@@ -13,7 +12,6 @@ if global.selecteditem = 0 and moving = false{
 				i = 0
 				xx = 0;
 				yy = -1;
-				alarm[0] = 1
 			}
 		}
 		else if position_empty(x,y-move)
@@ -22,7 +20,6 @@ if global.selecteditem = 0 and moving = false{
 			i = 0
 			xx = 0;
 			yy = -1;
-			alarm[0] = 1
 		}
 	}
 	if keyboard_check_pressed(ord("D"))
@@ -36,7 +33,6 @@ if global.selecteditem = 0 and moving = false{
 				i = 0
 				xx = 1;
 				yy = 0;
-				alarm[0] = 1
 			}
 		}
 		else if position_empty(x+move,y)
@@ -45,7 +41,6 @@ if global.selecteditem = 0 and moving = false{
 			i = 0
 			xx = 1;
 			yy = 0;
-			alarm[0] = 1
 		}
 	}
 	if keyboard_check_pressed(ord("S"))
@@ -59,7 +54,6 @@ if global.selecteditem = 0 and moving = false{
 				i = 0
 				xx = 0;
 				yy = 1;
-				alarm[0] = 1
 			}
 		}
 		else if position_empty(x,y+move)
@@ -68,7 +62,6 @@ if global.selecteditem = 0 and moving = false{
 			i = 0
 			xx = 0;
 			yy = 1;
-			alarm[0] = 1
 		}
 	}
 	if keyboard_check_pressed(ord("A"))
@@ -82,7 +75,6 @@ if global.selecteditem = 0 and moving = false{
 				i = 0
 				xx = -1;
 				yy = 0;
-				alarm[0] = 1
 			}
 		}
 		else if position_empty(x-move,y)
@@ -91,8 +83,23 @@ if global.selecteditem = 0 and moving = false{
 			i = 0
 			xx = -1;
 			yy = 0;
-			alarm[0] = 1
 		}
+	}
+}
+if moving == true
+{
+	if i < 64
+	{
+		i++
+		x += xx
+		y += yy
+	}
+	else
+	{
+		i = 0
+		xx= 0
+		yy = 0
+		moving = false
 	}
 }
 
