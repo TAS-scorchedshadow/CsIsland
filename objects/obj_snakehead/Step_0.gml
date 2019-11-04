@@ -14,6 +14,17 @@ if global.selecteditem = 0 and moving = false{
 				yy = -1;
 			}
 		}
+		else if place_meeting(x,y-move,obj_button)
+		{
+			var object_button = instance_position(x,y-move,obj_button)
+			if object_button.pressed == false
+			{
+				moving = true;
+				i = 0
+				xx = 0;
+				yy = -1;
+			}
+		}
 		else if position_empty(x,y-move)
 		{
 			moving = true;
@@ -28,6 +39,17 @@ if global.selecteditem = 0 and moving = false{
 		{
 			var object_bush = instance_position(x+move,y,obj_bush)
 			if object_bush.image_index != 2
+			{
+				moving = true;
+				i = 0
+				xx = 1;
+				yy = 0;
+			}
+		}
+		else if position_meeting(x+move,y,obj_button)
+		{
+			var object_button = instance_position(x+move,y,obj_button)
+			if object_button.pressed == false
 			{
 				moving = true;
 				i = 0
@@ -56,6 +78,17 @@ if global.selecteditem = 0 and moving = false{
 				yy = 1;
 			}
 		}
+		else if position_meeting(x,y+move,obj_button)
+		{
+			var object_button = instance_position(x,y+move,obj_button)
+			if object_button.pressed == false
+			{
+				moving = true;
+				i = 0
+				xx = 0;
+				yy = 1;
+			}
+		}
 		else if position_empty(x,y+move)
 		{
 			moving = true;
@@ -70,6 +103,17 @@ if global.selecteditem = 0 and moving = false{
 		{
 			var object_bush = instance_position(x-move,y,obj_bush)
 			if object_bush.image_index != 2
+			{
+				moving = true;
+				i = 0
+				xx = -1;
+				yy = 0;
+			}
+		}
+		else if position_meeting(x-move,y,obj_button)
+		{
+			var object_button = instance_position(x-move,y,obj_button)
+			if object_button.pressed == false
 			{
 				moving = true;
 				i = 0
