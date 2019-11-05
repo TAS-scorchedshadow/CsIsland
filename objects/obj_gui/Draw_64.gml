@@ -19,20 +19,26 @@ if (room != rm_menu && room !=rm_title) && instance_exists(obj_player) {
 		draw_set_font(dnt_large)
 		draw_set_color(c_black)
 		draw_set_halign(fa_left)
-
-		if global.selecteditem = 1
-		{
-			draw_text(c_width+60,c_height+50,"Flute")
-		}
-		if (global.selecteditem = 2)
+		
+		if (global.selecteditem = 0)
 		{
 			draw_text(c_width+60,c_height+ 50,"Bush Knife" +"[" +string(global.no_cut) + "]");
-			drawn_item_id = 2
+			drawn_item_id = 0
 		
 			if global.no_cut <= 0
 			{
 			drawn_item_id = 3
 			}
+		}
+
+		if global.selecteditem = 1
+		{
+			draw_text(c_width+60,c_height+50,"Flute")
+		}
+		
+			if global.selecteditem = 2
+		{
+			draw_text(c_width+60,c_height+50,"Call For Help")
 		}
 
 		draw_sprite_ext(spr_abilties,drawn_item_id,c_width ,c_height,2,2,0,c_white,1);

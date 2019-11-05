@@ -1,6 +1,6 @@
 /// @description 
 ///@description Getting Avaliable Directions
-if global.selecteditem = 0 and moving = false{
+if global.selecteditem == 2 and moving = false{
 	if keyboard_check_pressed(ord("W"))
 	{
 		if position_meeting(x,y-move,obj_bush) and !position_meeting(x,y-move,obj_solid)

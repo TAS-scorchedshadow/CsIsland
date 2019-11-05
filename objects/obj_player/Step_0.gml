@@ -1,6 +1,6 @@
 /// @description Movement
 //Left/Right Movement
-if(hascontrol) and global.selecteditem != 0{
+if(hascontrol) {
 var left = keyboard_check(ord("A"));
 var right = keyboard_check(ord("D"));				
 var up = keyboard_check(ord("W"));	

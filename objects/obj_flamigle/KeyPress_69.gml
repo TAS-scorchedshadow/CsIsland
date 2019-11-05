@@ -40,7 +40,8 @@ if flamingo == true
 	if !variable_instance_exists(self,"correct") correct = false;
 	if correct == true 
 	{
-		room_goto(rm_test)
+		instance_create_layer(x,y+20,"Instances",obj_grindstone)
+		instance_destroy(self);
 	}
 	else
 	{

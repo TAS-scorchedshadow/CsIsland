@@ -49,6 +49,10 @@ ini_open("settings.ini")
 //rm_flamingle_1
 	ini_write_real("rm_flamingle_1","x1",300);
 	ini_write_real("rm_flamingle_1","y1",300);
+//rm_boss
+	ini_write_real("rm_boss","x1",660);
+	ini_write_real("rm_boss","y1",960);
+
 
 
 
