@@ -7,7 +7,7 @@ if first_check == false  //check if the bush is fully grown, if so, create an ob
 	}
 	first_check = true
 }
-if global.selecteditem == 2 and global.no_cut > 0 {
+if global.selecteditem == 0 and global.no_cut > 0 {
 	
 	if keyboard_check_pressed(ord("E")) and image_index == 2 
 	{
