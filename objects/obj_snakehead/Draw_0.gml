@@ -2,7 +2,7 @@ draw_self();
 draw_set_font(fnt_title)
 draw_set_color(c_black)
 draw_set_halign(fa_center)
-/*if (global.selecteditem =  0 && i = 0)
+if (global.selecteditem =  0 && i = 0)
 {
 	//My angle numbers work off a clock not the unit circle lmao.
 
@@ -42,4 +42,3 @@ draw_set_halign(fa_center)
 		else {draw_sprite_ext(spr_arrow,0,x-move,y,1,1,90,c_white,1);}
 	}
 }
-*/
