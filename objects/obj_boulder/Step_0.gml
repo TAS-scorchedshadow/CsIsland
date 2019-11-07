@@ -1,109 +1,133 @@
 /// @description Check player direction
+move_direction = ""
 if boulder_moving = false //check if bush is moving
 {
 	if keyboard_check_pressed(ord("E"))
 	{
-		//push boulder to the right
-		if global.facing_direction == directions.right and place_meeting(x-32,y,obj_player) and (place_free(x+64,y) or place_meeting(x+64,y,obj_bush))//check if there is a spot for the boulder to be pushed into
-		{
-			if !position_meeting(x+64,y,obj_boulder) and !position_meeting(x+64,y,obj_snakehead) //check if there is a boulder or flamingo on the bush
+		//push boulder right
+		if global.facing_direction == directions.right and place_meeting(x-32,y,obj_player)
+		{	
+			if position_meeting(x+move,y,obj_bush) and !position_meeting(x+move,y,obj_solid)
 			{
-				if position_meeting(x+64,y,obj_bush)   //there is a bush, check if the bush is fully grown or not
+				var object_bush = instance_position(x+move,y,obj_bush)
+				if object_bush.image_index != 2
 				{
-					var object_bush = instance_position(x+64,y,obj_bush)
-					if object_bush.image_index != 2
-					{
-						boulder_moving = true
-						xx = 1
-						yy = 0;
-						alarm[0] = 1
-					}
+					move_direction = directions.right
 				}
-				else
+			}
+			else if position_meeting(x+move,y,obj_button)
+			{
+				var object_button = instance_position(x+move,y,obj_button)
+				if object_button.pressed == false
 				{
-					boulder_moving = true
-					xx = 1
-					yy = 0;
-					alarm[0] = 1
+					move_direction = directions.right
 				}
+			}
+			else if !place_meeting(x+move,y,obj_solid)
+			{
+				move_direction = directions.right
 			}
 		}
-		//bush boulder to the left
-		if global.facing_direction == directions.left and place_meeting(x+32,y,obj_player) and (place_free(x-64,y) or place_meeting(x-64,y,obj_bush))
+		//bush boulder left
+		if global.facing_direction == directions.left and place_meeting(x+32,y,obj_player)
 		{
-			if !position_meeting(x-64,y,obj_boulder) and !position_meeting(x-64,y,obj_snakehead)
+			if position_meeting(x-move,y,obj_bush) and !position_meeting(x-move,y,obj_solid)
 			{
-				if place_meeting(x-64,y,obj_bush)
+				var object_bush = instance_position(x-move,y,obj_bush)
+				if object_bush.image_index != 2
 				{
-					var object_bush = instance_position(x-64,y,obj_bush)
-					if object_bush.image_index != 2
-					{
-						boulder_moving = true
-						xx = -1
-						yy = 0;
-						alarm[0] = 1
-					}
-				}
-				else
-				{
-					boulder_moving = true
-					xx = -1
-					yy = 0;
-					alarm[0] = 1
+					move_direction = directions.left
 				}
 			}
-			
+			else if position_meeting(x-move,y,obj_button)
+			{
+				var object_button = instance_position(x-move,y,obj_button)
+				if object_button.pressed == false
+				{
+					move_direction = directions.left
+				}
+			}
+			else if !place_meeting(x-move,y,obj_solid)
+			{
+				move_direction = directions.left
+			}
 		}
 		//push boulder down
-		if global.facing_direction == directions.down and place_meeting(x,y-32,obj_player) and (place_free(x,y+64) or place_meeting(x,y+64,obj_bush))
+		if global.facing_direction == directions.down and place_meeting(x,y-32,obj_player)
 		{
-			if !position_meeting(x,y+64,obj_boulder) and !position_meeting(x,y+64,obj_snakehead)
+			if position_meeting(x,y+move,obj_bush) and !position_meeting(x,y+move,obj_solid)
 			{
-				if place_meeting(x,y+64,obj_bush){
-					var object_bush = instance_position(x,y+64,obj_bush)
-					if object_bush.image_index != 2
-					{
-						boulder_moving = true
-						xx = 0
-						yy = 1;
-						alarm[0] = 1
-					}
-				}
-				else
+				var object_bush = instance_position(x,y+move,obj_bush)
+				if object_bush.image_index != 2
 				{
-					boulder_moving = true
-					xx = 0
-					yy = 1;
-					alarm[0] = 1
+					move_direction = directions.down
 				}
 			}
-			
+			else if position_meeting(x,y+move,obj_button)
+			{
+				var object_button = instance_position(x,y+move,obj_button)
+				if object_button.pressed == false
+				{
+					move_direction = directions.down
+				}
+			}
+			else if !place_meeting(x,y+move,obj_solid)
+			{
+				move_direction = directions.down
+			}
 		}
 		//push boulder up
-		if global.facing_direction == directions.up and place_meeting(x,y+32,obj_player) and (place_free(x,y-64) or place_meeting(x,y-64,obj_bush))
+		if global.facing_direction == directions.up and place_meeting(x,y+32,obj_player)
 		{
-			if !position_meeting(x,y-64,obj_boulder) and !position_meeting(x,y-64,obj_snakehead)
+			if position_meeting(x,y-move,obj_bush) and !position_meeting(x,y-move,obj_solid)
 			{
-				if place_meeting(x,y-64,obj_bush){
-					var object_bush = instance_position(x,y-64,obj_bush)
-					if object_bush.image_index != 2
-					{
-						boulder_moving = true
-						xx = 0
-						yy = -1;
-						alarm[0] = 1
-					}
-				}
-				else
+				var object_bush = instance_position(x,y-move,obj_bush)
+				if object_bush.image_index != 2
 				{
-					boulder_moving = true
-					xx = 0
-					yy = -1;
-					alarm[0] = 1
+					move_direction = directions.up
 				}
 			}
-			
+			else if position_meeting(x,y-move,obj_button)
+			{
+				var object_button = instance_position(x,y-move,obj_button)
+				if object_button.pressed == false
+				{
+					move_direction = directions.up
+				}
+			}
+			else if !place_meeting(x,y-move,obj_solid)
+			{
+				move_direction = directions.up
+			}
 		}
 
 	}
+}
+if move_direction == directions.right
+{
+	boulder_moving = true;
+	xx = 1;
+	yy = 0;
+	alarm[0] = 1;
+}
+if move_direction == directions.left
+{
+	boulder_moving = true;
+	xx = -1;
+	yy = 0;
+	alarm[0] = 1;
+}
+if move_direction == directions.up
+{
+	boulder_moving = true;
+	xx = 0;
+	yy = -1;
+	alarm[0] = 1;
+}
+if move_direction == directions.down
+{
+	boulder_moving = true;
+	xx = 0;
+	yy = 1;
+	alarm[0] = 1;
 }

@@ -2,7 +2,7 @@
     "id": "efb79cfa-4128-459d-9026-8ebda42b9da4",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_musicsnake_control",
+    "name": "obj_music_control",
     "eventList": [
         {
             "id": "c150c756-189c-4577-917e-57e2cc922c44",

@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "14f1e39c-4906-4873-80a0-a6ff242fcb97",
+            "Value": {
+                "id": "076b4c33-132e-479a-9ccd-d863eeccf0d8",
+                "resourcePath": "sprites\/spr_mat\/spr_mat.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "15420abf-3511-4f69-a632-f9cae1725d1d",
             "Value": {
                 "id": "6dea0783-52b2-44b6-a9a0-c3a0e2fa2dda",
@@ -575,6 +583,14 @@
             }
         },
         {
+            "Key": "4dfe5ec3-4adc-4b03-a826-9e3bc502ff64",
+            "Value": {
+                "id": "a5d8350a-5ad3-47aa-89f1-719308b5bb05",
+                "resourcePath": "objects\/obj_music_mat\/obj_music_mat.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4ec92fe3-9668-4915-b006-e5d69ca039a0",
             "Value": {
                 "id": "62b29f00-dcae-4739-9812-961591fc7d93",
@@ -719,6 +735,14 @@
             }
         },
         {
+            "Key": "67289a66-0e11-48ef-9301-54d2a853ca49",
+            "Value": {
+                "id": "17958fe4-b98a-4c09-80ff-6794196d0808",
+                "resourcePath": "sprites\/spr_sleeping\/spr_sleeping.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "67724904-266a-419e-844f-e4f04f7e8b41",
             "Value": {
                 "id": "d420d94f-ae25-4edf-a837-2988c4a2cf88",
@@ -844,6 +868,14 @@
                 "id": "c2c6bd2c-0d2e-4c3b-9938-9c4498b77849",
                 "resourcePath": "views\/74ec4025-d9fc-41dd-93ae-febd7d011ea0.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "75c237d1-51b9-4bcd-b05d-ccbd1e1bab43",
+            "Value": {
+                "id": "ddbb9be8-f5c7-48f7-88f2-c3e4344e5003",
+                "resourcePath": "objects\/obj_sleep_flamingo\/obj_sleep_flamingo.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1490,7 +1522,7 @@
             "Key": "efb79cfa-4128-459d-9026-8ebda42b9da4",
             "Value": {
                 "id": "88e1483a-1995-426f-97c7-f89598b28ea5",
-                "resourcePath": "objects\/obj_musicsnake_control\/obj_musicsnake_control.yy",
+                "resourcePath": "objects\/obj_music_control\/obj_music_control.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1546,7 +1578,7 @@
             "Key": "f6e9f43b-28b0-43f6-bdb7-14174a65f1a5",
             "Value": {
                 "id": "bcf273a2-8318-4d1f-b07c-7d8a311d4442",
-                "resourcePath": "scripts\/rythm_snake\/rythm_snake.yy",
+                "resourcePath": "scripts\/rythm_start\/rythm_start.yy",
                 "resourceType": "GMScript"
             }
         },

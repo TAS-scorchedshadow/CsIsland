@@ -12,5 +12,5 @@ box_y1 = y - sprite_width - box_h
 box_x2 = box_x1 + box_w
 box_y2 = box_y1 + box_h
 box_message_x1 = box_x1 + 10
-box_message_y1 = box_y1 + 22
+box_message_y1 = box_y1 + 15
 

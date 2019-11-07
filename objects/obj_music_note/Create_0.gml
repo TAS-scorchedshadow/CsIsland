@@ -1,2 +1,2 @@
 /// @description
-draw_self()
+depth = -120

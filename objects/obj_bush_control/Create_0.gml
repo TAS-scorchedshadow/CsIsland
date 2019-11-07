@@ -1,6 +1,7 @@
 /// @description Setting variables
 // You must set global.no_cut in creation code (else things break)
 global.bush_cut = false
+global.can_flute = true
 bush_map = ds_grid_create(100,2);  //  (x-value of grid = instance_id) , (y-value of grid = image_index)
 boulder_map = ds_grid_create(100,3);
 flamingo_map = ds_grid_create(100,3);
