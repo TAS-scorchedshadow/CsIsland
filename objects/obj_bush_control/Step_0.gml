@@ -71,7 +71,7 @@ if global.bush_reset = true{    //Reset the layout of the bushes
 	global.bush_reset = false
 }
 // Reset player position when flute is used
-if global.selecteditem == 1
+if global.selecteditem == 2
 {
 	if keyboard_check_pressed(ord("E"))
 	{

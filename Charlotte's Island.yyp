@@ -1479,6 +1479,14 @@
             }
         },
         {
+            "Key": "e8d09646-4f40-48c4-b1d8-737fd4f4494d",
+            "Value": {
+                "id": "821ffda2-b0bf-4e5b-8367-c01aa72fceaa",
+                "resourcePath": "sounds\\sfx_boop\\sfx_boop.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "eb06c536-c78b-4906-9143-f5f0158dd9b1",
             "Value": {
                 "id": "3b708ea9-757d-4465-86be-a09440e195ac",
