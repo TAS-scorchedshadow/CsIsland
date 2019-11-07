@@ -1,6 +1,7 @@
 /// @description 
 ///@description Getting Avaliable Directions
-if global.selecteditem == 2 and moving = false{
+if global.selecteditem == 1 and moving = false{
+image_index = 1;
 	if keyboard_check_pressed(ord("W"))
 	{
 		if position_meeting(x,y-move,obj_bush) and !position_meeting(x,y-move,obj_solid)
@@ -9,6 +10,7 @@ if global.selecteditem == 2 and moving = false{
 			if object_bush.image_index != 2
 			{
 				moving = true;
+				audio_play_sound(sfx_boop,0,false);
 				i = 0
 				xx = 0;
 				yy = -1;
@@ -20,6 +22,7 @@ if global.selecteditem == 2 and moving = false{
 			if object_button.pressed == false
 			{
 				moving = true;
+				audio_play_sound(sfx_boop,0,false);
 				i = 0
 				xx = 0;
 				yy = -1;
@@ -28,6 +31,7 @@ if global.selecteditem == 2 and moving = false{
 		else if position_empty(x,y-move)
 		{
 			moving = true;
+			audio_play_sound(sfx_boop,0,false);
 			i = 0
 			xx = 0;
 			yy = -1;
@@ -41,6 +45,7 @@ if global.selecteditem == 2 and moving = false{
 			if object_bush.image_index != 2
 			{
 				moving = true;
+				audio_play_sound(sfx_boop,0,false);
 				i = 0
 				xx = 1;
 				yy = 0;
@@ -52,6 +57,7 @@ if global.selecteditem == 2 and moving = false{
 			if object_button.pressed == false
 			{
 				moving = true;
+				audio_play_sound(sfx_boop,0,false);
 				i = 0
 				xx = 1;
 				yy = 0;
@@ -60,6 +66,7 @@ if global.selecteditem == 2 and moving = false{
 		else if position_empty(x+move,y)
 		{
 			moving = true;
+			audio_play_sound(sfx_boop,0,false);
 			i = 0
 			xx = 1;
 			yy = 0;
@@ -73,6 +80,7 @@ if global.selecteditem == 2 and moving = false{
 			if object_bush.image_index != 2
 			{
 				moving = true;
+				audio_play_sound(sfx_boop,0,false);
 				i = 0
 				xx = 0;
 				yy = 1;
@@ -84,6 +92,7 @@ if global.selecteditem == 2 and moving = false{
 			if object_button.pressed == false
 			{
 				moving = true;
+				audio_play_sound(sfx_boop,0,false);
 				i = 0
 				xx = 0;
 				yy = 1;
@@ -92,6 +101,7 @@ if global.selecteditem == 2 and moving = false{
 		else if position_empty(x,y+move)
 		{
 			moving = true;
+			audio_play_sound(sfx_boop,0,false);
 			i = 0
 			xx = 0;
 			yy = 1;
@@ -105,6 +115,7 @@ if global.selecteditem == 2 and moving = false{
 			if object_bush.image_index != 2
 			{
 				moving = true;
+				audio_play_sound(sfx_boop,0,false);
 				i = 0
 				xx = -1;
 				yy = 0;
@@ -116,6 +127,7 @@ if global.selecteditem == 2 and moving = false{
 			if object_button.pressed == false
 			{
 				moving = true;
+				audio_play_sound(sfx_boop,0,false);
 				i = 0
 				xx = -1;
 				yy = 0;
@@ -124,6 +136,7 @@ if global.selecteditem == 2 and moving = false{
 		else if position_empty(x-move,y)
 		{
 			moving = true;
+			audio_play_sound(sfx_boop,0,false);
 			i = 0
 			xx = -1;
 			yy = 0;
@@ -134,6 +147,7 @@ if moving == true
 {
 	if i < 64
 	{
+		image_index = 0
 		i++
 		x += xx
 		y += yy
