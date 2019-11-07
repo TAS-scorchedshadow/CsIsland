@@ -1,1 +1,1 @@
-no_cut = 2
+reset_no = 2
