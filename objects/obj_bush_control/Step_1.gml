@@ -14,4 +14,11 @@ if first_check = false
 		ds_grid_add(boulder_map,i,2,boulder_id.y);
 	}
 	first_check = true
+	for (i = 0; i < (no_flamingo); i += 1)
+	{
+		var flamingo_id = instance_find(obj_snakehead,i);
+		ds_grid_add(flamingo_map,i,0,flamingo_id);
+		ds_grid_add(flamingo_map,i,1,flamingo_id.x);
+		ds_grid_add(flamingo_map,i,2,flamingo_id.y);
+	}
 }

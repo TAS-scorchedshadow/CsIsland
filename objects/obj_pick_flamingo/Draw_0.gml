@@ -14,7 +14,7 @@ if mode = "pick"
 }
 if mode = "lift"
 {
-	if y > -32{
+	if y > obj_camera.y-768{
 	draw_sprite(freeze_sprite,0,x,y+32)
 	draw_self()
 	y -= 5
@@ -51,7 +51,7 @@ if mode = "place"
 }
 if mode = "return"
 {
-	if y > -32
+	if y > obj_camera.y-768
 	{
 		draw_self()
 		y -= 5

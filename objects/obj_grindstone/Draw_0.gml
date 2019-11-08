@@ -1,3 +1,4 @@
+draw_self()
 if draw = true
 {
 	draw_set_font(dnt)
@@ -18,4 +19,3 @@ if d_text == true
 	}
 	
 }
-draw_self()

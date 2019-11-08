@@ -1,2 +1,2 @@
 /// @description Try rythmn snake
-rythm_snake("pre-init","lost_woods_section_1")
+rythm_start("pre-init","lost_woods_section_1")
