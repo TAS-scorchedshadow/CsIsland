@@ -1,7 +1,7 @@
 ///@description Creating Player Object
 ini_open("settings.ini");
 if (room != rm_menu && room !=rm_title && room != rm_start) {
-	var cutscene = ini_read_real("Start","Cutscene",1);
+	var cutscene = ini_read_real("Start","Cutscene",0);
 	if cutscene != 0
 	{
 			if from_menu == false

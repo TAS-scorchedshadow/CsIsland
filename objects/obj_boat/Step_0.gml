@@ -16,6 +16,9 @@ if single = false
 	{
 		instance_create_layer(x + 200,y,"Instances",obj_player)
 		obj_camera.follow = obj_player;
+		ini_open("settings.ini");
+		ini_write_real("Start","Cutscene",1);
+		ini_close();
 		single = true;
 		image_index = 1;
 	}
