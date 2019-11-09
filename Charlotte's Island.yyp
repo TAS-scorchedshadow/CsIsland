@@ -919,6 +919,14 @@
             }
         },
         {
+            "Key": "7c668438-ea94-4eac-98ce-9cd056217638",
+            "Value": {
+                "id": "e8f1bfd7-d617-47e6-9338-39b0f881fa89",
+                "resourcePath": "sounds\/msc_lost_woods_full\/msc_lost_woods_full.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "7dbbc6d7-2ffc-4f78-bc1e-f27bd63c39de",
             "Value": {
                 "id": "8e335d6b-e0f2-4a18-96d3-2f99daf3b4ad",
@@ -1498,7 +1506,7 @@
             "Key": "e8d09646-4f40-48c4-b1d8-737fd4f4494d",
             "Value": {
                 "id": "821ffda2-b0bf-4e5b-8367-c01aa72fceaa",
-                "resourcePath": "sounds\\sfx_boop\\sfx_boop.yy",
+                "resourcePath": "sounds\/sfx_boop\/sfx_boop.yy",
                 "resourceType": "GMSound"
             }
         },

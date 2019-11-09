@@ -1,2 +1,3 @@
 /// @description
-alarm_start = true
+alarm[0] = 1
+note_no += 1

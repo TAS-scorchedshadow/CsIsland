@@ -2,20 +2,28 @@
 if mode == "init_2"
 {
 	global.music_score = ""
-	for (i = 0; i <= 10; i += 1)
-	{
-		if ds_grid_get(music,i,0) == "lost_woods_section_1"
-			{
-				beat_map = ds_list_create();
-				tempo = 120/240; //Tempo is in beats per second
-				ds_list_add(beat_map,1,0.5,0.5,1,0.5,0.5,1,0.5,0.5,0.5,0.5,1,0.5,0.5,0.5,0.5)
-				note_no = 0
-				mode = "start";
-				play_music = msc_lost_woods
-				alarm[2] = 60
-				alarm[1] = 405
-			}
-	}
+	if song == "lost_woods_section_1"
+		{
+			beat_map = ds_list_create();
+			tempo = 1/2; //Tempo is in seconds per whole note
+			ds_list_add(beat_map,1,0.5,0.5,1,0.5,0.5,1,0.5,0.5,0.5,0.5,1,0.5,0.5,0.5,0.5)
+			note_no = 0
+			mode = "start";
+			play_music = msc_lost_woods
+			alarm[2] = 60
+			alarm[1] = 300
+		}
+	if song == "lost_woods_full"
+		{
+			beat_map = ds_list_create();
+			tempo = 3/5; //Tempo is in seconds per whole note
+			ds_list_add(beat_map,1,0.5,0.5,1,0.5,0.5,1,0.5,0.5,0.5,0.5,1,0.5,0.5,0.5,0.5,2.5,0.5,0.5,0.5,3,0.5,0.5,1,0.5,0.5,1,0.5,0.5,0.5,0.5,1,0.5,0.5,0.5,0.5,2.5,0.5,0.5,0.5,3,0.5,0.5,1,0.5,0.5,1,0.5,0.5,3,0.5,0.5,1,0.5,0.5,1,0.5,0.5,3,0.5,0.5,1,0.5,0.5,1,0.5,0.5,3,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.25,0.5,0.25,7)
+			note_no = 0
+			mode = "start";
+			play_music = msc_lost_woods_full
+			alarm[2] = 60  //delay before 1st note is created
+			alarm[1] = 300 //delay before song starts
+		}
 }
 if mode == "start"
 {
@@ -36,7 +44,7 @@ if mode == "start"
 	}
 	if song_playing == true
 	{
-		if !audio_is_playing(msc_lost_woods)
+		if !audio_is_playing(msc_lost_woods) and !audio_is_playing(msc_lost_woods_full)
 		{
 			with (obj_music_note_check)
 			{
