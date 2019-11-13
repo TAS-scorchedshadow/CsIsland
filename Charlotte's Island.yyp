@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "14ca3922-b381-4efd-8e71-5125d839ac17",
+            "Value": {
+                "id": "d6b92c1e-320c-474e-bb57-9ed50b8889ed",
+                "resourcePath": "sounds\\sfx_grassfoot\\sfx_grassfoot.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "14f1e39c-4906-4873-80a0-a6ff242fcb97",
             "Value": {
                 "id": "076b4c33-132e-479a-9ccd-d863eeccf0d8",

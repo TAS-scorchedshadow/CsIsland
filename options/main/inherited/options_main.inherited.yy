@@ -6,6 +6,38 @@
     "option_sci_usesci": true
 }←1225f6b0-ac20-43bd-a82e-be73fa0b6f4f|{
     "targets": 461609314234257646
+}←7fa50043-cea6-4cd0-9521-a8ba8c6ea9f0|{
+    "audioGroups": {
+        "Additions": [
+            {
+                "Key": 1,
+                "Value": {
+                    "id": "2a402021-5a00-47b8-be52-0e997218c5e0",
+                    "modelName": "GMAudioGroup",
+                    "mvc": "1.0",
+                    "groupName": "walking",
+                    "targets": 461609314234257646
+                }
+            },
+            {
+                "Key": 2,
+                "Value": {
+                    "id": "afa1e04e-f5a4-4c0d-8e52-85396d1594fb",
+                    "modelName": "GMAudioGroup",
+                    "mvc": "1.0",
+                    "groupName": "walking1",
+                    "targets": 461609314234257646
+                }
+            }
+        ],
+        "Checksum": "濑Ⱥ朦씁ᬄ縈",
+        "Deletions": [
+            
+        ],
+        "Ordering": [
+            
+        ]
+    }
 }←7b2c4976-1e09-44e5-8256-c527145e03bb|{
     "targets": 461609314234257646
 }

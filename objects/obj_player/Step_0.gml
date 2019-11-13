@@ -68,6 +68,8 @@ if (right-left) == -1
 if VMove == 0 and HMove == 0
 {
 	image_speed = 1
+	ticks_moved = 0;
+	audio_stop_sound(sfx_grassfoot)
 	switch(global.facing_direction)
 	{
 		case directions.right:
@@ -87,6 +89,11 @@ if VMove == 0 and HMove == 0
 else
 {
 	image_speed = 2
+	ticks_moved ++
+	if (audio_is_playing(sfx_grassfoot) == false && ticks_moved >= 30) 
+	{
+		audio_play_sound(sfx_grassfoot,0,false)
+	};
 	switch(global.facing_direction)
 	{
 	case directions.right:
@@ -101,6 +108,7 @@ else
 	case directions.up:
 		sprite_index = spr_player_walkU;
 		break;
+		
 	}
 
 }
