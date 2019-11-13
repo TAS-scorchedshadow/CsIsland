@@ -1,2 +1,2 @@
 global.selectedbutton ++
-if global.selectedbutton > 2 global.selectedbutton = 0
+if global.selectedbutton > 3 global.selectedbutton = 0

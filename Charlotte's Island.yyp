@@ -815,6 +815,14 @@
             }
         },
         {
+            "Key": "6f4b3aa9-6e2a-49b4-acc4-3966f94a4701",
+            "Value": {
+                "id": "89f83503-e31f-48fa-b4bc-0b057a9a2c41",
+                "resourcePath": "objects\\obj_music_type\\obj_music_type.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "706daf2e-036d-430f-a5c6-84efde3446db",
             "Value": {
                 "id": "25abc463-8f9f-4e85-a9da-9a9051bb3357",

@@ -1,0 +1,2 @@
+ds_grid_destroy(songlist)
+ds_grid_destroy(folk_songlist)
