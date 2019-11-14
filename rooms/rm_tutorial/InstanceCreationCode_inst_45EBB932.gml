@@ -1,0 +1,1 @@
+box_message = "Grindstones reset puzzles as well as sharpening your bush knife."

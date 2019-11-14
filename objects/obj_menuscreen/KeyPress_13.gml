@@ -1,6 +1,6 @@
-if global.selectedbutton = 0 room_goto(rm_title);
+if global.selectedbutton = obj_return.buttonid room_goto(rm_title);
 
-if global.selectedbutton = 1 
+if global.selectedbutton = obj_fullscreen.buttonid 
 {
 	  if window_get_fullscreen()
       {
@@ -11,7 +11,7 @@ if global.selectedbutton = 1
       window_set_fullscreen(true);
       }
 }
-if global.selectedbutton = 3
+if global.selectedbutton = obj_music.buttonid
 {
 	audio_stop_all();
 	var music = folk_songlist;

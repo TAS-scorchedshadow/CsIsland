@@ -5,14 +5,7 @@ var left = keyboard_check(ord("A"));
 var right = keyboard_check(ord("D"));				
 var up = keyboard_check(ord("W"));	
 var down = keyboard_check(ord("S"));
-}
-else
-{
-right = 0
-left = 0
-up = 0
-down = 0
-}
+
 HMove += (right-left) * ASpeed;
 VMove += (down-up) * ASpeed;
 VMove = clamp(VMove,-max_speed,max_speed);
@@ -69,7 +62,7 @@ if VMove == 0 and HMove == 0
 {
 	image_speed = 1
 	ticks_moved = 0;
-	audio_stop_sound(sfx_grassfoot)
+	audio_sound_gain(sfx_grassfoot,0,200);
 	switch(global.facing_direction)
 	{
 		case directions.right:
@@ -90,9 +83,10 @@ else
 {
 	image_speed = 2
 	ticks_moved ++
-	if (audio_is_playing(sfx_grassfoot) == false && ticks_moved >= 30) 
+	if (audio_is_playing(sfx_grassfoot) == false && ticks_moved >= 10) 
 	{
 		audio_play_sound(sfx_grassfoot,0,false)
+		audio_sound_gain(sfx_grassfoot,1,500);
 	};
 	switch(global.facing_direction)
 	{
@@ -111,4 +105,10 @@ else
 		
 	}
 
+}
+}
+
+if audio_sound_get_gain(sfx_grassfoot) <= 0
+{
+	audio_stop_sound(sfx_grassfoot)
 }

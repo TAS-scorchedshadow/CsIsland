@@ -1,0 +1,1 @@
+box_message = "You can push boulders by pressing [E]. It won't blunt blunt your knife."

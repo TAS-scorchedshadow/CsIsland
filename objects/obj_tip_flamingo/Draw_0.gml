@@ -11,6 +11,8 @@ if display_text = true
 {
    draw	= false
    draw_set_alpha(alpha - 0.1)
+   draw_set_color(c_fuchsia)
+   draw_rectangle(box_x1-2,box_y1-2,box_x2+2,box_y2+2, false)
    draw_set_color(c_white)
    draw_rectangle(box_x1,box_y1,box_x2,box_y2, false) //try true for last argument
    draw_set_halign(fa_left)

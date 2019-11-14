@@ -3,7 +3,7 @@
     "modelName": "GMSound",
     "mvc": "1.0",
     "name": "msc_lost_woods_full",
-    "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
+    "audioGroupGuid": "12874233-9cbe-4300-a056-251b8d2eff0b",
     "bitDepth": 1,
     "bitRate": 128,
     "kind": 0,

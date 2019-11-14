@@ -12,20 +12,10 @@
             {
                 "Key": 1,
                 "Value": {
-                    "id": "2a402021-5a00-47b8-be52-0e997218c5e0",
+                    "id": "12874233-9cbe-4300-a056-251b8d2eff0b",
                     "modelName": "GMAudioGroup",
                     "mvc": "1.0",
-                    "groupName": "walking",
-                    "targets": 461609314234257646
-                }
-            },
-            {
-                "Key": 2,
-                "Value": {
-                    "id": "afa1e04e-f5a4-4c0d-8e52-85396d1594fb",
-                    "modelName": "GMAudioGroup",
-                    "mvc": "1.0",
-                    "groupName": "walking1",
+                    "groupName": "group_music",
                     "targets": 461609314234257646
                 }
             }

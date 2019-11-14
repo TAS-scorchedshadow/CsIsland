@@ -711,6 +711,14 @@
             }
         },
         {
+            "Key": "61c3462b-ff26-41c0-b163-cf598095fea0",
+            "Value": {
+                "id": "a1de4d8c-e14f-44d4-98fc-d617e1a58f8e",
+                "resourcePath": "objects\\obj_music_level\\obj_music_level.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "61fad855-b84a-423d-9c0d-4d702780cff9",
             "Value": {
                 "id": "89a6bfe1-61b6-42ca-ac0c-1a86dd432640",
