@@ -367,6 +367,14 @@
             }
         },
         {
+            "Key": "2ff5b8d4-e9d0-4709-8ffa-2cab7ccb5034",
+            "Value": {
+                "id": "a1f8d693-81a3-48f1-bca8-6060a807b159",
+                "resourcePath": "sprites\\spr_music_nuil\\spr_music_nuil.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3187bd59-e0b5-4d1c-9416-2ded7a942749",
             "Value": {
                 "id": "9149608e-8a34-45fe-8000-46281df96edf",
@@ -527,6 +535,14 @@
             }
         },
         {
+            "Key": "443ad6c4-5187-4eb3-80c4-7390620a4eea",
+            "Value": {
+                "id": "c6f3040e-b838-4a0a-a83a-590bba022a12",
+                "resourcePath": "sprites\\spr_music_cover2\\spr_music_cover2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "465195b6-ba29-45eb-9749-645019411a18",
             "Value": {
                 "id": "91d21757-5953-4c79-a902-15abfa5be38d",
@@ -572,6 +588,14 @@
                 "id": "e3e23e88-e9bc-4ac5-b743-e89744ae6e81",
                 "resourcePath": "sounds\/msc_IsabellaLullaby\/msc_IsabellaLullaby.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "4b30815b-6c9f-4fe5-868e-e0a2aab2dfdc",
+            "Value": {
+                "id": "c1b35855-e964-4469-92f8-8450988dbeb0",
+                "resourcePath": "sprites\\spr_menuscreen\\spr_menuscreen.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -916,6 +940,14 @@
                 "id": "1f789289-4ca5-41c7-8802-f43521bf85a3",
                 "resourcePath": "views\/77788b10-0628-4df9-ac80-dff8da48fb50.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "791eb005-6d2c-48ae-9ad4-c9788a19c57e",
+            "Value": {
+                "id": "c7c8c2bd-749a-44e3-88ad-fa844cab1347",
+                "resourcePath": "fonts\\dnt_larger\\dnt_larger.yy",
+                "resourceType": "GMFont"
             }
         },
         {

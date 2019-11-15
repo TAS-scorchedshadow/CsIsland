@@ -10,7 +10,7 @@ if global.selectedbutton = 2
 if global.selectedbutton = obj_music_type.buttonid album --
 
 //Music Selection
-if global.selectedbutton = obj_music.buttonid song --
+if global.selectedbutton = 4 song --
 
 if album < 0 album = 2;
 

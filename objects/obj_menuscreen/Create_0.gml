@@ -2,7 +2,7 @@ global.selectedbutton = 0;
 
 //Intialise Menu
 menux = 1400
-menuy = 400
+menuy = 500
 ini_open("settings.ini")
 song = ini_read_real("Audio", "Current Song", noone);
 album = ini_read_real("Audio", "Music Group", 1);

@@ -11,7 +11,7 @@ if global.selectedbutton = obj_fullscreen.buttonid
       window_set_fullscreen(true);
       }
 }
-if global.selectedbutton = obj_music.buttonid
+if global.selectedbutton = 4
 {
 	audio_stop_all();
 	var music = folk_songlist;

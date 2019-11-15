@@ -7,7 +7,7 @@ if global.selectedbutton = 2
 
 if global.selectedbutton = obj_music_type.buttonid  album ++
 
-if global.selectedbutton = obj_music.buttonid 
+if global.selectedbutton = 4
 {
 	song ++
 
