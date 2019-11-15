@@ -6,6 +6,8 @@ fnt_cursive = font_add("gradecursive-2-italic.ttf", 80, false, false, 32, 128);
 //First Open Cutscene
 ini_open("settings.ini")
 cutscene = ini_read_real("Start","Cutscene",0);
+music_level = ini_read_real("Audio", "Music Level", 0.3);
+audio_group_set_gain(group_music,music_level,500);
 
 if cutscene == 0
 {

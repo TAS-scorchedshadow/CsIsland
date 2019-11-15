@@ -44,7 +44,7 @@ if mode == "start"
 	}
 	if song_playing == true
 	{
-		if !audio_is_playing(msc_lost_woods) and !audio_is_playing(msc_lost_woods_full)
+		if !audio_is_playing(play_music)
 		{
 			with (obj_music_note_check)
 			{

@@ -1,2 +1,2 @@
-buttonid = 4
-text = "Select Music"
+buttonid = 1
+text = "Fullscreen"
