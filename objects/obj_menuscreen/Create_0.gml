@@ -11,22 +11,7 @@ audio_group_set_gain(group_music,music_level,0);
 ini_close();
 
 
-//Folk Music
-
-folk_songlist = ds_grid_create(4,2);
-
-ds_grid_add(folk_songlist,0,0,"Fly Like a Bird") //0
-ds_grid_add(folk_songlist,0,1,msc_Fly_Like_A_Bird) //0
-
-ds_grid_add(folk_songlist,1,0,"Walking Back to You") 
-ds_grid_add(folk_songlist,1,1,msc_My_Shoes_Keep_Walking_Back_To_You);
-
-ds_grid_add(folk_songlist,2,0,"From A Jack To A King") 
-ds_grid_add(folk_songlist,2,1,msc_From_A_Jack_To_A_King);
-
-ds_grid_add(folk_songlist,3,0,"Island Welcome") 
-ds_grid_add(folk_songlist,3,1,msc_Welcome_To_Norfolk);
-
+folk_songlist = obj_musiccontroller.folk_songlist
 
 
 //Alternative Music
