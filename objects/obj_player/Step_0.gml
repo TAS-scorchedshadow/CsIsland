@@ -81,12 +81,11 @@ if VMove == 0 and HMove == 0
 }
 else
 {
-	image_speed = 2
+	image_speed = 3
 	ticks_moved ++
-	if (audio_is_playing(sfx_grassfoot) == false && ticks_moved >= 10) 
+	if (audio_is_playing(sfx_footstep_grass) == false) 
 	{
-		audio_play_sound(sfx_grassfoot,0,false)
-		audio_sound_gain(sfx_grassfoot,1,500);
+		audio_play_sound(sfx_footstep_grass,0,false)
 	};
 	switch(global.facing_direction)
 	{
@@ -108,7 +107,3 @@ else
 }
 }
 
-if audio_sound_get_gain(sfx_grassfoot) <= 0
-{
-	audio_stop_sound(sfx_grassfoot)
-}
