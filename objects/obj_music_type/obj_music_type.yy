@@ -1,18 +1,28 @@
 {
-    "id": "4ec92fe3-9668-4915-b006-e5d69ca039a0",
+    "id": "6f4b3aa9-6e2a-49b4-acc4-3966f94a4701",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_music",
+    "name": "obj_music_type",
     "eventList": [
         {
-            "id": "04797114-9b13-40cd-80d6-d043d26c57bf",
+            "id": "1640f287-4b03-4bad-b796-220489908f58",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "4ec92fe3-9668-4915-b006-e5d69ca039a0"
+            "m_owner": "6f4b3aa9-6e2a-49b4-acc4-3966f94a4701"
+        },
+        {
+            "id": "84261d2e-6ea0-424f-8377-18ee80bf6add",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "6f4b3aa9-6e2a-49b4-acc4-3966f94a4701"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
