@@ -13,8 +13,11 @@ if global.selectedbutton = obj_fullscreen.buttonid
 }
 if global.selectedbutton = 4
 {
-	audio_stop_all();
-	var music = folk_songlist;
-	if album = 2 music = songlist
-	audio_play_sound(ds_grid_get(music,song,1),0,false);
+	ini_open("settings.ini")
+	ini_write_real("Audio", "Current Song",song);
+	ini_write_real("Audio", "Music Group", album);
+	ini_close();
+
+
+	obj_musiccontroller.alarm[0] = 1;
 }
