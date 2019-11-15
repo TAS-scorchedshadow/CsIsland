@@ -15,6 +15,7 @@ ASpeed = 0.5 //Accelration constant (ASpeed must be greater than DSpeed)
 DSpeed = 0.5 //Deceleration constant (Lowest is slippery)
 max_speed = 4; //Max Speed
 ticks_moved = 0;
+to_settings = false;
 global.checkpoint_x = x
 global.checkpoint_y = y
 

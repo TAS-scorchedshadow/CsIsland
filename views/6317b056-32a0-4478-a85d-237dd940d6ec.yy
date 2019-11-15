@@ -12,7 +12,8 @@
         "410cc650-bf4a-43b6-8c80-18420a1f96f6",
         "103748fd-b653-4ffa-ad5d-13bcdc1354c3",
         "72aa97a1-2ba2-48bb-912d-4b8e167c670a",
-        "67289a66-0e11-48ef-9301-54d2a853ca49"
+        "67289a66-0e11-48ef-9301-54d2a853ca49",
+        "79fd9f6d-b9a0-4fbb-9113-22a00ef107c9"
     ],
     "filterType": "GMSprite",
     "folderName": "Flamingle",

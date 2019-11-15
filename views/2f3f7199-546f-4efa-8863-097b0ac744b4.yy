@@ -11,8 +11,10 @@
         "80ccc933-ac19-49b6-8309-231d03c1ff91",
         "d501ea75-9db7-46ee-8183-63a415afd84a",
         "f6155f1a-8f88-400b-8d97-716882c3c26e",
-        "fc9c5860-8044-4066-9697-0c8037afe29c",
-        "7c668438-ea94-4eac-98ce-9cd056217638"
+        "14a4b923-ecf3-4993-89a8-87fbcffca431",
+        "f35e06c0-137c-4d58-bace-15b60896af8e",
+        "ce3c50f8-f269-45e1-9efe-e74f50fa2f36",
+        "77179ee6-6967-497e-ad50-51e0af1d8442"
     ],
     "filterType": "GMSound",
     "folderName": "Registered Music",
