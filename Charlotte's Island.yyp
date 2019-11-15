@@ -623,14 +623,6 @@
             }
         },
         {
-            "Key": "4ec92fe3-9668-4915-b006-e5d69ca039a0",
-            "Value": {
-                "id": "62b29f00-dcae-4739-9812-961591fc7d93",
-                "resourcePath": "objects\/obj_music\/obj_music.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "50fee8ae-be20-4bb2-8f68-94c106c68c69",
             "Value": {
                 "id": "e2ff5c75-0252-42b8-8364-623e0999dad4",
@@ -668,6 +660,14 @@
                 "id": "3a2e4a99-66e9-4a00-a0de-4dd2bbf9f397",
                 "resourcePath": "rooms\/rm_forest_3\/rm_forest_3.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "5735c1e5-7381-48e7-8e70-2350f07f4d83",
+            "Value": {
+                "id": "0e027967-df8b-497b-b42b-cf33cdba82a0",
+                "resourcePath": "objects\\obj_music\\obj_music.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -739,14 +739,6 @@
             "Value": {
                 "id": "a8463e93-6285-4f1f-8323-57cbca50dd51",
                 "resourcePath": "objects\/obj_bflamingo\/obj_bflamingo.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "61c3462b-ff26-41c0-b163-cf598095fea0",
-            "Value": {
-                "id": "a1de4d8c-e14f-44d4-98fc-d617e1a58f8e",
-                "resourcePath": "objects\\obj_music_level\\obj_music_level.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -860,14 +852,6 @@
                 "id": "529c5f12-2152-4d4d-abb5-b3c08b17fb7d",
                 "resourcePath": "sprites\/spr_pier\/spr_pier.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "6f4b3aa9-6e2a-49b4-acc4-3966f94a4701",
-            "Value": {
-                "id": "89f83503-e31f-48fa-b4bc-0b057a9a2c41",
-                "resourcePath": "objects\\obj_music_type\\obj_music_type.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -1203,14 +1187,6 @@
             "Value": {
                 "id": "fc817fc6-9c54-47c6-ae71-b349c6966585",
                 "resourcePath": "objects\/obj_music_note_check\/obj_music_note_check.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "a26984f8-23f7-45a6-9e6c-1c842c3e05c1",
-            "Value": {
-                "id": "9bab4cf2-fa80-4756-9601-8355e96ef8f7",
-                "resourcePath": "objects\\obj_musiccontroller\\obj_musiccontroller.yy",
                 "resourceType": "GMObject"
             }
         },

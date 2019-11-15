@@ -1,18 +1,18 @@
 {
-    "id": "4ec92fe3-9668-4915-b006-e5d69ca039a0",
+    "id": "5735c1e5-7381-48e7-8e70-2350f07f4d83",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "obj_music",
     "eventList": [
         {
-            "id": "04797114-9b13-40cd-80d6-d043d26c57bf",
+            "id": "0d68d9df-26df-44d4-ba38-d0ab9e6b3b53",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "4ec92fe3-9668-4915-b006-e5d69ca039a0"
+            "m_owner": "5735c1e5-7381-48e7-8e70-2350f07f4d83"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
