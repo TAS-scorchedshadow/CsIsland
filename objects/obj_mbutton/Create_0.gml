@@ -1,2 +1,2 @@
 buttonid = 1
-text = "Menu";
+text = "Settings";

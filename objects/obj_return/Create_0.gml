@@ -1,2 +1,2 @@
 buttonid = 0
-text = "Menu"
+text = "Return To Title"
