@@ -24,6 +24,10 @@ if mode == "lift"
 	}
 	else
 	{
+		with instance_nearest(768,1792,obj_music_mat)
+		{
+			instance_destroy()
+		}
 		obj_player.hascontrol = true
 		instance_destroy();
 	}
@@ -51,10 +55,12 @@ if mode == "speaking2"
 	{
 		box_message = "Once you start playing a song, a faded note and many black notes would appear! (Press [E] so I can keep talking)"
 		draw_mode = "demonstrate"
-		faded_note_x = x - 200
-		faded_note_y = y + 120
-		dark_note_x = x + 600
-		dark_note_y = y + 120
+		var h = display_get_gui_height()
+		var w = display_get_gui_width()
+		faded_note_x = 200
+		faded_note_y = h - 120
+		dark_note_x = w - 100
+		dark_note_y = h - 120
 	}
 	if message_no == 1
 	{
