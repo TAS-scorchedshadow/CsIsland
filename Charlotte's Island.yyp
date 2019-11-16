@@ -911,6 +911,14 @@
             }
         },
         {
+            "Key": "737876aa-6088-46d7-b7e0-8cf1a93ba0ea",
+            "Value": {
+                "id": "be7e7e40-bcf2-46a2-9aea-ca24515900d8",
+                "resourcePath": "sprites\/spr_music_flamingo\/spr_music_flamingo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "74429e5c-af51-41ff-9a49-0357769b996c",
             "Value": {
                 "id": "d66b35fa-a2ee-4371-90d9-55af56680546",

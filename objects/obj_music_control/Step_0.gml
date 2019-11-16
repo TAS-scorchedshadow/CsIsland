@@ -2,6 +2,7 @@
 if mode == "init_2"
 {
 	global.music_score = ""
+	// CHANGE THE VOLUME OF BACKGROUND SONG TO 0 HERE
 	if song == "lost_woods_section_1"
 		{
 			beat_map = ds_list_create();
@@ -19,6 +20,7 @@ if mode == "init_2"
 			tempo = 3/5; //Tempo is in seconds per whole note
 			ds_list_add(beat_map,1,0.5,0.5,1,0.5,0.5,1,0.5,0.5,0.5,0.5,1,0.5,0.5,0.5,0.5,2.5,0.5,0.5,0.5,3,0.5,0.5,1,0.5,0.5,1,0.5,0.5,0.5,0.5,1,0.5,0.5,0.5,0.5,2.5,0.5,0.5,0.5,3,0.5,0.5,1,0.5,0.5,1,0.5,0.5,3,0.5,0.5,1,0.5,0.5,1,0.5,0.5,3,0.5,0.5,1,0.5,0.5,1,0.5,0.5,3,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.25,0.5,0.25,7)
 			note_no = 0
+			
 			mode = "start";
 			play_music = msc_lost_woods_full
 			alarm[2] = 60  //delay before 1st note is created
@@ -53,6 +55,7 @@ if mode == "start"
 			song_playing = false
 			obj_player.hascontrol = true
 			mode = ""
+			// REVERT THE VOLUME OF BACKGROUND MUSIC TO NORMAL HERE
 		}
 	}
 }

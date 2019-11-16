@@ -3,12 +3,15 @@ if mode == "falling"
 {
 	if y < (obj_player.y - 64)
 	{
+		image_speed = 1
 		y += 4
 	}
 	else
 	{
 		mode = "speaking"
 		draw_mode = "speaking"
+		image_speed = 0
+		image_index = 0
 	}
 }
 
@@ -16,6 +19,7 @@ if mode == "lift"
 {
 	if y > (obj_player.y - 400)
 	{
+		image_speed = 1
 		y -= 4
 	}
 	else
