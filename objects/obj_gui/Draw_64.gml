@@ -9,7 +9,7 @@ if (room != rm_menu && room !=rm_title) && instance_exists(obj_player) {
 		draw_rectangle(0,h,w,h-150,false);
 	}
 	
-	else
+	if obj_player.hascontrol = true
 	{
 		draw_set_font(fnt_cursive);
 		//Item GUI

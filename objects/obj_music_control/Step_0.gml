@@ -2,7 +2,8 @@
 if mode == "init_2"
 {
 	global.music_score = ""
-	// CHANGE THE VOLUME OF BACKGROUND SONG TO 0 HERE
+	obj_musiccontroller.flute = true;
+	obj_musiccontroller.alarm[0] = 1;
 	if song == "lost_woods_section_1"
 		{
 			beat_map = ds_list_create();
@@ -55,7 +56,6 @@ if mode == "start"
 			song_playing = false
 			obj_player.hascontrol = true
 			mode = ""
-			// REVERT THE VOLUME OF BACKGROUND MUSIC TO NORMAL HERE
 		}
 	}
 }

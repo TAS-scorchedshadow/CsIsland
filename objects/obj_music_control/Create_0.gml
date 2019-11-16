@@ -12,4 +12,3 @@ ds_grid_add(music,1,1,80/60)
 note_no = 3
 alarm_start = false
 song_playing = false
-depth = -100
