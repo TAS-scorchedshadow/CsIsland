@@ -13,3 +13,5 @@ box_x2 = box_x1 + box_w
 box_y2 = box_y1 + box_h
 box_message_x1 = box_x1 + 10
 box_message_y1 = box_y1 + 15
+message_no = 0
+obj_player.hascontrol = false
