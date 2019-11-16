@@ -762,7 +762,7 @@
             "Key": "62c081db-53a4-409c-8fb9-bab0874d2578",
             "Value": {
                 "id": "82aeff47-c43e-4bb9-ae96-a20deaa2c9bb",
-                "resourcePath": "views\\62c081db-53a4-409c-8fb9-bab0874d2578.yy",
+                "resourcePath": "views\/62c081db-53a4-409c-8fb9-bab0874d2578.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -962,7 +962,7 @@
             "Key": "79fd9f6d-b9a0-4fbb-9113-22a00ef107c9",
             "Value": {
                 "id": "da38cfd1-7356-4713-82ac-e0f66c17d8cc",
-                "resourcePath": "sprites\\sprite61\\sprite61.yy",
+                "resourcePath": "sprites\/sprite61\/sprite61.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1111,6 +1111,14 @@
             }
         },
         {
+            "Key": "8b81bba5-83a9-4baa-a8db-a2480bbe0226",
+            "Value": {
+                "id": "f855142b-b9a4-4ba1-8c1d-fb01c05a5309",
+                "resourcePath": "objects\/obj_tutorial_music_1\/obj_tutorial_music_1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8cabdf9d-870e-4da6-aa46-fc72072f89e6",
             "Value": {
                 "id": "a4e28953-1712-4ca6-98b6-1e627f323aa9",
@@ -1138,7 +1146,7 @@
             "Key": "8f0a874e-d9ff-4804-9a2a-f2334702b541",
             "Value": {
                 "id": "6b46ddbd-aed5-49a6-948c-f730c39c0189",
-                "resourcePath": "objects\\object58\\object58.yy",
+                "resourcePath": "objects\/object58\/object58.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1178,7 +1186,7 @@
             "Key": "9883ae26-2237-44c4-9079-743934e286c9",
             "Value": {
                 "id": "75e50f3a-f30c-481b-8e51-caa0c639bcd5",
-                "resourcePath": "fonts\\dnt_title\\dnt_title.yy",
+                "resourcePath": "fonts\/dnt_title\/dnt_title.yy",
                 "resourceType": "GMFont"
             }
         },
@@ -1218,7 +1226,7 @@
             "Key": "a26984f8-23f7-45a6-9e6c-1c842c3e05c1",
             "Value": {
                 "id": "9bab4cf2-fa80-4756-9601-8355e96ef8f7",
-                "resourcePath": "objects\\obj_musiccontroller\\obj_musiccontroller.yy",
+                "resourcePath": "objects\/obj_musiccontroller\/obj_musiccontroller.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1243,6 +1251,14 @@
             "Value": {
                 "id": "11dab89f-1559-40b4-9283-cb79fc446634",
                 "resourcePath": "objects\/object28\/object28.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a5ef9682-23e0-4b08-8f0f-e5f13797ac56",
+            "Value": {
+                "id": "90604268-5de8-42cb-b9dc-3599bcf4eebf",
+                "resourcePath": "objects\/obj_tutorial_music_2\/obj_tutorial_music_2.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1300,6 +1316,14 @@
                 "id": "bfc05690-6341-4ff6-be70-fe7f4184cab4",
                 "resourcePath": "sounds\/sfx_footstep_grass\/sfx_footstep_grass.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "b2662c3e-ff9c-42d7-8db6-f14645e6e856",
+            "Value": {
+                "id": "5f504251-aa0a-4d0d-b682-8a3bb1e4a245",
+                "resourcePath": "objects\/obj_music_tutorial_trigger\/obj_music_tutorial_trigger.yy",
+                "resourceType": "GMObject"
             }
         },
         {

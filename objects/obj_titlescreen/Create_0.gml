@@ -16,6 +16,12 @@ if cutscene == 0
 }
 ini_close();
 
+//Save checkpoint
+ini_open("settings.ini")
+global.checkpoint_x = ini_read_real("checkpoint","x",0);
+global.checkpoint_y = ini_read_real("checkpoint","y",0);
+ini_close();
+
 ///Save Room Entrance
 //Entrance labeling goes from left-to-right exits on towards y = 0 have priorities 
 ini_open("settings.ini")

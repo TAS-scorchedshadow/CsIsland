@@ -1,1 +1,1 @@
-room_goto(rm_forest_3);
+room_goto(rm_tutorial);

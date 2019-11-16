@@ -5,7 +5,14 @@ var left = keyboard_check(ord("A"));
 var right = keyboard_check(ord("D"));				
 var up = keyboard_check(ord("W"));	
 var down = keyboard_check(ord("S"));
-
+}
+else
+{
+	var left = 0
+	var right = 0			
+	var up = 0
+	var down = 0
+}
 HMove += (right-left) * ASpeed;
 VMove += (down-up) * ASpeed;
 VMove = clamp(VMove,-max_speed,max_speed);
@@ -105,5 +112,5 @@ else
 	}
 
 }
-}
+
 
