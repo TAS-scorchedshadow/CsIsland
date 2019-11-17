@@ -1,5 +1,5 @@
 ///@description draw GUI
-if (room != rm_menu && room !=rm_title) && instance_exists(obj_player) {
+if (room != rm_menu && room !=rm_title && room != rm_play_again) && instance_exists(obj_player) {
 	if blackbars = true
 	{
 		var w = display_get_gui_width();

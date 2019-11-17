@@ -21,7 +21,6 @@ if mode == "init_2"
 			tempo = 3/5; //Tempo is in seconds per whole note
 			ds_list_add(beat_map,1,0.5,0.5,1,0.5,0.5,1,0.5,0.5,0.5,0.5,1,0.5,0.5,0.5,0.5,2.5,0.5,0.5,0.5,3,0.5,0.5,1,0.5,0.5,1,0.5,0.5,0.5,0.5,1,0.5,0.5,0.5,0.5,2.5,0.5,0.5,0.5,3,0.5,0.5,1,0.5,0.5,1,0.5,0.5,3,0.5,0.5,1,0.5,0.5,1,0.5,0.5,3,0.5,0.5,1,0.5,0.5,1,0.5,0.5,3,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.25,0.5,0.25,7)
 			note_no = 0
-			
 			mode = "start";
 			play_music = msc_lost_woods_full
 			alarm[2] = 60  //delay before 1st note is created
@@ -36,7 +35,6 @@ if mode == "start"
 		if note_no >= ds_list_size(beat_map)
 		{
 			alarm_start = false
-			ds_list_destroy(beat_map)
 		}
 		else
 		{
@@ -53,9 +51,48 @@ if mode == "start"
 			{
 				instance_destroy()
 			}
+			ds_list_destroy(beat_map)
 			song_playing = false
 			obj_player.hascontrol = true
+			goal_rank = ""
+			if assigned_mat != ""
+			{
+				with (assigned_mat)
+				{
+					switch (obj_music_control.music_rank)
+					{
+						case "D": rank = letter_rank.D
+						case "C": rank = letter_rank.C
+						case "B": rank = letter_rank.B
+						case "A": rank = letter_rank.A
+						case "S": rank = letter_rank.S
+					}
+				}
+			}
 			mode = ""
+		}
+	}
+	if ds_exists(beat_map, ds_type_list) //grab rank depending on score
+	{
+		if global.total_music_score <= ds_list_size(beat_map) * 50
+		{
+			music_rank = "D"
+		}
+		else if global.total_music_score <= ds_list_size(beat_map) * 100
+		{
+			music_rank = "C"
+		}
+		else if global.total_music_score <= ds_list_size(beat_map) * 200
+		{
+			music_rank = "B"
+		}
+		else if global.total_music_score < ds_list_size(beat_map) * 300
+		{
+			music_rank = "A"
+		}
+		else if global.total_music_score >= ds_list_size(beat_map) * 300
+		{
+			music_rank = "S"
 		}
 	}
 }

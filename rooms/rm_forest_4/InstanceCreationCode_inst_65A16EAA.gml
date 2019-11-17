@@ -1,0 +1,1 @@
+box_message = "Look around, the environment may give you hints on where to cut"

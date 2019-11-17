@@ -6,8 +6,19 @@ if picked_music != ""
 	{
 		if obj_music_control.mode == ""
 		{
-			rythm_start("pre-init",picked_music)
+			rythm_start("pre-init",picked_music,id,assigned_rank)
 		}
 	}
+}
+if rank != ""
+{
+	if rank > assigned_rank
+	{
+		with (assigned_door)
+		{
+			instance_destroy();
+		}
+	}
+	rank = ""
 }
 	

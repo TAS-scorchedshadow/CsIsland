@@ -7,8 +7,9 @@ draw_set_halign(fa_center)
 //Draw Music Wheel
 if album = 0 
 {
-	draw_sprite(spr_music_nuil,0,menux,menuy + 50);
+	
 	draw_text(menux,menuy , "No Track Selected");
+	draw_sprite(spr_music_nuil,0,menux,menuy + 50);
 }
 if album = 1 || album = 2 {
 	var music = folk_songlist;

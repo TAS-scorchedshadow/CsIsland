@@ -58,6 +58,10 @@ ini_open("settings.ini")
 	
 	ini_write_real("rm_forest_3","x2",334); //Enter at middle left
 	ini_write_real("rm_forest_3","y2",2008);
+	
+//rm_forest_4
+	ini_write_real("rm_forest_4","x1",960);
+	ini_write_real("rm_forest_4","y1",4320);
 //rm_flamingle_1
 	ini_write_real("rm_flamingle_1","x1",300);
 	ini_write_real("rm_flamingle_1","y1",300);

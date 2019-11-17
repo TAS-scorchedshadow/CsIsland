@@ -162,7 +162,7 @@
     "origin": 7,
     "originLocked": false,
     "playbackSpeed": 1,
-    "playbackSpeedType": 1,
+    "playbackSpeedType": 0,
     "premultiplyAlpha": false,
     "sepmasks": false,
     "swatchColours": null,
