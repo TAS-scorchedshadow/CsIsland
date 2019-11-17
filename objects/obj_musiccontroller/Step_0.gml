@@ -1,4 +1,4 @@
-if change = true
+if change = true && flute = false
 {
 	
 	ini_open("settings.ini")

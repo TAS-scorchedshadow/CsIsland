@@ -2,6 +2,7 @@ audio_group_load(group_music);
 song = 0
 current_song = noone;
 change = true;
+flute = false;
 
 folk_songlist = ds_grid_create(4,2);	
 

@@ -12,3 +12,8 @@ if draw_mode == "speaking" or draw_mode == "demonstrate"
    draw_set_font(dnt)
    draw_text_ext_color(box_message_x1,box_message_y1,box_message,12,190,c_black,c_black,c_black,c_black,alpha)
 }
+if draw_mode == "demonstrate"
+{
+   draw_sprite_ext(spr_music_note,0,faded_note_x,faded_note_y,1,1,0,c_white,0.1)
+   draw_sprite(spr_music_note,0,dark_note_x,dark_note_y)
+}
