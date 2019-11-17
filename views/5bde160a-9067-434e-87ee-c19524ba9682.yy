@@ -10,7 +10,9 @@
         "8cabdf9d-870e-4da6-aa46-fc72072f89e6",
         "60afb1d3-b450-4b22-8b09-9c4695b8632c",
         "c3219380-8947-436a-a17c-c94f94eecdd6",
-        "706daf2e-036d-430f-a5c6-84efde3446db"
+        "706daf2e-036d-430f-a5c6-84efde3446db",
+        "c04cf308-f049-4aff-a6b1-2c6ad219c8cb",
+        "0b07e0bd-ecd6-49b1-9ff4-f805f6514f4f"
     ],
     "filterType": "GMObject",
     "folderName": "flamigle make me die",

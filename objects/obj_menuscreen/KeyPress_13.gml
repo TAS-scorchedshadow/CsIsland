@@ -13,11 +13,20 @@ if global.selectedbutton = obj_fullscreen.buttonid
 }
 if global.selectedbutton = 4
 {
-	ini_open("settings.ini")
-	ini_write_real("Audio", "Current Song",song);
-	ini_write_real("Audio", "Music Group", album);
-	ini_close();
+	if album = 1 || album = 2 
+	{
+		ini_open("settings.ini")
+		ini_write_real("Audio", "Current Song",song);
+		ini_write_real("Audio", "Music Group", album);
+		ini_close();
+	
 
+		obj_musiccontroller.alarm[0] = 1;
+	}
+}
 
-	obj_musiccontroller.alarm[0] = 1;
+if global.selectedbutton = 5
+{
+	file_delete("settings.ini")
+	game_restart();
 }
