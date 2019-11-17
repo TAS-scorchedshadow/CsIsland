@@ -14,7 +14,9 @@
         "a5c6b4bf-dbcd-4531-920a-2b70095b0c80",
         "1ef0670d-55ee-4efe-a30e-55ba1794ae9b",
         "d661b495-f603-482b-86ce-a7e2c6210358",
-        "8f0a874e-d9ff-4804-9a2a-f2334702b541"
+        "8f0a874e-d9ff-4804-9a2a-f2334702b541",
+        "92c31c4b-aca3-478f-a7d4-c01e6ef5cd8b",
+        "82bb7be3-a930-490d-9b3d-d3fcb7923ef1"
     ],
     "filterType": "GMObject",
     "folderName": "Solids",

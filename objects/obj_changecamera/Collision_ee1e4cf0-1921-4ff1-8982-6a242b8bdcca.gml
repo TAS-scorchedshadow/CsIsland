@@ -1,1 +1,1 @@
-zooming_out = true;
+obj_camera.zoom = 3;

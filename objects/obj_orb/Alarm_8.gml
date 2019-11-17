@@ -1,0 +1,1 @@
+Slide_Transition(TRANS_MODE.GOTO,rm_play_again,"The End Screen")

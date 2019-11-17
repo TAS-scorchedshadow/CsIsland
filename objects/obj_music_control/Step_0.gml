@@ -26,6 +26,17 @@ if mode == "init_2"
 			alarm[2] = 60  //delay before 1st note is created
 			alarm[1] = 300 //delay before song starts
 		}
+	if song == "tetris"
+		{
+			beat_map = ds_list_create();
+			tempo = 1/2; //Tempo is in seconds per whole note
+			ds_list_add(beat_map,1,1,0.5,0.5,1,0.5,0.5,1,0.5,0.5,1,0.5,0.5,1,0.5,0.5,1,1,1,1,2.5,1,0.5,1,0.5,0.5,1.5,0.5,1,0.5,0.5,1,0.5,0.5,1,1,1,1,2,1,0.5,0.5,1,0.5,0.5,1,0.5,0.5,1,0.5,0.5,1,0.5,0.5,1,1,1,1,2.5,1,0.5,1,0.5,0.5,1.5,0.5,1,0.5,0.5,1,0.5,0.5,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,4,1,0.5,0.5,1,0.5,0.5,1,0.5,0.5,1,0.5,0.5,1,0.5,0.5,1,1,1,1,2.5,1,0.5,1,0.5,0.5,1.5,0.5,1,0.5,0.5,1,0.5,0.5,1,1,1,1)
+			note_no = 0
+			mode = "start";
+			play_music = msc_tetris
+			alarm[2] = 60  //delay before 1st note is created
+			alarm[1] = 300 //delay before song starts
+		}
 }
 if mode == "start"
 {
