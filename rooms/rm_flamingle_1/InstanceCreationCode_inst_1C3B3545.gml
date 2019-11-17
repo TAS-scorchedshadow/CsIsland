@@ -1,0 +1,1 @@
+box_message = "Pressing E on the Lonely Steve will reveal the grindstone."

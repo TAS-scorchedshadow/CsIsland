@@ -1,0 +1,1 @@
+box_message = "Flamingos like hiding important items. The flamingo that is not being looked at carries the item [myself in this case]."

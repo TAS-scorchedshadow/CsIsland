@@ -1,2 +1,2 @@
 /// @description Goto boss room
-room_goto(rm_ending);
+room_goto(rm_flamingle_1);
