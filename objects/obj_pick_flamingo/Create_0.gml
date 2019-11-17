@@ -1,12 +1,11 @@
 /// @description
-obj_player.visible = false
 obj_player.shadow = false
 freeze_sprite = spr_player_standL
 mode = "pick"
 x = obj_player.x
 y = obj_player.y - 300
+obj_player.visible = false
 obj_player.hascontrol = false
-depth = -(obj_player.y)
 if global.facing_direction = directions.up{
 	freeze_sprite = spr_player_standU
 }
