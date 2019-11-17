@@ -32,7 +32,7 @@ if mode = "place"
 	}
 	else
 	{
-		obj_player.visible = true
+		obj_player.visible = true;
 		obj_player.hascontrol = true
 		obj_player.shadow = true
 		mode = "return"
