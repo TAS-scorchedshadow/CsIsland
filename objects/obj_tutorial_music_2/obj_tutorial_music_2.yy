@@ -4,11 +4,40 @@
     "mvc": "1.0",
     "name": "obj_tutorial_music_2",
     "eventList": [
-        
+        {
+            "id": "b2172aa5-1fb9-4cee-94bc-95a2defa0e39",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "a5ef9682-23e0-4b08-8f0f-e5f13797ac56"
+        },
+        {
+            "id": "1c7a2a46-1acf-478c-89d7-5da9b4fb5888",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "a5ef9682-23e0-4b08-8f0f-e5f13797ac56"
+        },
+        {
+            "id": "585c5067-77cb-455d-9878-d002d38baef8",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "a5ef9682-23e0-4b08-8f0f-e5f13797ac56"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "120870fe-b2ce-4e1b-95c0-20f18e5f6ba1",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -24,6 +53,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "89f8b252-56b4-4121-88b5-8038a48ca9c0",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

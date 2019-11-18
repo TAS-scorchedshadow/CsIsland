@@ -1,1 +1,1 @@
-room_goto(rm_forest_4);
+room_goto(rm_flamingle_1);

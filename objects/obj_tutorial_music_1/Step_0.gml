@@ -55,12 +55,10 @@ if mode == "speaking2"
 	{
 		box_message = "Once you start playing a song, a faded note and many black notes would appear! (Press [E] so I can keep talking)"
 		draw_mode = "demonstrate"
-		var h = display_get_gui_height()
-		var w = display_get_gui_width()
-		faded_note_x = 200
-		faded_note_y = h - 120
-		dark_note_x = w - 100
-		dark_note_y = h - 120
+		if !instance_exists(obj_tutorial_music_2)
+		{
+			instance_create_layer(x,y+200,"Song",obj_tutorial_music_2)
+		}
 	}
 	if message_no == 1
 	{
@@ -68,6 +66,13 @@ if mode == "speaking2"
 	}
 	if message_no == 2
 	{
+		if instance_exists(obj_tutorial_music_2)
+		{
+			with(obj_tutorial_music_2)
+			{
+				instance_destroy()
+			}
+		}
 		box_message = "Now start a song by pressing [E]!"
 	}
 	if message_no >= 3
@@ -79,17 +84,6 @@ if mode == "speaking2"
 }
 
 
-if draw_mode == "demonstrate"
-{
-	if dark_note_x > x - 200
-	{
-		dark_note_x -= 4
-	}
-	else
-	{
-		dark_note_x = x + 600
-	}
-}
 
 
 if (keyboard_check_pressed(ord("E"))) message_no ++
