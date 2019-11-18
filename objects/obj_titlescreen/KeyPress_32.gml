@@ -1,1 +1,1 @@
-room_goto(rm_forest_2a)
+room_goto(rm_ending);
