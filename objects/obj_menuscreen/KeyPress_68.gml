@@ -1,13 +1,19 @@
-if global.selectedbutton = 2
+if global.selectedbutton = 3
 {
 	var new_level = music_level + (5/100)
 	audio_group_set_gain(group_music,new_level,0);
 	music_level = new_level;
 }
 
+if global.selectedbutton = 2
+{
+	time ++
+	if time > 2 time = 0;
+}
+
 if global.selectedbutton = obj_music_type.buttonid  album ++
 
-if global.selectedbutton = 4
+if global.selectedbutton = 5
 {
 	song ++
 

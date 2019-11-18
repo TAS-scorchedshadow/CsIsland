@@ -1,2 +1,2 @@
-buttonid = 5
+buttonid = 6
 text = "Delete Save File"

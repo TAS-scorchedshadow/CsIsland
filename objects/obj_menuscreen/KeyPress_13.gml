@@ -11,7 +11,7 @@ if global.selectedbutton = obj_fullscreen.buttonid
       window_set_fullscreen(true);
       }
 }
-if global.selectedbutton = 4
+if global.selectedbutton = 5
 {
 	if album = 1 || album = 2 
 	{
@@ -25,7 +25,7 @@ if global.selectedbutton = 4
 	}
 }
 
-if global.selectedbutton = 5
+if global.selectedbutton = 6
 {
 	file_delete("settings.ini")
 	game_restart();

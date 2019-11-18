@@ -19,7 +19,7 @@ if album = 1 || album = 2 {
 		music = songlist
 		sprite = spr_music_covers
 	}
-	if global.selectedbutton = 4 draw_set_color(c_white)
+	if global.selectedbutton = 5 draw_set_color(c_white)
 	draw_rectangle(menux-160,menuy-10,menux+160,menuy+510,false);
 	draw_set_color(c_black)
 	draw_sprite(sprite,song,menux,menuy)

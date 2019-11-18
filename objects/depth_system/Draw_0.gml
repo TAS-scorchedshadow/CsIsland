@@ -5,8 +5,8 @@
 //===Drawing Shadows===//
 
 //Postion Sun
-var sx = 0 - (hours) * 12; 
-var sy = (hours) * 8; 
+var sx = 0 - (hours) * 6; 
+var sy = (hours) * 4; 
 
 with (obj_solid){
 	if !variable_instance_exists(id, "shadow") shadow = false

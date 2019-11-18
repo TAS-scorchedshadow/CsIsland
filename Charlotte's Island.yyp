@@ -1431,6 +1431,14 @@
             }
         },
         {
+            "Key": "b069ccad-e9db-4884-ad75-d98e03fad7b2",
+            "Value": {
+                "id": "f66401c3-0b8e-4e07-b42b-ac546d542711",
+                "resourcePath": "objects\\obj_time_cycle\\obj_time_cycle.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b12d2aa1-7763-47f8-877c-0f65b111ea7c",
             "Value": {
                 "id": "a9de496b-912a-480f-8dbf-c9e5943f74b5",
