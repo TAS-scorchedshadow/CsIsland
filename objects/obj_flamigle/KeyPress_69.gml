@@ -45,6 +45,9 @@ if flamingo == true
 	}
 	else
 	{
-		instance_create_layer(x,y,"Instances",obj_pick_flamingo);
+		if !instance_exists(obj_pick_flamingo)
+		{
+			instance_create_layer(x,y,"Instances",obj_pick_flamingo);
+		}
 	}
 }
