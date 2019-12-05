@@ -1,0 +1,1 @@
+box_message = "Thou Shalt Not Question the Magic Tree."

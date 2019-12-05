@@ -1119,6 +1119,14 @@
             }
         },
         {
+            "Key": "7fc38d65-ddd9-4981-8bae-494f296ecdb8",
+            "Value": {
+                "id": "3f806570-e737-4007-ba05-9ada30d40379",
+                "resourcePath": "rooms\\rm_massive_forest\\rm_massive_forest.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "80962694-fb6b-47f6-af53-094fb602d222",
             "Value": {
                 "id": "b78bfaf8-a87b-4e7c-8d59-c3986b1ad9a9",

@@ -1,8 +1,8 @@
 if mode = "pick"
 {	
-	if abs(obj_player.y - y) > 32
+	if abs(obj_player.y - sprite_y) > 32
 	{
-		y += 5;
+		sprite_y += 5;
 	}
 	else
 	{
@@ -11,13 +11,13 @@ if mode = "pick"
 }
 if mode = "lift"
 {
-	if y > obj_camera.y-768
+	if sprite_y > obj_camera.y-768
 	{
-		y -= 5
+		sprite_y -= 5
 	}
 	else
 	{
-		x = global.checkpoint_x
+		sprite_x = global.checkpoint_x
 		mode = "place"
 		obj_player.x = global.checkpoint_x
 		obj_player.y = global.checkpoint_y
@@ -26,9 +26,9 @@ if mode = "lift"
 
 if mode = "place"
 {
-	if y < global.checkpoint_y
+	if sprite_y < global.checkpoint_y
 	{
-		y += 5
+		sprite_y += 5
 	}
 	else
 	{
@@ -37,16 +37,20 @@ if mode = "place"
 		obj_player.shadow = true
 		mode = "return"
 		global.bush_reset = true
-		if global.selecteditem == 1
+		if global.selecteditem == 2
 		{
-			global.selecteditem = 2
+			global.selecteditem = 0
 		}
 	}
 }
 if mode = "return"
 {
-	if y > obj_camera.y-768
+	if sprite_y > obj_camera.y-768
 	{
-		y -= 5
+		sprite_y -= 5
+	}
+	else
+	{
+		instance_destroy();
 	}
 }
