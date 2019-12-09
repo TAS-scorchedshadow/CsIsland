@@ -1,0 +1,1 @@
+box_message = "You can move the small flamingos while holding the flute. Just move in the direction that you want the flamingos to go"

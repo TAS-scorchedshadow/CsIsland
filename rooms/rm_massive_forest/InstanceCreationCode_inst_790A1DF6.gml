@@ -1,0 +1,1 @@
+box_message = "You can switch items by pressing [Q]"

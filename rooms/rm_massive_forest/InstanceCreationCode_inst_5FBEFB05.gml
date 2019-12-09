@@ -1,1 +1,1 @@
-box_message = "Forest 2a or 2b that is the question."
+box_message = "These bushes next to me would never grow because there's something on them!"
