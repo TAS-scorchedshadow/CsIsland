@@ -1,3 +1,4 @@
-x = 300
-y = 500
+
+x = 4507
+y = 2337
 obj_camera.follow = obj_player

@@ -1,1 +1,1 @@
-room_goto(rm_flamingle_1);
+room_goto(rm_massive_forest);
