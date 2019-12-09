@@ -19,3 +19,6 @@ to_settings = false;
 
 if !instance_exists(obj_gui) instance_create_layer(x,y,"Instances",obj_gui)
 if !instance_exists(obj_transitions) instance_create_layer(x,y,"Instances",obj_transitions);
+
+//vars to draw artifacts on the player
+artifact = 0 //number of artifacts

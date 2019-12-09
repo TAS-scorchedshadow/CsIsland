@@ -1722,7 +1722,7 @@
             "Key": "d63cf564-f519-489c-a956-134b02246e58",
             "Value": {
                 "id": "b9a35a13-d1dd-4619-bd5f-829fd2a34150",
-                "resourcePath": "sprites\\spri_mini_orb\\spri_mini_orb.yy",
+                "resourcePath": "sprites\\spr_mini_orb\\spr_mini_orb.yy",
                 "resourceType": "GMSprite"
             }
         },
