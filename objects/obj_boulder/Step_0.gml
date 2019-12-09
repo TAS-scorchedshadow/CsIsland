@@ -2,7 +2,7 @@
 move_direction = ""
 if boulder_moving = false //check if bush is moving
 {
-	if keyboard_check_pressed(ord("E"))
+	if keyboard_check_pressed(vk_space)
 	{
 		//push boulder right
 		if global.facing_direction == directions.right and place_meeting(x-32,y,obj_player)

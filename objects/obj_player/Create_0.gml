@@ -15,7 +15,5 @@ ASpeed = 0.5 //Accelration constant (ASpeed must be greater than DSpeed)
 DSpeed = 0.5 //Deceleration constant (Lowest is slippery)
 max_speed = 4; //Max Speed
 ticks_moved = 0;
-to_settings = false;
-
 if !instance_exists(obj_gui) instance_create_layer(x,y,"Instances",obj_gui)
 if !instance_exists(obj_transitions) instance_create_layer(x,y,"Instances",obj_transitions);

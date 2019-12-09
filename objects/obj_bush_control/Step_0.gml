@@ -73,7 +73,7 @@ if global.bush_reset = true{    //Reset the layout of the bushes
 // Reset player position when flute is used
 if global.selecteditem == 2 and global.can_flute == true and global.checkpoint_x != 0 and global.checkpoint_y != 0 and !instance_exists(obj_pick_flamingo)
 {
-	if keyboard_check_pressed(ord("E"))
+	if keyboard_check_pressed(vk_space)
 	{
 		obj_player.hascontrol = false
 		instance_create_layer(x,y,"Instances",obj_pick_flamingo)
