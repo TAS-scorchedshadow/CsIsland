@@ -9,7 +9,7 @@ if first_check == false  //check if the bush is fully grown, if so, create an ob
 }
 if global.selecteditem == 0 and global.no_cut > 0 {
 	
-	if keyboard_check_pressed(ord("E")) and image_index == 2 
+	if keyboard_check_pressed(vk_space) and image_index == 2 
 	{
 		if global.facing_direction == directions.right and place_meeting(x-64,y,obj_player)
 		{

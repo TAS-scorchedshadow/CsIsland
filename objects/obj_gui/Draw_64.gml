@@ -13,12 +13,14 @@ if (room != rm_menu && room !=rm_title && room != rm_play_again) && instance_exi
 	{
 		draw_set_font(fnt_cursive);
 		//Item GUI
-		var c_width = 100
+		var c_width = 80
 		var c_height = 1000
 		var drawn_item_id = global.selecteditem;
 		draw_set_font(dnt_large)
 		draw_set_color(c_black)
 		draw_set_halign(fa_left)
+		var left_item = 1;
+		var left2_item = 2;
 		
 		if (global.selecteditem = 0)
 		{
@@ -34,14 +36,20 @@ if (room != rm_menu && room !=rm_title && room != rm_play_again) && instance_exi
 		if global.selecteditem = 1
 		{
 			draw_text(c_width+60,c_height+50,"Flute")
+			var left_item = 2;
+			var left2_item = 0;
 		}
 		
 			if global.selecteditem = 2
 		{
 			draw_text(c_width+60,c_height+50,"Call For Help")
+			var left_item = 0;
+			var left2_item = 1;
 		}
 
 		draw_sprite_ext(spr_abilties,drawn_item_id,c_width ,c_height,2,2,0,c_white,1);
+		draw_sprite_ext(spr_abilties,left_item,c_width -30 ,c_height -80,1.2,1.2,0,c_white,0.6);
+		draw_sprite_ext(spr_abilties,left2_item,c_width - 50,c_height - 150,1,1,0,c_white,0.4);
 	
 		draw_set_halign(fa_center);
 		//Objective
