@@ -22,6 +22,24 @@ global.checkpoint_x = ini_read_real("checkpoint","x",0);
 global.checkpoint_y = ini_read_real("checkpoint","y",0);
 ini_close();
 
+
+//Save the artifacts held
+ini_open("settings.ini")
+global.artifact_grid = ds_grid_create(5,2) //width = maximum number of artifacts in a room
+//for each artifact create the following
+//artifact 1
+ds_grid_add(global.artifact_grid,0,0,ini_read_real("artifact0","x",0)) //x co-ords of the artifact
+ds_grid_add(global.artifact_grid,0,1,ini_read_real("artifact0","y",0)) //y co-ords of the artifact
+ds_grid_add(global.artifact_grid,0,2,ini_read_real("artifact0","collected",0)) //if the artifact has been collected, this should be 0, otherwise if the artifact isn't collected, this equals to 1
+
+
+//artifact 2
+ds_grid_add(global.artifact_grid,1,0,ini_read_real("artifact1","x",0))
+ds_grid_add(global.artifact_grid,1,1,ini_read_real("artifact1","y",0))
+ds_grid_add(global.artifact_grid,1,2,ini_read_real("artifact1","collected",0))
+
+
+
 ///Save Room Entrance
 //Entrance labeling goes from left-to-right exits on towards y = 0 have priorities 
 ini_open("settings.ini")
@@ -41,6 +59,13 @@ ini_open("settings.ini")
 	ini_write_real("rm_tutorial","x2",2844);
 	ini_write_real("rm_tutorial","y2",698);
 
+//rm_massive_forest
+	//1
+	ini_write_real("rm_massive_forest","x1",256);
+	ini_write_real("rm_massive_forest","y1",3328);
+	//2
+	ini_write_real("rm_massive_forest","x2",5462);
+	ini_write_real("rm_massive_forest","y2",1488);
 //rm_forest_1
 	ini_write_real("rm_forest_1","x1",300);
 	ini_write_real("rm_forest_1","y1",640);
@@ -53,8 +78,8 @@ ini_open("settings.ini")
 	ini_write_real("rm_forest_2b","x1",896);
 	ini_write_real("rm_forest_2b","y1",1152);
 //rm_forest_3
-	ini_write_real("rm_forest_3","x1",1024);//First Entered Bottom Right
-	ini_write_real("rm_forest_3","y1",3872);
+	ini_write_real("rm_forest_3","x1",736);//First Entered Bottom Right
+	ini_write_real("rm_forest_3","y1",3776);
 	
 	ini_write_real("rm_forest_3","x2",334); //Enter at middle left
 	ini_write_real("rm_forest_3","y2",2008);

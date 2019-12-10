@@ -6,3 +6,4 @@ mode = ""
 draw = false
 alpha = 0
 image_speed = 0
+init = true

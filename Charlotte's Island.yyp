@@ -335,6 +335,14 @@
             }
         },
         {
+            "Key": "2cefe286-56a8-4e69-b59a-936cb4b762f9",
+            "Value": {
+                "id": "71a94be9-c965-40d1-85d4-e32eae9925b9",
+                "resourcePath": "objects\\obj_artifact_flamingo\\obj_artifact_flamingo.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2d0cb1f0-ab3d-4603-b231-e0559b432aae",
             "Value": {
                 "id": "106e5b2f-10b9-4507-9b28-d0deff9a29e1",
@@ -660,6 +668,14 @@
                 "id": "62b29f00-dcae-4739-9812-961591fc7d93",
                 "resourcePath": "objects\/obj_music\/obj_music.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "50cfa65e-158e-43cb-af0b-5cb618668246",
+            "Value": {
+                "id": "6cc708cd-b1eb-44b1-9d2c-9b33d0210c2a",
+                "resourcePath": "sprites\\spr_big_spin_flamingo\\spr_big_spin_flamingo.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

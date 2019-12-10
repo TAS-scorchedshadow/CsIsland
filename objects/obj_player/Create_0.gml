@@ -20,3 +20,10 @@ if !instance_exists(obj_transitions) instance_create_layer(x,y,"Instances",obj_t
 
 //vars to draw artifacts on the player
 artifact = 0 //number of artifacts
+
+
+//check the amount of artifacts the player had before it was destroyed previously
+for (var i = 0; i <= 2; i += 1)
+{
+	if (ds_grid_get(global.artifact_grid, i, 2) == 1) artifact++
+}

@@ -1,3 +1,11 @@
+if init == true
+{
+	ini_open("settings.ini")
+	active = ini_read_real("lever_status",string(id),0) //save the lever status
+	init = false
+	ini_close()
+}
+
 //check if the lever is pulled
 if active == true //if lever is pulled destroy the door
 {
@@ -33,10 +41,16 @@ if distance_to_object(obj_player) < 64
 		{
 			image_index = 1
 			active = false
+			ini_open("settings.ini")
+			ini_write_real("lever_status",string(id),0)
+			ini_close()
 		}
 		else
 		{
 			active = true
+			ini_open("settings.ini")
+			ini_write_real("lever_status",string(id),1)
+			ini_close()
 		}
 	}
 }
