@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "09352863-8a3b-4927-aeaf-a0d6c6cf1333",
+            "Value": {
+                "id": "5a599c78-279d-43af-883f-f9b7346b7f39",
+                "resourcePath": "sprites\\spr_wasd\\spr_wasd.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0b07e0bd-ecd6-49b1-9ff4-f805f6514f4f",
             "Value": {
                 "id": "3a3a945f-fddc-45d8-b794-49d6553e1588",
@@ -1140,6 +1148,14 @@
                 "id": "8e335d6b-e0f2-4a18-96d3-2f99daf3b4ad",
                 "resourcePath": "sounds\/msc_inferno\/msc_inferno.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "7e127e63-3d7f-4917-84f2-1e3adf2bc70f",
+            "Value": {
+                "id": "1adb3cf9-fde2-49ba-af70-76ff22fd2674",
+                "resourcePath": "objects\\obj_wasd\\obj_wasd.yy",
+                "resourceType": "GMObject"
             }
         },
         {

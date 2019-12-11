@@ -1,5 +1,5 @@
 /// @description Zoom In
 if (room != rm_title and room != rm_menu and room!=rm_ending) {
 	zoom += 0.05;
-	zoom = clamp(zoom,0.5,1.1);
+	zoom = clamp(zoom,0.5,1.5);
 }

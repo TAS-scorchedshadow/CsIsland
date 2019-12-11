@@ -1,2 +1,2 @@
 change_objective = true;
-text = "Leave the Beach (WASD)"
+text = "Leave the Beach"
