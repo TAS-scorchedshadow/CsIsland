@@ -1,6 +1,6 @@
 /// @description
 with (instance_nearest(x,y,obj_music_note))
-	if keyboard_check_pressed(ord("E"))
+	if keyboard_check_pressed(vk_space)
 		{
 			if abs(obj_music_note_check.x - x) < 10
 			{

@@ -37,7 +37,7 @@ if mode == "speaking"
 {
 	if message_no == 0
 	{
-		box_message = "When you stand on a blue mat, you can play a song! (Press [E] so I can keep talking)"
+		box_message = "When you stand on a blue mat, you can play a song! (Press [SPACE] so I can keep talking)"
 	}
 	if message_no >= 1
 	{
@@ -53,7 +53,7 @@ if mode == "speaking2"
 {
 	if message_no == 0
 	{
-		box_message = "Once you start playing a song, a faded note and many black notes would appear! (Press [E] so I can keep talking)"
+		box_message = "Once you start playing a song, a faded note and many black notes would appear! (Press [SPACE] so I can keep talking)"
 		draw_mode = "demonstrate"
 		if !instance_exists(obj_tutorial_music_2)
 		{
@@ -62,7 +62,7 @@ if mode == "speaking2"
 	}
 	if message_no == 1
 	{
-		box_message = "When a black note reaches the faded note you press [E]! (Press [E] so I can keep talking)"
+		box_message = "When a black note reaches the faded note you press [SPACE]! (Press [SPACE] so I can keep talking)"
 	}
 	if message_no == 2
 	{
@@ -73,7 +73,7 @@ if mode == "speaking2"
 				instance_destroy()
 			}
 		}
-		box_message = "Now start a song by pressing [E]!"
+		box_message = "Now start a song by pressing [SPACE]!"
 	}
 	if message_no >= 3
 	{
@@ -86,7 +86,7 @@ if mode == "speaking2"
 
 
 
-if (keyboard_check_pressed(ord("E"))) message_no ++
+if keyboard_check_pressed(vk_space) message_no ++
 
 if obj_player.hascontrol = true and mode == "wait"//after the rythmn game, the player would automatically be given control, so remove the control and continue with the tutorial
 {
@@ -99,7 +99,7 @@ if mode == "speaking3"
 {
 	if message_no == 0
 	{
-		box_message = "Looks like you've got the hang of it. I will leave now. Ciao! (Press [E] so I can leave)"
+		box_message = "Looks like you've got the hang of it. I will leave now. Ciao! (Press [SPACE] so I can leave)"
 	}
 	if message_no >= 1
 	{

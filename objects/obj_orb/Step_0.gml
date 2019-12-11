@@ -5,7 +5,7 @@ if distance_to_object(obj_player) < 64
 		draw = true
 		mode = "fade-in"
 	}
-	if keyboard_check_pressed(ord("E")) and once = true
+	if keyboard_check_pressed(vk_space) and once = true
 	{
 		once = false
 		obj_player.hascontrol = false;
